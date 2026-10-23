@@ -1,0 +1,94 @@
+# Creating MAM group
+
+The MAM panel can be found by navigating to Tools -> MAM. This panel gives indicative information on both groups and linked accounts. The panel also features a built-in Order entry panel for quick trading. The MAM panel can be linked to other panels. The MAM panel can be closed after use without saving - all changes are saved automatically.
+
+### **Creating a MAM group**
+
+To create a MAM group, open the MAM panel and click Create group. Now, enter a group name and choose an Allocation type. Click on the button in column "Remove" to delete the group from the list.
+
+![](../../../.gitbook/assets/MAM.gif)
+
+The following columns are available in the Groups section:
+
+* Group name – the name of your MAM group.
+* Balance – shows current realized balance of MAM group, i.e. total balance of all accounts included in MAM group.
+* Projected balance – future balance of MAM group which includes all accrued and not accrued profit/loss.
+* Margin available – available margin for trading with MAM group.
+* Allocation type – allows choosing the type of allocation for sub accounts included in MAM group. Four types are available here:
+
+1. Lot multiplier – this method is used to allocate quantity of the master trade to the sub accounts included to the MAM group according to the coefficient set for each of these sub accounts which will be multiplied on master trade quantity.
+2. Lot allocation – this method is used to divide quantity of the master trade to the sub accounts included to the MAM group according to the set Lot coefficient of the sub accounts. The allocation to the sub accounts will be proportional to the set lot sizes provided for each of them.
+3. Proportional by balance – this method is to calculate the proportion of the master trade quantity (which is set in OE section by MAM manager) according to the balances of the sub accounts included to the MAM group. The fraction of the master trade quantity is calculated automatically and doesn’t require additional settings.
+4. Proportional by projected balance – this method is to calculate the proportion of the master trade quantity (which is set in OE section by MAM manager) according to the projected balances of the sub accounts included to the MAM group. The fraction of the master trade quantity is calculated automatically and doesn’t require additional settings.
+
+* Remove – the button which is used to delete selected MAM group.
+
+The group is now created and accounts can be added to it. To add an account, click Add account. To delete an account, click on the button in "Remove" column.
+
+![](<../../../.gitbook/assets/8 (6).png>)
+
+Clicking Add accounts will open an Accounts lookup panel, which can be used to select prelinked accounts. The money manager will only see accounts which are linked to his User ID. Select the desired accounts and click OK.
+
+The following columns are available in the Accounts section:
+
+* Active – the account state, if this option is unchecked, account will not take part in the trading with MAM group.
+* Remove – the button which is used to delete selected account from MAM group.
+* Account – the account's unique identifier.
+* User login – the account's corresponding login ID.
+* Quantity – shows quantity which will be allocated to the corresponding account.
+* Coefficient – allows indicating special coefficient which is used for allocation types: Lot multiplier and Lot allocation.
+* Percent, % – shows the percent of quantity which will be allocated to the sub accounts depending on selected allocation type.
+* Balance – shows current realized balance of the corresponding account. If there is trading with pending valuation, balance won’t change before clearing.
+* Projected balance – future balance of the corresponding account which includes all accrued and not accrued profit/loss.
+* Available funds – amount of funds for placing new orders.
+* Margin available – the available margin for trading.
+* Initial margin – minimum account balance required to open the position.
+* Maintenance margin – minimum account balance required to keep this position open.
+* Risk level – shows current level of risks. Risk level = (Maintenance margin/Balance + All risks)\*100%
+* Impact on portfolio – shows how many initial margin will the order require considering all other positions/orders.
+* After trade funds – shows how many available funds remain after placing the order.
+
+After trade funds = Available funds – Impact on portfolio - Fee
+
+* Performance fee – shows the percent from profit which the corresponding account will pay to MAM manager.
+* Fee type – shows the type of management fee which will be charged from the corresponding account. Available fee types are:
+
+1. Percent of net liquidation value – this fee type is taken daily at the end of each trading day (is set in %).
+2. Flat fee – this fee is taken daily at the end of each trading day.
+3. Percent of annual P/L – this commission is taken one-time at the end of the year (is set in %).
+4. Percent of Market-to Market P/L – this fee is taken by the same logic as a previous one, only as a base of calculation is taken not an annual, but quarterly profit. And fee is taken in the end of each quarter respectively.
+
+* Management fee – shows value of the corresponding fee type set for accounts added to the MAM group.
+
+Now the accounts have been successfully added to the MAM group and the money manager can select accounts to trade with. There are several options available when accounts are added. Now the money manager can perform trades.
+
+![](<../../../.gitbook/assets/5 (27).png>)
+
+**Displaying totals considering account currency**
+
+The totals are calculated taking into account the account currency according to the filtering results:
+
+* If the filtered entries belong to accounts with the same currency, then the totals are displayed in the account currency.
+* If the filtered entries belong to accounts with different currencies, then the totals are displayed in the server currency.
+
+### Settings <a href="#data-source" id="data-source"></a>
+
+The panel has standard settings which contain:
+
+* General tab - allows setting the panel View, Colors, and Account allocation scheme (described below);
+* Columns tab - intended for selecting necessary tabs to be displayed in the panel. Check those of interest to you in order to enable them;
+* Coloring rows tab - allows creating custom color schemes for the panel, i.e. add user's conditions for coloring certain rows. For example: if Balance > 1000, then this row will be colored in Green, etc.;
+
+The **Automatically allocate users** setting (General tab) defines whether the accounts will be assigned to All or Selected groups. This mechanism will be applied to those accounts that are not assigned to any group at the moment.&#x20;
+
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/Screenshot_1 (6).jpg" alt="" width="563"><figcaption></figcaption></figure></div>
+
+The following options are available:
+
+* No - accounts are added to groups manually;
+* All groups - newly added account is automatically assigned to all existing MAM groups;
+* Specific groups - newly added account is automatically assigned to selected MAM groups (see screenshot above).&#x20;
+
+### Data source <a href="#data-source" id="data-source"></a>
+
+In the MAM panel a user can see the the extended information about the source of Last, Bid and Ask prices. In order to open the table with the detailed information, click on the arrow button and the widget will be shown:![](https://gblobscdn.gitbook.com/assets%2F-LMCqxhh2XAdWPUjcvxR%2F-MfIYcdWuv-eukLG8pEP%2F-MfIbDK9zH-Kl-RGKYc1%2F2.png?alt=media\&token=0db7a960-0d47-456f-8306-6472e0f4face)
