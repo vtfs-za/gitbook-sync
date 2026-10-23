@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Velocity Trader
+  structure:
+    - type: space
+      key: space-1
+      title: Velocity Trader Updated
+      path: velocitytrader
+      default: true
+      draft: true
+      content:
+        directory: ./velocitytrader
