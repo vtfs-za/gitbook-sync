@@ -12,7 +12,7 @@ Indicator signals to watch out for:
 * Twin peaks – this is a method that takes into account the differences between two peaks on the same side of the zero line. A bullish Twin peaks setup occurs when there are two peaks below the zero line. The second peak is higher than the first, followed by a green bar. A bearish Twin peaks setup occurs when there are two peaks above the zero line. The second peak is lower than the first, followed by a red bar;
 * Saucer – this setup is looking for faster changes in momentum. The Saucer method looks for changes in three consecutive bars on the same side of the zero line. The bullish Saucer setup occurs when the AO is above the zero line. This entails two consecutive red bars (the second bar is below the first) followed by a green bar. The bearish Saucer setup occurs when the AO is below the zero line. This entails two consecutive green bar (the second bar is higher than the first) followed by a red bar.
 
-## Main parameters
+### Main parameters
 
 The main parameters concern the appearance of the histogram, the user can select the desired color and line thickness. The following colors are used by default:
 
@@ -21,4 +21,4 @@ The main parameters concern the appearance of the histogram, the user can select
 
 The indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/screenshot_1 (29).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_1 (27).jpg>)

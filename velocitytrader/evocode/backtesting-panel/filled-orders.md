@@ -2,7 +2,7 @@
 
 Filled orders panel displays trading history performed during backtesting.
 
-![](<../../.gitbook/assets/2 (27).png>)
+![](<../../.gitbook/assets/2 (34).png>)
 
 The following columns are available in the panel:
 
@@ -19,13 +19,13 @@ The following columns are available in the panel:
 * Gross P/L – total profit/loss of the trade;
 *   Bought
 
-    * In case of Forex:
+    \- In case of Forex:
 
     if 'Side = Buy', then this column shows the value of 'Price \* Lot size \* Qty.' in base currency;
 
     if 'Side = Sell', then this column shows the value of 'Price \* Lot size \* Qty.' in quoting currency.
 
-    * In case of Futures, Futures CFD, Options
+    \- In case of Futures, Futures CFD, Options
 
     with 'Quoting type=Tick cost/Tick size':
 
@@ -39,20 +39,20 @@ The following columns are available in the panel:
 
     if 'Side = Sell', then this column shows the value of 'Qty \* Lot size \* Price'.
 
-    * In other cases:
+    \- In other cases:
 
     if 'Side = Buy', then this column shows the value of 'Qty. \* Lot size' – amount of bought assets (contracts, equities);
 
     if 'Side = Sell', then this column shows the value of 'Price \* Lot size \* Qty.' in quoting currency.
 *   Sold
 
-    * In case of Forex:
+    \- In case of Forex:
 
     if 'Side = Sell', then this column shows the value of 'Price \* Lot size \* Qty.' in base currency;
 
     if 'Side = Buy', then this column shows the value of 'Price \* Lot size \* Qty.' in quoting currency.
 
-    * In case of Futures, Futures CFD, Options
+    \- In case of Futures, Futures CFD, Options
 
     with 'Quoting type=Tick cost/Tick size':
 
@@ -66,7 +66,7 @@ The following columns are available in the panel:
 
     if 'Side = Sell', then this column shows the value of 'Qty' .
 
-    * In other cases:
+    \- In other cases:
 
     if 'Side = Buy', then this column shows the value of 'Price \* Lot size \* Qty.' in quoting currency;
 
@@ -74,7 +74,7 @@ The following columns are available in the panel:
 * Expiry date – date of contract expiration;
 * Strike price – price of option contract performance.
 
-## **Context menu**
+### **Context menu**
 
 Customer can also use standard functions from context menu of the panel:
 

@@ -10,11 +10,11 @@ Long Term is the First Period and Short Term is the Second Period used in the do
 
 While the TSI output is bound between +100 and −100, most values fall between +25 and −25. Blau suggests interpreting these values as overbought and oversold levels, respectively, at which point a trader may anticipate a market turn. Trend direction is indicated by the TSI slope; a rising TSI suggests an up-trend in the market, and a falling TSI suggests a down-trend.
 
-## Calculation
+### Calculation
 
 The TSI is a "double smoothed" indicator; meaning that a moving average applied to the data (daily momentum in this case) is smoothed again by a second moving average. The calculation for TSI uses exponential moving averages. The formula for the TSI is:
 
-![](<../../../.gitbook/assets/image (38).png>)
+<div align="left"><img src="../../../.gitbook/assets/image (884).png" alt=""></div>
 
 Where:
 
@@ -24,13 +24,12 @@ _m_ = C0 − C1 = momentum (difference between today's and yesterday's close)
 
 _EMA (m, n)_ = exponential moving average of _m_ over _n_ periods, that is,
 
-![](<../../../.gitbook/assets/image (39).png>)
+<div align="left"><img src="../../../.gitbook/assets/image (961).png" alt=""></div>
 
-## Main parameters
+### Main parameters
 
-* First R – EMA smoothing period for momentum, default is 5;
-* Second S – EMA smoothing period for smoothed momentum, default is 8.
+* Long period – EMA smoothing period for momentum, default is 5;
+* Short period – EMA smoothing period for smoothed momentum, default is 8;
+* Signal period - period used to calculate the EMA based on the TSI values, default is 7.
 
-The indicator itself looks as follows on the chart:
-
-![](../../../.gitbook/assets/tsi.jpg)
+<figure><img src="../../../.gitbook/assets/image (294).png" alt=""><figcaption></figcaption></figure>

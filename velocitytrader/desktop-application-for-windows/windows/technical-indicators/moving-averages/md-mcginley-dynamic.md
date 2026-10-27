@@ -10,7 +10,7 @@ Key findings of the indicator are:
 * The McGinley Dynamic indicator solves the problem of changing market speeds by including an automatic adjustment factor in its formula that speeds up or slows down the indicator in trending or ranging markets;
 * The McGinley Dynamic Indicator enhances conventional moving averages by minimizing price separation and volatile reversals to more accurately reflect price movement.
 
-## Calculation
+### Calculation
 
 The indicator is calculated using the following simplified formula:
 
@@ -21,7 +21,7 @@ Where:
 * 125 - smoothing factor (periods) set by default;
 * EMA – Exponential moving average.
 
-## Main settings
+### Main settings
 
 The main setting of this indicator, which differs from others, is Periods of smoothing i.e. the number of periods involved in smoothing the indicator.
 
@@ -37,4 +37,4 @@ McGinley indicator should be combined with moving averages to form a Forex tradi
 
 This indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/screenshot_2 (14).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_2 (44).jpg>)

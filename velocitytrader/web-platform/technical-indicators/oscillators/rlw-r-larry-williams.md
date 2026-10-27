@@ -10,7 +10,7 @@ The number of periods used to calculate %R according to Williams may vary depend
 
 Overbought and Oversold levels are normally set at -20 and -80.
 
-## Calculation
+### Calculation
 
 The indicator is very similar to Stochastic %K, except that Williams %R is plotted using negative values ranging from -20 to -80.
 
@@ -24,10 +24,10 @@ where:
 * High(i-n) — highest high over a number (n) of previous periods;
 * Low(i-n) — lowest low over a number (n) of previous periods.
 
-## Main parameters
+### Main parameters
 
 Ext WPR period – for selecting the period of Williams Percent Range that compares each closing price with the last trading range, 14 by default.
 
 The indicator itself looks as follows on the chart:
 
-![](../../../.gitbook/assets/rlw.jpg)
+<figure><img src="../../../.gitbook/assets/image (291).png" alt=""><figcaption></figcaption></figure>

@@ -4,14 +4,14 @@ Orders history panel allows to view system actions related to opening and closin
 
 To open Orders history panel, select Terminal -> Orders history:
 
-![](../../.gitbook/assets/history.png)
+<figure><img src="../../.gitbook/assets/image (1352).png" alt=""><figcaption></figcaption></figure>
 
 The following columns are available in the panel:
 
 * Account – an account's name of a user who created an order;
 * Symbol – a symbol for which an order was created;
 * Side – a trade type (Buy or Sell);
-* Event – an event identifier. The following values are available: Executed, Created, Modified, Rejected;
+* Event – an event identifier. The following values are available: Modified, Restated, Accepted, Activated, Created, Partially filled, Filled, Cancelled;
 * Type – an order type;
 * Price – an order price at which a trade took place;
 * Quantity – a filled amount of an order, in lots or in currency units, depending on what is selected in the settings dialog box;
@@ -21,6 +21,7 @@ The following columns are available in the panel:
 * Validity – allows specifying order validity by selecting among the following time frames: Day, GTC, IOC, GTD, FOK;
 * Stop price – stop price for a special stop order;
 * Login – a user's login;
+* Leverage – contains leverage value, if applicable;
 * Symbol type – a symbol's market category (CFD, Spot, Stocks, etc.);
 * Bought – in case of Forex: if Side = Buy, then this column shows the value of Price \* Lot size \* Qty. in base currency; if Side = Sell, then this column shows the value of Price \* Lot size \* Qty. in quoting currency. In other cases: if Side = Buy, then this column shows the value of Qty. \* Lot size – amount of bought assets (contracts, equities); if Side = Sell, then this column shows the value of Price \* Lot size \* Qty. in quoting currency;
 * Sold – in case of Forex: if Side = Sell, then this column shows the value of Price \* Lot size \* Qty. in base currency; if Side = Buy, then this column shows the value of Price \* Lot size \* Qty. in quoting currency. In other cases: if Side = Buy, then this column shows the value of Price \* Lot size \* Qty. in quoting currency; if Side = Sell, then this column shows the value of Qty. \* Lot size – amount of sold assets (contracts, equities);
@@ -30,9 +31,9 @@ The following columns are available in the panel:
 * Product type – displays the product type;
 * Description – contains a short description of the instrument by which the event was executed.
 
-**Time filter**
+### **Time filter**
 
 At the top left corner of the toolbar of the panel there is a ‘Time filter’ combo box. It allows to select time period for which a user wants to see orders history. The following periods are available:
 
 * Daily;
-* Range – calls date menu 'From ... To' which allows to set up a desired time range. When the 'Range' period is set up, the icon![](<../../.gitbook/assets/menu (2).png>)appears allowing to change a time range for viewing orders history.
+* Range – calls date menu 'From ... To' which allows to set up a desired time range. When the 'Range' period is set up, the icon ![](<../../.gitbook/assets/image (1353).png>) appears allowing to change a time range for viewing orders history.

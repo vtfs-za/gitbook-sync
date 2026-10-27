@@ -14,11 +14,11 @@ A trade is signaled when the price bars and stop levels intersect:
 * Go long when price meets the Parabolic SAR stop level, while short;
 * Go short when price meets the Parabolic SAR stop level, while long.
 
-## Calculation
+### Calculation
 
 Parabolic SAR uses values of the previous period to come up with the new calculation. The calculation also differs regarding whether SAR is rising or falling.
 
-### Rising Parabolic SAR <a href="#rising-parabolic-sar" id="rising-parabolic-sar"></a>
+#### Rising Parabolic SAR <a href="#rising-parabolic-sar" id="rising-parabolic-sar"></a>
 
 In general, we have three elements – the prior SAR, and two indicator-specific values known as the extreme point (EP) and acceleration factor (AF).
 
@@ -34,7 +34,7 @@ In the SAR calculation formula, the current SAR value is calculated by taking th
 
 Current SAR = Prior SAR + Prior AF \* (Prior EP – Prior SAR)
 
-### Falling Parabolic SAR <a href="#falling-parabolic-sar" id="falling-parabolic-sar"></a>
+#### Falling Parabolic SAR <a href="#falling-parabolic-sar" id="falling-parabolic-sar"></a>
 
 The three elements stay the same – we use prior SAR, extreme point (EP), and acceleration factor (AR).
 
@@ -42,11 +42,11 @@ They are combined into the SAR formula very similarly, just that instead of addi
 
 Current SAR = Prior SAR – Prior AF \* (Prior EP – Prior SAR)
 
-## Main parameters
+### Main parameters
 
 * Step of parabolic SAR system i.e. the acceleration factor, 0.02 by default;
 * Maximum step i.e. the extreme point, 0.2 by default.
 
 The indicator itself looks as follows on the chart:
 
-![](../../../.gitbook/assets/sar.jpg)
+<figure><img src="../../../.gitbook/assets/image (307).png" alt=""><figcaption></figcaption></figure>

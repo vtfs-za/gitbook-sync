@@ -2,15 +2,17 @@
 
 This functionality allows analyzing tick history by each bar or by price range selected on the chart. Selected bar or price range should not exceed one day, otherwise – tick history will not be loaded.
 
-Time & Sales can be opened from the Analysis tools menu by clicking on the button ![](<../../../../../.gitbook/assets/53 (4) (2).png>) or through Context menu -> Analysis tools -> T\&S.
+Time & Sales can be opened from the Analysis tools menu by clicking on the button <img src="../../../../../.gitbook/assets/53.png" alt="" data-size="original"> or through Context menu -> Analysis tools -> T\&S.
 
-![](<../../../../../.gitbook/assets/6 (34).png>)
+![](../../../../../.gitbook/assets/time\&sales.gif)
 
-**Note: to work correctly with the tools of analysis, except Volume bars, it is obligatory to have trade and tick history.**
+{% hint style="warning" %}
+**To work correctly with the tools of analysis, except Volume bars, it is obligatory to have trade and tick history.**
+{% endhint %}
 
 Time & Sales functionality can be set in the following way:
 
-![](<../../../../../.gitbook/assets/8 (14).png>)
+![](<../../../../../.gitbook/assets/8 (5).png>)
 
 * Visible – controls visibility of the T\&S on the chart.
 * Time & Sales mode – allows choosing mode of the data selection: single or price range.
@@ -19,7 +21,7 @@ Time & Sales functionality can be set in the following way:
 * Keep range – if checked, the position of renderer (two vertical lines used to specify the range) in the 'Price range' mode will be saved relative to the axis X when switching the timeframe or changing the trading symbol. This setting is enabled only if 'Price range' mode is selected.
 * Panel position – specifies position of the T\&S table relatively to the chart area: right or left.
 
-![](<../../../../../.gitbook/assets/9 (2).png>)
+![](<../../../../../.gitbook/assets/9 (10).png>)
 
 Time & Sales table chronologically shows all trades for a symbol by selected period. The following parameters are shown in the T\&S table:
 
@@ -29,11 +31,17 @@ Time & Sales table chronologically shows all trades for a symbol by selected per
 * Source – the source of market data, where a trade took place.
 * Side – shows side of the trade: Buy or Sell.
 
-## **T & S settings:**
+{% hint style="warning" %}
+Please note that when setting **Keep range = True**, Time\&Sales border lines can be "lost" within the past chart history. In this case, use the Reset button that appears next to the instrument in the Volume analysis list.
+{% endhint %}
+
+![](../../../../../.gitbook/assets/3.jpg)
+
+### **T & S settings:**
 
 * Grid – allows to choose the grid type inside of T\&S table: Vertical, Horizontal, Vertical & horizontal, None.
 * Aggregation – if checked, all trades with the same price, side, size, and MPId in one row as total are shown. This is applied to the highly-liquid markets.
-* Time format – the time of the trade, can be displayed in two modes depending on the time format set in the settings: hh:mm:ss or hh:mm:ss:ms.
+* Time format – the time of the trade, can be displayed in two modes depending on the time format set in the settings: hh:flag\_mm:ss or hh:flag\_mm:ss:ms.
 * Autosize of columns – allows showing T\&S table in auto size mode.
 * Show size in – allows selecting in what form the volume will be shown. General defaults – is taken from general settings; Lots – will be displayed in lots; Real size - will be displayed in real value.
 * Round precision – if checked, user can set the precision of the volume display.

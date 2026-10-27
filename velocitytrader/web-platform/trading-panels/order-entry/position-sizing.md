@@ -2,17 +2,17 @@
 
 Position sizing is the size of a position within a portfolio or the dollar amount that an investor is going to trade. It allows investors to control risk and maximize returns. When determining appropriate position sizing, an investor's account size and risk tolerance are taken into account.
 
-If the Position sizing function is available, then the![](../../../.gitbook/assets/image1-kopiya.png)button will be displayed next to the “Quantity” field.
+If the Position sizing function is available, then the ![](<../../../.gitbook/assets/image (253).png>) button will be displayed next to the “Quantity” field.
 
-![](<../../../.gitbook/assets/1 (159).png>)
+<figure><img src="../../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
 
-When a user clicks on this button for the first time, the info screen with the following message will be shown:
+When a user clicks on this button for the first time, the following info screen will be shown:
 
-"The position size calculator is a risk management tool that allows calculating the quantity based on the maximum allowed percentage (or fixed cash) loss for the account. Specify the account risk and the trade's stop loss. The calculation will be performed automatically."
+<figure><img src="../../../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
 
 If a user unchecks the "Show next time" setting, the next time the button is clicked, the info screen will not be shown. When a user clicks on the “Ok” button on the info window, additional fields will appear in the Order entry panel for automatic calculation of the quantity. When clicking on the Position sizing button, it turns yellow and the “Quantity” field becomes disabled.
 
-![](<../../../.gitbook/assets/2 (132).png>)
+<figure><img src="../../../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
 
 * Account risk - the amount of losses for the account selected in the lookup. A user can select the risk unit in the auxiliary control section: Fixed or Percentage:
 * Fixed - the currency of the account that is selected in the Order entry is displayed in the auxiliary section;
@@ -22,9 +22,11 @@ If a user unchecks the "Show next time" setting, the next time the button is cli
 * SL limit price - the parameter is displayed when the “Use stop limit instead of Stop” is activated in the General setting.
 * SL offset/SL price - recalculation into the value that is opposite to the value in the “SL price” field. If “SL price” is displayed, then “SL offset” value will be displayed here and vice versa.
 
-Note: if SL is forbidden, then the Position size calculator will be disabled.
+{% hint style="warning" %}
+If SL is forbidden, then the Position size calculator will be disabled.
+{% endhint %}
 
-## Calculations
+### Calculations
 
 Quantity with consideration of the propensity to risk, is calculated by the formula:
 
@@ -32,9 +34,11 @@ _**Quantity = (Risk per trade, ccy \* crossPrice) / Risk per share**_ ,
 
 where:
 
-* Risk per trade - risk propensity in the account currency. This is the value that a user enters into the “Account risk” field. If a value is entered in percentage, then it will be determined how much it is in the account currency by the formula: (Available funds \* Risk,%) / 100%;
-* crossPrice - cross rate from the account currency to the quote currency of the instrument;
-* Risk per share is calculated by formulas:
+\- Risk per trade - risk propensity in the account currency. This is the value that a user enters into the “Account risk” field. If a value is entered in percentage, then it will be determined how much it is in the account currency by the formula: (Available funds \* Risk,%) / 100%;
+
+\- crossPrice - cross rate from the account currency to the quote currency of the instrument;
+
+\- Risk per share is calculated by formulas:
 
 |                                                                                                         |                                                                                                                                                                                                                          | For the quote currency tickCost/tickSze                       |
 | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- |

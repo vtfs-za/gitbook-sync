@@ -4,7 +4,7 @@ The KAMA indicator, i.e. Kaufman adaptive moving average was created by Perry J.
 
 SC (Smoothing constant) is a standard part of the moving average plotting. SC determines the level to which the moving average is sensitive to existing price fluctuations. SC moves in the range from 0 to 1. The lower the Smoothing constant, the less sensible the moving average is. The main advantage of KAMA over other moving averages is that it takes into account not only the direction but also market volatility. KAMA adjusts its length according to prevailing market conditions.
 
-## Calculation
+### Calculation
 
 ER (Efficiency Ratio = Direction/Volatility)
 
@@ -26,4 +26,4 @@ KAMA = Kamat-1 + \[(C \* (Closet – Kamat-1)]
 
 Compared to the Simple moving average (MVA, SMA), KAMA has less lag and generates fewer false signals. KAMA can also be used to smooth out some other technical indicators. This indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/screenshot_1 (39).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_1 (41).jpg>)

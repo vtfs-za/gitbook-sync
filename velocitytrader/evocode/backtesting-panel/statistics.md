@@ -2,7 +2,7 @@
 
 Statistics panel is a very useful and informative tool for traders. This panel contains a massive array of trading statistics, various P/L charts, data about trade population and drawdowns.
 
-![](<../../.gitbook/assets/screenshot_1 (3).png>)
+![](<../../.gitbook/assets/Screenshot_1 (22).png>)
 
 Statistics panel consists of 2 tabs: ‘Performance Data’ and ‘Performance Charts’.
 
@@ -116,27 +116,27 @@ If you choose ‘Cumulative P/L’ or ‘Aggregate P/L’, you can select by wha
 * Long – allows building a chart by long trades.
 * Short – allows building a chart by short trades.
 
-## **Cumulative P/L chart**
+### **Cumulative P/L chart**
 
-Cumulative P/L chart in the ‘**Operations’** mode displays how a user’s balance was changed depending on the trade operations performed within the period of work of the strategy. Operations mode is opened by default, if a user changes mode, he can return to Operations mode by clicking on the![](<../../.gitbook/assets/5 (6) (2) (1).png>)button.
+Cumulative P/L chart in the ‘**Operations’** mode displays how a user’s balance was changed depending on the trade operations performed within the period of work of the strategy. Operations mode is opened by default, if a user changes mode, he can return to Operations mode by clicking on the<img src="../../.gitbook/assets/2 (40).png" alt="" data-size="original">button.
 
-![](<../../.gitbook/assets/screenshot_2 (1).png>)
+![](<../../.gitbook/assets/Screenshot_2 (8).png>)
 
-Horizontal scale allows plotting P/L chart by operations or by hours/days/months for chosen in the main panel window period of time. If section 'hours/days/months' is selected, then all operations are aggregated by hours/days/months. Click on the![](<../../.gitbook/assets/7 (26) (2) (1).png>)buttons to select the corresponding modes.
+Horizontal scale allows plotting P/L chart by operations or by hours/days/months for chosen in the main panel window period of time. If section 'hours/days/months' is selected, then all operations are aggregated by hours/days/months. Click on the<img src="../../.gitbook/assets/7 (16).png" alt="" data-size="original">buttons to select the corresponding modes.
 
 Section 'Total' is selected and displayed by default in all the tabs. Volume bars are plotted on the chart regardless of selected horizontal scale type (Operations, Hours, Days, etc.). Volume is displayed in lots.
 
-## **Aggregate P/L Chart**
+### **Aggregate P/L Chart**
 
-![](../../.gitbook/assets/screenshot_3.png)
+![](<../../.gitbook/assets/Screenshot_3 (1).png>)
 
 **Aggregated P/L** charts display Gross and Net P/L for selected 'aggregation' interval.
 
 Aggregation interval – allows aggregating P/L chart by the needed periods: by months, by days, by hours. Option 'Hours' (i.e. By hour of the day) is set by default. The charts can be also displayed by side of the trading, available side tabs are: Total, Buy, Sell.
 
-## **Trades Population Chart**
+### **Trades Population Chart**
 
-![](../../.gitbook/assets/tr-popul1.png)
+![](<../../.gitbook/assets/tr popul1.png>)
 
 Trades population consists of two charts:
 
@@ -145,8 +145,8 @@ Trades population consists of two charts:
 
 Profitable chart displays Cumulative P/L and volumes of trades made for the selected symbol within the period of work of the strategy.
 
-## **Drawdowns Chart**
+### **Drawdowns Chart**
 
-![](<../../.gitbook/assets/screenshot_4 (4).png>)
+![](<../../.gitbook/assets/Screenshot_4 (4).png>)
 
 Drawdowns chart shows the graphical distribution of drawdowns built trade by trade. Volumes of the trades are also displayed on the chart.

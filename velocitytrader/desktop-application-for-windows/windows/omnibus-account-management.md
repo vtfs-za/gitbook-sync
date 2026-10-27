@@ -4,11 +4,11 @@ Omnibus accounts allow aggregating multiple User accounts into a single entity t
 
 In order to open the “Omnibus account management” panel, select it from the drop-down list in Account widget.
 
-![](<../../.gitbook/assets/screenshot_1 (1).jpg>)
+![](../../.gitbook/assets/omnibus-account-management-1.jpg)
 
 The following panel will be opened:
 
-![](<../../.gitbook/assets/image (37).png>)
+![](../../.gitbook/assets/omnibus-account-management-2.png)
 
 This panel consists of two parts:
 
@@ -23,7 +23,7 @@ The user can select an account or group of accounts for which he wants to see th
 
 The following information is available:
 
-![](<../../.gitbook/assets/screenshot_2 (2).jpg>)
+![](../../.gitbook/assets/omnibus-account-management-3.jpg)
 
 * Account - account name;
 * Balance - balance for the selected account;
@@ -38,7 +38,7 @@ The following information is available:
 * \#Positions - number of account positions;
 * \#Orders - number of account orders.
 
-All information in the columns listed above is updated by clicking the Refresh button![](https://lh6.googleusercontent.com/3PlmYuhV7RF2-rlRsezdzzbajQyvWX80FsdOwmuyzwDsjhhNCaPDVhXoY0ej2bxdWvWEkYj-d15WoV1alKQv390qIv7SfUZtHImuzUNohq2G23NPT3bhVpS20dWVwESKlv_z0wGQ)in the upper right corner of the table.
+All information in the columns listed above is updated by clicking the Refresh button![](../../.gitbook/assets/omnibus-account-management-4.png)in the upper right corner of the table.
 
 By right-clicking any place within this panel, the user will be able to bring up two additional menus:
 
@@ -47,25 +47,25 @@ By right-clicking any place within this panel, the user will be able to bring up
 
 ## Positions
 
-This tab displays all currently opened positions under the selected Omnibus account. Description of all columns can be found in the [Positions article](https://help.za.velocitytrade.com/desktop-application-for-windows/windows/account-management/positions).
+This tab displays all currently opened positions under the selected Omnibus account. Description of all columns can be found in the [Positions article](account-management/positions.md).
 
 **Please note that the information in this window is displayed only when the needed Omnibus account is selected. In case if no account is selected, the window will remain empty.**
 
 ## Working orders
 
-This tab displays all created orders under the selected Omnibus account. Otherwise, the tab will be empty. Description of all columns can be found in the [Working orders](https://help.za.velocitytrade.com/desktop-application-for-windows/windows/account-management/working-orders) article.
+This tab displays all created orders under the selected Omnibus account. Otherwise, the tab will be empty. Description of all columns can be found in the [Working orders](account-management/working-orders.md) article.
 
 ## Filled orders
 
-This tab displays trading history for today or for a certain time period. Description of all columns can be found in the [Filled orders](https://help.za.velocitytrade.com/desktop-application-for-windows/windows/account-management/filled-orders) article.
+This tab displays trading history for today or for a certain time period. Description of all columns can be found in the [Filled orders](account-management/filled-orders.md) article.
 
 ## Orders history
 
-This tab shows system actions related to opening and closing orders (SL/TP) under the selected Omnibus account. This can be particularly useful for monitoring specific details regarding creation, modification, rejection and execution of orders. Description of all columns can be found in the [Orders history](https://help.za.velocitytrade.com/desktop-application-for-windows/windows/account-management/orders-history) article.
+This tab shows system actions related to opening and closing orders (SL/TP) under the selected Omnibus account. This can be particularly useful for monitoring specific details regarding creation, modification, rejection and execution of orders. Description of all columns can be found in the [Orders history](account-management/orders-history.md) article.
 
 ## Assets
 
-This tab represents information about assets of each account added to the selected Omnibus account manager. Description of all columns can be found in the [Assets](https://help.za.velocitytrade.com/desktop-application-for-windows/windows/account-management/assets) article.
+This tab represents information about assets of each account added to the selected Omnibus account manager. Description of all columns can be found in the [Assets](account-management/assets.md) article.
 
 ## Accounts tab
 

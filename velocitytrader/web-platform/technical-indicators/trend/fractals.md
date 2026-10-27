@@ -7,7 +7,7 @@ The Fractal indicator is based on a simple price pattern that is often found in 
 * Markers are drawn above or below the middle bar (high or low point), even if the pattern is five columns. There is no way for a trader to enter a trade using a marker because it appears only if the next two bars form a pattern;
 * If someone were trading fractal signals, the entry would be the open price of the third bar after the marker.
 
-## Calculation
+### Calculation
 
 Bearish Fractal = ​High(N)>High(N−2) and
 
@@ -15,7 +15,7 @@ High(N)>High(N−1) and
 
 High(N)>High(N+1) and
 
-High(N)>High(N+2)​
+High(N)>High(N+2)​﻿
 
 Bullish Fractal= ​Low(N)\<Low(N−2) and
 
@@ -37,7 +37,7 @@ N+1=High/low of price bar one period to the right of N
 
 N+2=High/low of price bar two periods to the right of N ​
 
-## Main parameters
+### Main parameters
 
 * Fractal dimension: 3 or 5 by default;
 * Period of fractals: Second, Minute, Hour, Day, Week, Month, Year;
@@ -46,4 +46,4 @@ N+2=High/low of price bar two periods to the right of N ​
 
 The indicator looks as follows on the chart:
 
-![](../../../.gitbook/assets/fractal.jpg)
+<figure><img src="../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>

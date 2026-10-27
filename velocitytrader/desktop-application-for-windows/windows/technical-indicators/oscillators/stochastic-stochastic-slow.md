@@ -6,7 +6,7 @@ The closing price tends to close near the high in an uptrend and near the low in
 
 The difference between the Slow and Fast stochastic oscillators is the Slow %K incorporates a %K slowing period of 3 that controls the internal smoothing of %K. Setting the smoothing period to 1 is equivalent to plotting the Fast stochastic oscillator.
 
-## Calculation
+### Calculation
 
 **Stochastic oscillator**
 
@@ -57,7 +57,7 @@ Short signals:
 2. Go short when %K or %D rises above the Overbought level then falls back below it;
 3. Go short when %K crosses below %D.
 
-## Main parameters
+### Main parameters
 
 * Period of indicator – number of data that is involved in the calculation of the stochastic oscillator, 10 by default;
 * Smoothing – number of periods involved in the calculation of the Stochastic oscillator, 3 by default;
@@ -65,4 +65,4 @@ Short signals:
 
 The indicator itself looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/screenshot_2 (17).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_2 (4).jpg>)

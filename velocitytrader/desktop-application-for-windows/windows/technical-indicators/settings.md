@@ -1,5 +1,9 @@
 # Settings
 
+Adding an indicator is quite simple and is performed from the chat toolbar:
+
+<figure><img src="../../../.gitbook/assets/settings.gif" alt=""><figcaption></figcaption></figure>
+
 In order to configure the required indicator, the user needs to open the \<Indicator name> properties window. In order to open this window, simply click the label with the indicator name, which will be displayed in the upper left corner of the chart after adding the indicator. Properties window contains the following tabs:
 
 * Parameters – contains general indicator settings;
@@ -13,13 +17,13 @@ The following buttons are available in the Properties window:
 * OK – applies settings, closes the settings screen. The indicator will be plotted in accordance with the saved settings;
 * Close – this button closes the Properties window.
 
-## Parameters tab
+### Parameters tab
 
 * Is background checkbox – defines the layer of the indicator line, unchecked by default. If checked, then the indicator lines will be displayed under the main chart;
 * Win num on chart for indicator – defines the window for plotting the indicator, the following radio buttons are available: Main, Sub window, or Sub window number (max qty of sub windows is 3);
 * Specific indicator settings – considered in the context of individual indicators in the relevant articles.
 
-## Line properties
+### Line properties
 
 * Visible checkbox – determines the visibility of the indicator line;
 * Line – allows setting the line drawing characteristics: style, thickness, color;
@@ -27,7 +31,7 @@ The following buttons are available in the Properties window:
 * Time shift – determines the shift of indicator lines along the timeline by a specified number of minutes;
 * Show line marker checkbox – determines the display of a label with the indicator value on the price scale.
 
-## Visibility
+### Visibility
 
 This tab contains settings that allow to hide or show the indicator depending on the selected Time Frame.
 

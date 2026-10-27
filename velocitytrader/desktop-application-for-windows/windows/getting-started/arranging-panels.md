@@ -1,23 +1,19 @@
 # Arranging panels
 
-User can create own trading environment by displaying/hiding and rearranging panels. To build a workspace from scratch, click on the button![](<../../../.gitbook/assets/3 (16) (1) (3) (1).png>) at the status bar and blank workspace will appear. Then open the panels which will be used in Trading terminal and arrange them as described below.
+User can create own trading environment by displaying/hiding and rearranging panels. To build a workspace from scratch, click on the button<img src="../../../.gitbook/assets/3 (40).png" alt="" data-size="original"> at the status bar and blank workspace will appear. Then open the panels which will be used in Trading terminal and arrange them as described below.
 
-## Attaching and detaching panels
+### Attaching and detaching panels
 
 There are two main location types for all panels:
 
 * Attached – panel is located in some place of workspace.
 * Detached – panel is located separately and can be used independently of any workspace.
 
-Each panel has default location. Some panels are attached by default, others are detached. Default settings created on base of target usage. To change the location click on the control![](<../../../.gitbook/assets/2 (24).png>)which is available in the header of each panel. The following options can be available in the opened menu:
+Each panel has default location. Some panels are attached by default, others are detached. Default settings created on base of target usage. To change the location click on the control<img src="../../../.gitbook/assets/2 (138).png" alt="" data-size="original">which is available in the header of each panel. The following options can be available in the opened menu:
 
-* Attach – allows attaching panel. After clicking panel will attach to default place. Then user can move it to any place of the workspace. After taking header of the panel the following buttons appear:
+* Attach – allows attaching panel. After clicking panel will attach to default place. Then the user can move it to any place of the workspace. After taking header of the panel drag it into one of the screen sides to preview its future position, then drop it to attach:
 
-![](<../../../.gitbook/assets/3 (64).png>)
-
-Drag the panel into the button to preview it's next position.
-
-![](<../../../.gitbook/assets/4 (27).png>)
+<figure><img src="../../../.gitbook/assets/arranging panels (1).gif" alt=""><figcaption></figcaption></figure>
 
 Attached panels can be arranged into tabbed areas where one or more panels are conveniently fit under/over/beside other panels.
 
@@ -26,54 +22,52 @@ Attached panels can be arranged into tabbed areas where one or more panels are c
 * On top – allows seeing the panel on top of all others. Applicable only for detached panels.
 * Help – allows opening information about current panel in VelocityTrader Guide.
 * Duplicate panel – allows duplicating the chosen panel.
-*   Show toolbar – allows showing toolbar of the chosen panel.
+* Show toolbar – allows showing toolbar of the chosen panel.
 
-    Clicking on the button![](<../../../.gitbook/assets/5 (2).png>) allows opening attached panel in fullscreen mode. Available only for Chart.
+Clicking on the button<img src="../../../.gitbook/assets/5 (63).png" alt="" data-size="original"> allows opening attached panel in fullscreen mode. Available only for Chart.
 
-Note. Any detached panel can be closed with the "Esc" hotkey. Also, this action is valid for any other modal or pop-up screens: all sorts of Settings, Confiramtions, etc. Basically, for those screens that do not have the resizing feature.
+{% hint style="warning" %}
+Any detached panel can be closed with the "Esc" hotkey. Also, this action is valid for any other modal or pop-up screens: all sorts of Settings, Confiramtions, etc. Basically, for those screens that do not have the resizing feature.
+{% endhint %}
 
-## Creating tabbed areas
+### Creating tabbed areas
 
 Creating tabbed groups of panels helps save screen space and maximizes efficiency. To make a panel appear as a tab, drag it over another panel (or tabbed area).
 
-## Linking panels
+### Linking panels
 
-One of the advantages of the Desktop terminal is linking panels. Currently two types of link are available ![](../../../.gitbook/assets/screenshot_71.png):
+One of the advantages of the Desktop terminal is linking panels. Currently two types of link are available <img src="../../../.gitbook/assets/Screenshot_71.png" alt="" data-size="original">:
 
-*   **Symbol link**![](<../../../.gitbook/assets/7 (14).png>)– when panels are linked, selecting a symbol in one of the panels synchronizes other panels in the group to display information relevant to that symbol. For example, when Order entry panel is linked to a Watchlist panel, the symbol displayed in the Order entry panel will be changed in accordance with the symbol selected in the Watchlist. The links are identified by a color:
+* **Symbol link**<img src="../../../.gitbook/assets/7 (30).png" alt="" data-size="original">– when panels are linked, selecting a symbol in one of the panels synchronizes other panels in the group to display information relevant to that symbol. For example, when Order entry panel is linked to a Watchlist panel, the symbol displayed in the Order entry panel will be changed in accordance with the symbol selected in the Watchlist. The links are identified by a color:
 
-    ```
-                                                                            ![](../../../.gitbook/assets/9%20%289%29.png)
-    ```
+<figure><img src="../../../.gitbook/assets/account linking.gif" alt=""><figcaption></figcaption></figure>
 
 To link two or more panels together:
 
-1. Click on the link icon in one of the panels you want to link.
-2. From the drop-down menu, select one of the colors. The button changes to display the color.
-3. Repeat the same procedure for the other panels to be linked, selecting the same color.
+1\. Click on the link icon in one of the panels you want to link.
+
+2\. From the drop-down menu, select one of the colors. The button changes to display the color.
+
+3\. Repeat the same procedure for the other panels to be linked, selecting the same color.
 
 To unlink a panel from a group, click the panel's link icon and select 'None'.
 
-*   **Account link** –
+* **Account link** – linking by account is available by checking an icon<img src="../../../.gitbook/assets/Screenshot_8 (1).png" alt="" data-size="original">located at the top right corner of Accounts widget.
 
-    linking by account is available by checking an icon![](<../../../.gitbook/assets/screenshot_8 (3) (3) (2).png>)located at the top right corner of Accounts widget.
+By clicking on this icon, it turns green<img src="../../../.gitbook/assets/Screenshot_8.png" alt="" data-size="original"> and appears in all panels which contain Account lookup. This function filters your positions and orders by account. When Account Link is checked, then changing the account is possible via Account lookup of any panel. The account will be switched synchronously in all panels.
 
-![](../../../.gitbook/assets/panels2.png)
-
-By clicking on this icon, it turns green![](<../../../.gitbook/assets/screenshot_8 (2).png>) and appears in all panels which contain Account lookup. This function filters your positions and orders by account. When Account Link is checked, then changing the account is possible via Account lookup of any panel. The account will be switched synchronously in all panels.
-
-## Searching elements
+### Searching elements
 
 All table panels in the application have a quick searching function. Traders can search for the needed items using:
 
 * hot button combination "Ctrl + F";
-*   "Search…" menu item by selecting it from the Context menu.
+* "Search…" menu item by selecting it from the Context menu.
 
-    After evoking a search by one of the methods listed above, the following lookup will be activated![](../../../.gitbook/assets/11.jpg), where users can type symbol(s), number(s), a word or a part of it in order to find it in the table. To close the search lookup, click on the button![](../../../.gitbook/assets/12.jpg).
+After evoking a search by one of the methods listed above, the following lookup will be activated<img src="../../../.gitbook/assets/11.jpg" alt="" data-size="original">, where users can type symbol(s), number(s), a word or a part of it in order to find it in the table. To close the search lookup, click on the button<img src="../../../.gitbook/assets/12.jpg" alt="" data-size="original">.
 
-Back and Forward buttons![](../../../.gitbook/assets/13.jpg)– allow to move among the results of the search. Left to these buttons there are numbers showing on what search result you are now and what is the total number of search result. The search result on which you stopped moving is highlighted.
+Back and Forward buttons<img src="../../../.gitbook/assets/13.jpg" alt="" data-size="original">– allow to move among the results of the search. Left to these buttons there are numbers showing on what search result you are now and what is the total number of search result. The search result on which you stopped moving is highlighted.
 
-![](../../../.gitbook/assets/14.png)
+![](../../../.gitbook/assets/search.gif)
 
 * Search works by the partial matches of a search query with the data specified in the table;
 * Search results are sorted by relevance;

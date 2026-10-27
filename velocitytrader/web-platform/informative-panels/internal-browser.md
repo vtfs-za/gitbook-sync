@@ -16,4 +16,4 @@ In order to attach this panel, click on the "Attach" button located at the top r
 
 ![](https://lh3.googleusercontent.com/FWjKm8QYY5TyOzUXELPxI2FxQ-NJPSmVjgG1U5_XQ_jVX6PAC8ab0k1lNaIHdgA_0d0NSkKDrSGSJa1BupLt80L0bVClEthmqCxFBQECd5NwcNKF3nLFqrAxMvOiZ9xagb56hwhL)
 
-Then click on the header of Internal Browser window and move the panel to the preferred place at the platform.
+Then click on the header of Internal Browser window and move the panel to the preferred place at the platform.<br>
