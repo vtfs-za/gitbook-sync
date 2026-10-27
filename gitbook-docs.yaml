@@ -7,6 +7,5 @@ site:
       title: Velocity Trader Updated
       path: velocitytrader
       default: true
-      draft: true
       content:
         directory: ./velocitytrader
