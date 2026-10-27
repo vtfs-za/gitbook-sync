@@ -8,7 +8,7 @@ Volatility in the Forex market is much more smoothed over long periods of time d
 
 Prices are mostly located close to the Moving average, but still aside from it. The Moving average changes following a trend change, which provides additional data on the trend strength based on the slope steepness.
 
-## Calculation
+### Calculation
 
 The Simple moving average is an arithmetic moving average that is calculated by summing the closing prices of an instrument over a specified number of distinct periods (for example, 12 hours). This value is then divided by the number of such periods.
 
@@ -22,11 +22,11 @@ CLOSE (i) — current period close price;
 
 N — number of calculation periods.
 
-## Main parameters
+### Main parameters
 
 * Period of Simple moving average – number of periods involved in the indicator calculation;
 * Sources prices of MA – type of price at which the indicator will be calculated. Available values: Low, Open, High, Close, Typical, Medium, Weighted.
 
 The indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/screenshot_2 (22).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_2 (6).jpg>)

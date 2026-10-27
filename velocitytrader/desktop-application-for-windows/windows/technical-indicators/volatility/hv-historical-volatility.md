@@ -4,11 +4,11 @@ Historical volatility is a measure of how much the price deviates from the avera
 
 In addition, Historical volatility can be utilized as an instrument by traders who only trade underlying financial instruments. Measuring market volatility can influence investor expectations about how much or to what extent the market might change and offers some guidance for making price predictions and executing trades.
 
-## Calculation
+### Calculation
 
 In the classic sense, the historical volatility is determined by the following formula:
 
-![](<../../../../.gitbook/assets/image (40).png>)
+<div align="left"><img src="../../../../.gitbook/assets/image (910).png" alt=""></div>
 
 Where:
 
@@ -24,7 +24,7 @@ Generally, the standard deviation is calculated either in absolute values, i.e. 
 * The release of important reports – usually the volatility is sharply increased after the release of important reports, such as changes of the Fed interest rate, changes in the unemployment rate, quarterly reports about company’s profits, as well as data on oil and other;
 * The economic situation in a particular country – the higher the uncertainty in the political and economic life of the country, the more risky the investments will be.
 
-## Main parameters
+### Main parameters
 
 * STD period – period of standard deviation, by default = 30;
 * Volatility period – period of the volatility, measured in days, by default = 365;
@@ -35,4 +35,4 @@ Generally, the standard deviation is calculated either in absolute values, i.e. 
 
 The indicator itself looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/screenshot_1 (32).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_1 (21).jpg>)

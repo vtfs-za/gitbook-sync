@@ -4,7 +4,7 @@ The Aroon indicator was developed by Tushar Chande in 1995, it is an indicator s
 
 In this sense, Aroon indicators are very different from typical momentum oscillators, which focus on price over time. Aroon is unique because it focuses on time over price. Chartists can use Aroon indicators to identify new trends, spot consolidations, define periods of correction, and forecast reversals.
 
-## Calculation
+### Calculation
 
 The Aroon indicators are shown as a percentage and fluctuate between 0 and 100. Aroon-up is based on price highs while Aroon-down is based on price lows. These two indicators are plotted side-by-side for easy comparison.
 
@@ -16,7 +16,7 @@ Where:
 
 P – period of looking back.
 
-## Main parameters
+### Main parameters
 
 Period of looking back –allows setting the hindsight period.
 
@@ -24,4 +24,4 @@ Chande states that when Aroon-up and Aroon-down move down in close proximity, it
 
 This indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/screenshot_2 (28).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_2 (14).jpg>)

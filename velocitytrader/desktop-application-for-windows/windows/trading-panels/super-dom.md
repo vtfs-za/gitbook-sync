@@ -4,11 +4,11 @@ The Super DOM panel's active field looks fairly similar to the Market depth ladd
 
 To open the Super DOM panel, go to Terminal -> Super DOM:
 
-![](../../../.gitbook/assets/31.png)
+![](<../../../.gitbook/assets/31 (1).png>)
 
 The Symbol lookup is at the top of the Super DOM panel.
 
-![](../../../.gitbook/assets/32.png)
+![](<../../../.gitbook/assets/32 (1).png>)
 
 * Compress spread – allows skipping empty levels between the best bid and best ask;
 * Recenter button – allows manually recentering the panel relatively to spread;
@@ -20,7 +20,7 @@ Day high/low – allows showing current high/low levels.
 
 Right click tapping within the Market depth section, evokes the Context menu of the panel.
 
-![](<../../../.gitbook/assets/screenshot_2 (12).jpg>)
+![](<../../../.gitbook/assets/Screenshot_2 (38).jpg>)
 
 * Compress spread – allows skipping empty levels between the best Bid and best Ask;
 * Recenter – allows recentering the panel relatively to spread;
@@ -38,7 +38,7 @@ Right click tapping within the Market depth section, evokes the Context menu of 
 
 The bottom position bar shows the current state of the position: open price, open position quantity, current profit and loss.
 
-![](../../../.gitbook/assets/p-bar.png)
+![](<../../../.gitbook/assets/p bar.png>)
 
 When clicking on the P/L value, the following options can be selected: Ticks/Fractional ticks for Forex/Points.
 
@@ -61,11 +61,12 @@ The color of QTY cell depends on the side of the position:
 2. If all positions have Side = Short, qty. cell will be colored in red;
 3. If positions are multi-directional, then qty. cell is not colored;
 4. If there are no positions, qty. cell will not be colored and qty. value = N/A.
-5. When trading multi-position symbols, open price of all the positions is calculated as weighted average value;
-6. The Orders column shows all pending orders and allows their modification. Limit orders are displayed as numbers, and Stop orders - as underlined numbers. Group of orders is displayed with two vertical lines of the pending order left side;
-7. The Size column shows how many trade operations with Ask/Bid are available at a specific price;
-8. Clicking on Cancel buy, Cancel sell, or Cancel all will close all buy, sell, or total orders respectively for the currently displayed symbol and account;
-9. Close position button allows closing the current position by selected symbol and account.
+
+* When trading multi-position symbols, open price of all the positions is calculated as weighted average value;
+* The Orders column shows all pending orders and allows their modification. Limit orders are displayed as numbers, and Stop orders - as underlined numbers. Group of orders is displayed with two vertical lines of the pending order left side;
+* The Size column shows how many trade operations with Ask/Bid are available at a specific price;
+* Clicking on Cancel buy, Cancel sell, or Cancel all will close all buy, sell, or total orders respectively for the currently displayed symbol and account;
+* Close position button allows closing the current position by selected symbol and account.
 
 On the right side of the Super DOM panel there is a built-in Order entry panel. The order amount can be specified on the top of panel. Also the Validity of the order, SL/TP offset and Trailing stop.
 
@@ -83,15 +84,15 @@ Mouse trading rules:
 
 Clicking on the group of orders on one price allows showing the list of pending orders.
 
-![](../../../.gitbook/assets/screenshot_1.png)
+![](<../../../.gitbook/assets/Screenshot_1 (9).png>)
 
-## Data source <a href="#data-source" id="data-source"></a>
+### Data source <a href="#data-source" id="data-source"></a>
 
-In the Super DOM panel a user can see the the extended information about the source of Last, Bid and Ask prices. In order to open the table with the detailed information, click on the![](<../../../.gitbook/assets/image2-kopiya (1).png>)arrow and the widget will be shown:
+In the Super DOM panel a user can see the the extended information about the source of Last, Bid and Ask prices. In order to open the table with the detailed information, click on the<img src="../../../.gitbook/assets/image2 — копия.png" alt="" data-size="line">arrow and the widget will be shown:
 
 ![](../../../.gitbook/assets/super2.png)
 
-**Super DOM settings**
+### **Super DOM settings**
 
 Super DOM settings have 2 tabs, each of them consists of several parts:
 
@@ -99,7 +100,7 @@ Super DOM settings have 2 tabs, each of them consists of several parts:
 
 **View**
 
-![](<../../../.gitbook/assets/screenshot_1 (15).jpg>)
+![](<../../../.gitbook/assets/Screenshot_1 (8).jpg>)
 
 Base settings:
 
@@ -107,7 +108,7 @@ Base settings:
 * Grid – allows activating and setting up grid. The folllowing options are available: Vertical, Horizontal, Vertical & horizontal, None.
 * Antagonistic size bars – allows to determine the direction of volume histograms. If true, the histograms are built from the different boundaries of the column ‘Size’. If false, the histograms are built from the left boundary of the column ‘Size’. Default state: true;
 * Full-size cells – allows extending the bars;
-* Recenter – if checked, then re-centering will occur when hovering the cursor over the panel area;&#x20;
+* Recenter – if checked, then re-centering will occur when hovering the cursor over the panel area;
 * Recenter type – allows selecting the recenter type: by Ask, Bid or Bid (+ Ask)/ 2;
 * Compress spread – allows skipping empty levels between the best Bid and best Ask;
 * Show day high/low – allows showing high/low levels for one day;
@@ -168,7 +169,7 @@ Asks/Bids size bars – color settings for filling the volumes by Ask and Bid.
 
 ![](../../../.gitbook/assets/d61.png)
 
-**Super DOM hotkeys**
+### **Super DOM hotkeys**
 
 The list of hotkeys to set for the Super DOM panel is available in the General settings -> Hotkeys -> Super DOM.
 

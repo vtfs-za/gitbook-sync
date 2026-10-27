@@ -4,7 +4,7 @@ Working orders/Positions panels show the orders/positions that were opened durin
 
 The following columns are available for the Positions panel:
 
-![](<../../.gitbook/assets/1 (12).png>)
+![](<../../.gitbook/assets/1 (34).png>)
 
 * Account – login name of an account that opened a position;
 * Symbol – a traded symbol;
@@ -16,47 +16,44 @@ The following columns are available for the Positions panel:
 * Current price – a market price obtainable from a broker;
 * Quantity – amount of a position, either in lots or in units, depending on what is selected in the Settings dialog box;
 * Date/Time – date and time when a position was opened;
-*   Gross P/L – profit/loss in account currency, calculated on base of price difference:
+* Gross P/L – profit/loss in account currency, calculated on base of price difference:
 
-    ```
-      For Long position: Gross P/L = Qty. \* Lot size \* \(Current price - Open price\)
+For Long position: Gross P/L = Qty. \* Lot size \* (Current price - Open price)
 
-      For Short position: Gross P/L = Qty. \* Lot size \* \(Open price - Current price\)
+For Short position: Gross P/L = Qty. \* Lot size \* (Open price - Current price)
 
-      P/L for Spreadbet instrument type is calculated depending on price change in ticks:
+P/L for Spreadbet instrument type is calculated depending on price change in ticks:
 
-      For Long position: Gross P/L = Qty. \* Bet size \* Cross price \* \(\(Current price - Open price\)/Tick size\)\)
+For Long position: Gross P/L = Qty. \* Bet size \* Cross price \* ((Current price - Open price)/Tick size))
 
-      For Short position: Gross P/L = Qty. \* Bet size \* Cross price \* \(\(Open price - Current price\)/Tick size\)\)
+For Short position: Gross P/L = Qty. \* Bet size \* Cross price \* ((Open price - Current price)/Tick size))
 
-      Cross price is applied in the case when account currency doesn't correspond to the Betting currency.
-    ```
+Cross price is applied in the case when account currency doesn't correspond to the Betting currency.
+
 * P/L, offset – profit/losses in points;
-*   Position exposure – exposure of a position, in the account currency. Calculated on base of an open price:
+* Position exposure – exposure of a position, in the account currency. Calculated on base of an open price:
 
-    ```
-      Position exposure = Price \* Quantity \* Lot size \* Cross price \(quoting CCY &gt; account currency\) – calculation for Forex
+Position exposure = Price \* Quantity \* Lot size \* Cross price (quoting CCY > account currency) – calculation for Forex
 
-      Position exposure = Price \* Quantity \* \(Tick cost/Tick size\) \* Cross price \(quoting CCY &gt; account currency\) – calculation for Futures
+Position exposure = Price \* Quantity \* (Tick cost/Tick size) \* Cross price (quoting CCY > account currency) – calculation for Futures
 
-      In all cases Cross price \(quoting CCY &gt; account currency\) is a current cross price.
-    ```
-*   Position value – current value of a position. Calculated on base of a current market price:
+In all cases Cross price (quoting CCY > account currency) is a current cross price.
 
-    ```
-      For Long position: Position value = Position exposure + P/L
+* Position value – current value of a position. Calculated on base of a current market price:
 
-      For Short position: Position value = Position exposure – P/L
-    ```
+For Long position: Position value = Position exposure + P/L
+
+For Short position: Position value = Position exposure – P/L
+
 * Expiry date – date of contract expiration;
 * SL price – Stop loss price set for a position;
 * TP price – Take profit price set for a position;
 * SL, value – shows a Stop loss sum in account currency which a trader risks by each symbol, if Stop loss triggers. Also, SL sum by all positions are output in Totals on the bottom of the panel, in order to know how much trader can lose;
-*   Trading exchange - indicates whether the instrument has a stock exchange or off-exchange type.
+* Trading exchange - indicates whether the instrument has a stock exchange or off-exchange type.
 
-    And for the Working orders panel:
+And for the Working orders panel:
 
-![](../../.gitbook/assets/screenshot_2-1-.png)
+![](<../../.gitbook/assets/Screenshot_2 (1) (1).png>)
 
 * Symbol – name of the instrument to be traded.
 * Side – type of the trade to be performed (Buy or Sell).
@@ -67,7 +64,7 @@ The following columns are available for the Positions panel:
 * Price – price, at which the order is to be executed.
 * Stop price – stop price for special stop order.
 * Current price – market price obtainable from broker.
-* Validity – allows specifying order validity by selecting among the following time frames: Day, GTC, IOC, GTD, FOK.
+* Validity – allows specifying order validity by selecting among the following time frames: Day, GTC, IOC, GTD, FOK, GTS.
 * Qty. filled – executed quantity of the order when only part of the order was executed.
 * Qty. remaining – difference between quantity and executed quantity when only part of the order was executed.
 * Order ID – unique number that the trading system assigns to each order. If a position is opened based on an order, the position will have the same number.
@@ -82,7 +79,7 @@ The following columns are available for the Positions panel:
 * Strike price – price of option contract performance.
 * Expiry date – date of contract expiration.
 
-## **Context menu**
+### **Context menu**
 
 The following functions can be realized through the context menu:
 

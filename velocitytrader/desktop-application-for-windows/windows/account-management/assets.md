@@ -2,7 +2,7 @@
 
 Assets panel contains information about all assets by the chosen account(-s). If different accounts have the same asset, then it is displayed in different rows in the table.
 
-![](../../../.gitbook/assets/win-asset1.png)
+![](<../../../.gitbook/assets/win asset1.png>)
 
 There are the following columns in the table:
 
@@ -30,7 +30,7 @@ Current value for sell = Available for sell \*Current price \* CrossPrice
 
 Right-click on the asset evokes the following context menu:
 
-![](<../../../.gitbook/assets/menu (3).png>)
+![](<../../../.gitbook/assets/menu (2).png>)
 
 You can choose the columns, which have to be displayed by right-click on one of the columns.
 
@@ -40,7 +40,7 @@ The settings of the Assets panel consist of 2 tabs in the column ‘General’: 
 
 **View**
 
-![](../../../.gitbook/assets/view-assets.png)
+![](<../../../.gitbook/assets/view assets.png>)
 
 Grid – allows showing grid between columns and rows. The following options are available: Vertical, Horizontal, Vertical & horizontal, None.
 
@@ -52,6 +52,6 @@ Show totals – allows showing total amount for columns. Be attentive to mark th
 
 **Colors**
 
-![](../../../.gitbook/assets/colors-assets.png)
+![](<../../../.gitbook/assets/colors assets.png>)
 
 Table, Grid, Row, Selected row, Header row, Total row – allows configuring the color scheme for table.

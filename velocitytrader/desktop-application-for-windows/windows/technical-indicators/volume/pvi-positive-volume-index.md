@@ -13,7 +13,7 @@ The Positive Volume Index is typically compared to a 255-period moving average o
 * When the index increases above this value, less informed traders (the crowd) have typically been buying, indicating the prices may continue to increase;
 * When the index increases below this value, uninformed traders have typically been selling, indicating a possible decrease.
 
-## Calculation
+### Calculation
 
 If today's volume is greater than yesterday's volume then:
 
@@ -25,10 +25,10 @@ PVI = Yesterday's PVI
 
 Because rising prices are usually associated with rising volume, the PVI usually trends upward.
 
-## Main parameters
+### Main parameters
 
 Sources prices for MA: Close, Open, High, Low, Median, Typical, and Weighted.
 
 Below is the appearance of the indicator with a 255-period Simple Moving Average added to the chart:
 
-![](<../../../../.gitbook/assets/screenshot_1 (36).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_1 (26).jpg>)

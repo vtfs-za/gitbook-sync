@@ -2,19 +2,21 @@
 
 You can perform trading directly from the chart panel. It is possible to send orders, modify and close/cancel all positions/orders directly from the chart:
 
-![](<../../.gitbook/assets/web-vis (2).jpg>)
+<figure><img src="../../.gitbook/assets/visual trading (6).gif" alt=""><figcaption></figcaption></figure>
 
 **The built-in Order entry panel**
 
-In order to start visual trading, click the 'Chart trading' button![](<../../.gitbook/assets/2 (37).png>), located on the top right corner of the Chart toolbar, and built-in Order entry panel will be opened:
+In order to start visual trading, click the 'Chart trading' button ![](<../../.gitbook/assets/image (256).png>), located on the top right corner of the Chart toolbar, and built-in Order entry panel will be opened:
 
-![](<../../.gitbook/assets/3 (44).png>)
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 The Order entry panel consists of the following items:
 
 1. Quantity - the order quantity;
-2. SL - for specifying Stop Loss parameters;
-3. TP - for specifying Take Profit parameters.
+2. Overnight - if active, order will be executed during overnight hours;
+3. SL - for specifying Stop Loss parameters;
+4. TP - for specifying Take Profit parameters;
+5. Leverage - for specifying the leverage.
 
 Hot buttons for one-click trading are the following:
 
@@ -25,12 +27,13 @@ Hot buttons for one-click trading are the following:
 * Buy Ask – to send a Buy Limit order at the Ask price;
 * Buy Bid – to send a Buy Limit order at the Bid price;
 
-## Chart trading
+### Chart trading
 
 To start chart trading, follow these steps:
 
-1. Оpen the built-in Order entry panel; Click on the 'Mouse trading' button![](<../../.gitbook/assets/4 (15).png>) to enable the chart trading;
-2. Select type of an order to be placed: single or OCO.
+1\. Оpen the built-in Order entry panel; Click on the 'Mouse trading' button<img src="../../.gitbook/assets/4 (60).png" alt="" data-size="original"> to enable the chart trading;
+
+2\. Select type of an order to be placed: single or OCO.
 
 You can enable chart trading by pressing and holding the Ctrl key as well.
 
@@ -48,20 +51,46 @@ Orders tooltips are always visible while trading: if order is Buy, then its icon
 
 To disable the chart trading, click the 'Mouse trading' button again, or just stop holding the Ctrl key.
 
-## Order modifying
+### Order modifying
 
-To change the order’s price, simply drag and drop the order marker![](<../../.gitbook/assets/5 (22).png>) to the desirable price. To start modifying other parameters, left-click on the order marker. The following buttons will appear:
+To change the order’s price, simply drag and drop the order marker ![](<../../.gitbook/assets/image (259).png>) to the desirable price. To start modifying other parameters, left-click on the order marker. The following buttons will appear:
 
-![](<../../.gitbook/assets/image (113).png>)
+<figure><img src="../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
 
-To cancel order, click the![](<../../.gitbook/assets/7 (20).png>)button.
+To cancel order, click the <img src="../../.gitbook/assets/7 (31).png" alt="" data-size="original"> button.
 
-Left-clicking the order qty allows to set the required number. Please note that an order can be changed to market by clicking the three-dot button located on the right side of the order widget:
+Left-clicking the order qty allows to set the required number.
 
-![](<../../.gitbook/assets/image (112).png>)
+<figure><img src="../../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure>
 
-Stop loss and Take profit
+{% hint style="warning" %}
+Please note that an order can be changed to market by clicking the three-dot button located on the right side of the order widget:
+{% endhint %}
+
+### Stop loss and Take profit
 
 If you need to set SL/TP to the order/position, left-click on the order/position marker. After that, SL/TP markers appear. Drag and Drop SL/TP prices to modify them:
 
-![](<../../.gitbook/assets/image (110).png>)
+<figure><img src="../../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure>
+
+### Leverage
+
+Leverage is expressed as a ratio, such as 10:1 or 25:1, representing the multiple by which the user's position size exceeds their actual capital. The leverage option can be available via visual trading:
+
+<figure><img src="../../.gitbook/assets/image (1428).png" alt=""><figcaption></figcaption></figure>
+
+The drop-down list with all leverage options is available by clicking on the leverage value.
+
+Opened position with leverage looks as follows:
+
+<figure><img src="../../.gitbook/assets/image (1429).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Leverage can’t be changed via visual trading when the position is opened.
+{% endhint %}
+
+### Overnight trading
+
+By clicking this icon, overnight trading will be enabled, making the order eligible for execution outside regular market hours:
+
+<figure><img src="../../.gitbook/assets/image (1629).png" alt=""><figcaption></figcaption></figure>

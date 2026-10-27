@@ -8,13 +8,13 @@ MAM groups may have an unlimited quantity of accounts. Trading within the MAM pa
 
 Account statistics is available for the prelinked accounts.
 
-## Allocation methods
+### Allocation methods
 
 There are four allocation methods available in MAM:
 
-| Allocation method       | Formula                                                                                                                                                                                                                                                                                     |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Lot multiplier          | <p><img src="../../../.gitbook/assets/1 (88).png" alt=""></p><p>MVol - order size entered by manager;</p><p>Vol i - volume of open positions on the subaccount;</p><p>k - coefficient from the accounts section of the MAM panel.</p>                                                       |
-| Lot allocation          | <p><img src="../../../.gitbook/assets/2 (73).png" alt=""></p><p>Vol i - volume of open positions on the subaccount;</p><p>MVol - order size entered by manager;</p><p>Lot i – the coefficient setting for the subaccount;</p><p>∑ Lot – sum of all coefficients of all active accounts.</p> |
-| Proportional by balance | <p><img src="../../../.gitbook/assets/3 (61).png" alt=""></p><p>balance i - the balance of the subaccount;</p><p>∑balance - the balance of all active subaccounts.</p>                                                                                                                      |
-| Proportional by equity  | <p><img src="../../../.gitbook/assets/4 (9).png" alt=""></p><p>Equity i - the equity of the subaccount;</p><p>∑Equity - the sum of equity of all subaccounts.</p>                                                                                                                           |
+| Allocation method       | Formula                                                                                                                                                                                                                                                                                                           |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Lot multiplier          | <p><img src="../../../.gitbook/assets/1 (181).png" alt="" data-size="original"></p><p>MVol - order size entered by manager;</p><p>Vol i - volume of open positions on the subaccount;</p><p>k - coefficient from the accounts section of the MAM panel.</p>                                                       |
+| Lot allocation          | <p><img src="../../../.gitbook/assets/2 (169).png" alt="" data-size="original"></p><p>Vol i - volume of open positions on the subaccount;</p><p>MVol - order size entered by manager;</p><p>Lot i – the coefficient setting for the subaccount;</p><p>∑ Lot – sum of all coefficients of all active accounts.</p> |
+| Proportional by balance | <p><img src="../../../.gitbook/assets/3 (136).png" alt="" data-size="original"></p><p>balance i - the balance of the subaccount;</p><p>∑balance - the balance of all active subaccounts.</p>                                                                                                                      |
+| Proportional by equity  | <p><img src="../../../.gitbook/assets/4 (61).png" alt="" data-size="original"></p><p>Equity i - the equity of the subaccount;</p><p>∑Equity - the sum of equity of all subaccounts.</p>                                                                                                                           |

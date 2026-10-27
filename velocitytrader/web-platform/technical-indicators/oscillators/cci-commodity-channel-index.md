@@ -7,11 +7,11 @@ Commodity channel index technical Indicator (CCI) measures the deviation of a co
 There are two basic techniques for using the Commodity channel index:
 
 * Divergence detection: a divergence occurs when the price reaches a new maximum, and the Commodity channel index cannot rise above the previous highs. This classical divergence is usually followed by price correction;
-* As an indicator of overbuying/overselling: the Commodity channel index usually fluctuates in the  ±100 range. Values above +100 indicate an overbought state (and the likelihood of a corrective decline), and values below -100 indicate an oversold condition (and a probability of a corrective increase).
+* As an indicator of overbuying/overselling: the Commodity channel index usually fluctuates in the ±100 range. Values above +100 indicate an overbought state (and the likelihood of a corrective decline), and values below -100 indicate an oversold condition (and a probability of a corrective increase).
 
 CCI typically oscillates above and below the zero line. Normal oscillations will occur within the range of +100 and −100. Readings above +100 imply an overbought condition, while readings below −100 imply an oversold condition. As with other overbought/oversold indicators, this means that there is a greater likelihood that the price will correct to more representative levels.
 
-## Calculation
+### Calculation
 
 To find the typical price, you need to add the HIGH, LOW, and CLOSE prices of each bar, and then divide the result by 3:
 
@@ -51,11 +51,11 @@ SUM — sum;
 
 N — number of periods used for the calculation.
 
-## Main parameters
+### Main parameters
 
 * Period of moving average – number of periods involved in the calculation, 14 by default;
 * Type of moving average – for selecting the MA type, available values: Simple, Exponential, Modified, Linear weighted.
 
 The indicator looks as follows on the chart:
 
-![](<../../../.gitbook/assets/cci (4).jpg>)
+<figure><img src="../../../.gitbook/assets/image (287).png" alt=""><figcaption></figcaption></figure>

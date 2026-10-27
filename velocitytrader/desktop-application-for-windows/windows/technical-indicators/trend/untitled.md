@@ -10,10 +10,10 @@ Using the ZigZag trading strategy is also useful when a trader wants to look at 
 
 The ZigZag is based on the chart type. Line and dot charts, which are based on the close, will show the ZigZag based on closing prices. High-Low-Close bars (HLC), Open-High-Low-Close (OHLC) bars, and candlesticks, which show the period's high-low range, will show the ZigZag based on this high-low range. A ZigZag based on the high-low range is more likely to change course than a ZigZag based on the close because the high-low range will be much larger and produce bigger swings.
 
-## Main parameters
+### Main parameters
 
 Percent deviation – percentage of a price change that is required to change the trend line from positive to negative.
 
 The indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/screenshot_2 (34).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_2 (36).jpg>)

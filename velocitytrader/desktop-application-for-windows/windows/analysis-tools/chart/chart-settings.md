@@ -2,7 +2,7 @@
 
 Chart settings can be opened through the context menu of the Chart panel:
 
-## **Data style**
+#### **Data style**
 
 ![](<../../../../.gitbook/assets/27 (1).png>)
 
@@ -10,9 +10,9 @@ Chart settings can be opened through the context menu of the Chart panel:
 * Data type - the way to accept data. Available types are: Bid, Ask, Last and Default by symbol. Based on server settings Last or Bid/Ask type can be disabled.
 * Color settings for all styles.
 
-## View
+#### View
 
-![](../../../../.gitbook/assets/view1-desktop.png)
+![](<../../../../.gitbook/assets/view1 десктоп.png>)
 
 * Back color - allows setting up the color of the chart background.
 * Watermark color - allows setting up the color of the watermark.
@@ -22,9 +22,9 @@ Chart settings can be opened through the context menu of the Chart panel:
 * Time to next bar - allows activating and setting up color of figures that show remaining time to the next bar.
 * Additional - allows activating Drawing toolbar, Scrollbar chart preview, Chart toolbar.
 
-![](../../../../.gitbook/assets/view2-desktop.png)
+![](<../../../../.gitbook/assets/view2 десктоп.png>)
 
-## **Time scale**
+#### **Time scale**
 
 ![](../../../../.gitbook/assets/29.png)
 
@@ -34,13 +34,14 @@ Chart settings can be opened through the context menu of the Chart panel:
 * Highlight extended sessions - all extended sessions that were set on the server for the current symbol will be displayed in selected color.
 * Highlight date - allows displaying separator lines for: Days, Weeks, Months, and Years.
 
-## **Price scale**
+#### **Price scale**
 
-![](<../../../../.gitbook/assets/30 (1).png>)
+![](../../../../.gitbook/assets/c3.png)
 
-![](<../../../../.gitbook/assets/31 (1).png>)
+![](<../../../../.gitbook/assets/31 (2).png>)
 
-* Scale type - allows selecting type of the scale price and start price for the chart: Absolute, Relative and Logarithmic.
+* Invert scale - enables the reverse display of the price scale. If checked, the increase in price will be dispayed from top to bottom.
+* Scale type - allows selecting type of the price scale and start price for the chart: Absolute, Relative, Logarithmic.
   * Absolute - displays the price scale in the absolute units.
   * Relative - displays the price scale in the relative units, where as a starting point can be used: first point of the screen visibility, point of the day opening, and starting point of the history.
   * Logarithmic - logarithmic scale representation, where as a starting point can be used the same points as for relative scale.
@@ -56,6 +57,7 @@ Chart settings can be opened through the context menu of the Chart panel:
   * Ask price color
   * Last price color
   * Bid price color
+* Display Heiken Ashi value instead of last price - if checked, only the Last price is displayed on the price scale. If unchecked, both the Last price and the calculated Close value according to the selected aggregation type are displayed (available only for charts with Heiken Ashi style);
 * Spread type - allows setting up the way of spread displaying:
   * None
   * Area
@@ -63,7 +65,7 @@ Chart settings can be opened through the context menu of the Chart panel:
   * Line with price (Bid and Ask)
   * Price
 
-If spread type is None - single price indicator is shown, depending on chart data type (Bid, Last, Ask etc.)
+If spread type is None, then single price indicator will be shown, depending on chart data type (Bid, Last, Ask etc.)
 
 * Spread area color - color of spread area (if it's chosen as spread type).
 * Previous close line - type and color. Available only for Time, Tick, Price range and Heikin Ashi aggregation types.
@@ -71,33 +73,37 @@ If spread type is None - single price indicator is shown, depending on chart dat
 * Settlement price - allows displaying settlement price on the chart and choosing the style of its line.
 * Previous settlement price - allows displaying previous settlement price on the chart and choosing the style of its line.
 
-## Alerts
+#### Alerts
 
-![](<../../../../.gitbook/assets/image (57).png>)
+![](<../../../../.gitbook/assets/image (840).png>)
 
-* Notification – _\*\*_&#x61;llows selecting the type of notification sent after alert triggering, the following types are available: Email, Push, Pop-up, Sound;
+* Notification – allows selecting the type of notification sent after alert triggering, the following types are available: Email, Push, Pop-up, Sound;
 * Importance – allows to define the importance of the alert. The following options are available: High, Medium, Low;
 * After execute – allows to select alert behavior after execution. Available options are: Stop or Remove.
 
-## **Visual trading**
+#### **Visual trading**
 
-![](<../../../../.gitbook/assets/32 (1).png>)
+![](../../../../.gitbook/assets/32.png)
 
 * Open positions - allows displaying opened positions on chart and setting up style of lines.
 * Working orders - allows displaying working orders on the chart and setting up the style of lines.
 * Filled orders - allows displaying filled orders on chart.
 * Additional - allows displaying active positions/orders on the left side of the Chart area and trading through Order entry.
 
-## **Chart Order entry**
+#### **Chart Order entry**
 
 ![](<../../../../.gitbook/assets/33 (1).png>)
 
 This section allows choosing buttons and hot buttons which will be displayed in built-in Order entry.
 
-## **Info window**
+#### **Info window**
 
-![](../../../../.gitbook/assets/desktop-windows.jpg)
+<figure><img src="../../../../.gitbook/assets/Screenshot_10 (5).jpg" alt="" width="563"><figcaption></figcaption></figure>
 
-This section allows setting up contents of the Info window and the style of its displaying. You can select from the following Info Window Modes: Separate Window, Attached To Cursor, Hidden. Please note that this setting allows changing the background and text colors for various info windows, for example, those that are expanded when using the 'Right information button' on the chart.
+This section allows setting up contents of the Info window and the style of its displaying. You can select from the following Info Window Modes: Separate Window, Attached To Cursor, Hidden.
+
+{% hint style="warning" %}
+Please note that this setting allows changing the background and text colors for various info windows, for example, those that are expanded when using the 'Right information button' on the chart.
+{% endhint %}
 
 Other settings sections (Volume bars, Price statistics, etc.) are described in the articles located in the 'Analysis tools' documentation section.

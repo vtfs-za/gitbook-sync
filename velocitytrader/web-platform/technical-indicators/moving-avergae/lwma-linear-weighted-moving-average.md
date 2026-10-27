@@ -6,7 +6,7 @@ The Linear moving average is less inert than the Simple moving average. When com
 
 The Linear weighted moving average is used just like EMA, most traders use LWMA in conjunction with a simple moving average. Buy and sell signals can be generated during breakouts and crossovers of moving averages. Trends are confirmed when SMA and LWMA move in the same direction.
 
-## Calculation
+### Calculation
 
 In the case of the weighted moving average, the latest data is of more value than the earlier data. The Weighted moving average is calculated by multiplying each closing price of the series by a certain weight coefficient:
 
@@ -22,11 +22,11 @@ SUM (i, N) — total sum of weight coefficients;
 
 N — smoothing period.
 
-## Main parameters
+### Main parameters
 
 * Period of Linear weighted moving average – the number of periods involved in the indicator, 9 by default;
-* Sources prices for MA –  price type at which the indicator will be calculated. Available values: Low, Open, High, Close, Typical, Medium, Weighted.
+* Sources prices for MA – price type at which the indicator will be calculated. Available values: Low, Open, High, Close, Typical, Medium, Weighted.
 
 This indicator looks as follows on the chart:
 
-![](../../../.gitbook/assets/lwma.jpg)
+<figure><img src="../../../.gitbook/assets/image (282).png" alt=""><figcaption></figcaption></figure>

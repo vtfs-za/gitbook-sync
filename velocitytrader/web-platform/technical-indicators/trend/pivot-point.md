@@ -10,7 +10,7 @@ This indicator is a multi-level tool, due to that, the trader can choose the mos
 
 Support and resistance levels data obtained with the help of the indicator allows predicting possible levels of Stop Loss and Take Profit with high precision.
 
-## Calculation
+### Calculation
 
 Pivot points theory provides several algorithms for the calculation.
 
@@ -36,13 +36,13 @@ R3 = C + (H – L) **\*** 0.275
 
 R2 = C + (H – L) \* 0.182
 
-R1 = C + (H – L) \* **0.0916**&#x20;
+R1 = C + (H – L) \* 0.0916
 
 PP = (H + L + C) / 3
 
 S1 = C – (H – L) \* 0.0916
 
-S2 = C – (H – L) \* \_\_0.183
+S2 = C – (H – L) \* 0.183
 
 S3 = C – (H – L) _\*_ 0.275
 
@@ -52,13 +52,13 @@ R3 = PP + 1.000 **\*** (H – L)
 
 R2 = PP + 0.618 _\*_ (H – L)
 
-R1 = PP + 0.382 \* \_\_(H – L)
+R1 = PP + 0.382 \* (H – L)
 
 PP = (H + L + C) / 3
 
 S1 = PP – 0.382 _\*_ (H – L)
 
-S2 = PP – 0.618 \* \_\_(H – L)
+S2 = PP – 0.618 \* (H – L)
 
 S3 = PP – 1.000 _\*_ (H – L)
 
@@ -86,9 +86,9 @@ PP = X / 4
 
 S1 = X / 2 – H
 
-if C\[1] < O\[0] then X = (H + (L \_\_2) + C)
+if C\[1] < O\[0] then X = (H + (L 2) + C)
 
-if C\[1] > **O\[0] then X = ((H** 2) + L + C)
+if C\[1] > O\[0] then X = ((H 2) + L + C)
 
 if C\[1] = O\[0] then X = (H + L + (C \* 2))
 
@@ -104,7 +104,7 @@ where,
 
 Note: parameters C, O, H, L are taken according to the "Base period" setting.
 
-## Main parameters
+### Main parameters
 
 * Only current period – defines whether Pivot levels are plotted based on previous periods. Example: if the parameter is set to "true" and the Base period = Day, Value = 1 are specified, then the lines will be plotted based on the previous D1 bar values, but will be plotted on the current day area, i.e. along the X-axis but within the current day range. If the parameter value is "false", then the Pivot lines are also plotted on the historical data, according to the "from the past to the future" principle;
 * Base period: hour, day, week, and month;
@@ -112,4 +112,4 @@ Note: parameters C, O, H, L are taken according to the "Base period" setting.
 
 The indicator itself looks as follows on the chart:
 
-![](../../../.gitbook/assets/pivot-point.jpg)
+<figure><img src="../../../.gitbook/assets/image (305).png" alt=""><figcaption></figcaption></figure>

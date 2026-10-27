@@ -7,9 +7,9 @@ This indicator consists of:
 * Zero line – shows zero on the chart for user convenience;
 * Positive deviation – shows the value of the positive standard deviation, shifted N times up;
 * Negative deviation – shows the value of the negative standard deviation shifted N times down;
-* Delta – shows the difference between the current value and the value of the moving average at a given point.&#x20;
+* Delta – shows the difference between the current value and the value of the moving average at a given point.
 
-## Calculation
+### Calculation
 
 As can be understood from the above, only three components of the indicator are calculated:
 
@@ -25,9 +25,9 @@ A - deviation parameter value,
 
 D - dispersion relative to the moving average,
 
-Negative deviation = (-1) \_\_A \* D
+Negative deviation = (-1) A \* D
 
-## Main parameters
+### Main parameters
 
 * Sources prices for MA – the type of price at which the indicator will be calculated for the selected period. Available values: Low, Open, High, Close, Typical, Medium, Weighted;
 * Type of moving average – type of moving average calculation. Available values: Simple, Exponential, Modified, Linear weighted;
@@ -37,4 +37,4 @@ Negative deviation = (-1) \_\_A \* D
 
 This looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/bbf (6).jpg>)
+![](<../../../../.gitbook/assets/BBF (8).jpg>)

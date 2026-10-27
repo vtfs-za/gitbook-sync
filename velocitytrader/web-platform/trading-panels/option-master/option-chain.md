@@ -1,0 +1,75 @@
+# Option chain
+
+The option chain tab shows detailed information about specific option contract and allows to trade with it.
+
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+**Columns**
+
+Right-click on any column name to select the columns, which can be displayed in the panel. The following columns are available in the panel:
+
+* Symbol - selected symbol;
+* Last - last price by underlier;
+* IV (Implied volatility) - the expected volatility of the option which characterizes the degree of underlier price volatility. If IV is high, strong fluctuations of underlier price are expected;
+* Gamma – the second derivative of the option price by the underlier price; shows the rapidity of the option delta change;
+* Ask - price at which a seller is willing to sell an asset.
+* Bid - price at which a buyer is willing to purchase an asset.
+* Size – the volume being offered to purchase at a specified Bid price or to Sell at a specified Ask price;
+* Delta – the first derivative of the option price by the underlier price; shows how option price will be changed in points, if the underlier price changes by 1 point;
+* Theta – the first derivative of the option price by time; shows how the option price will be reduced after one day;
+* Vega – the first derivative of the option price by volatility; shows how option price will be changed in points, if the volatility changes by 1%;
+* Volume – the total amount traded today;
+* Rho - sensitivity of an option’s price to change in interest rates;
+* Change, % – the price deviation from current day's opening price in a percentage;
+* Open – the day's open price;
+* High – the day's highest price;
+* Low – the day's lowest price;
+* Previous close – the previous day's close price;
+* Last time - time of the last quote update.
+
+In Option chain tab the coloring method “By difference” is used. Depending on what type of price change comes at a certain strike to buy or sell, it is highlighted in green or red.
+
+Check the needed option contracts in order to make them accessible for the trading in the Option chain tab.
+
+IV (Implied volatility) column shows expected volatility of the option which characterizes the degree of underlier price volatility. If IV is high, strong fluctuations of underlier price are expected.
+
+Open interest column shows the total amount of open positions.
+
+Edit the 'Trade' column opposite to the corresponding strike in order to add a position. Set negative value to open a short position, and positive to open a long position with the corresponding quantity. Immediately after adding all positions will have the "paper" status and will be displayed in the 'Test on paper' tab. To transfer "paper" positions to the really existing, check needed in the 'Send' column and click 'Place all' button. After placing these positions will be displayed in the Positions tab.
+
+Double-click on the selected row from strike table evokes Order entry panel pre-filled with selected account and strike.
+
+Each specific strike row allows evoking its context menu with options to open the following panels in one click: Order entry and Chart.
+
+{% hint style="warning" %}
+![](<../../../.gitbook/assets/image (14).png>) - Indicates that multiple option contracts with the same strike price exist within the series. When hovered, displays additional information about the strike version, including the Underlier and Version (if specified).
+{% endhint %}
+
+Use ‘Analyzer’ and ‘Volatility lab’ tabs to analyze "paper" positions before the real trading.
+
+<figure><img src="../../../.gitbook/assets/image (1442).png" alt=""><figcaption></figcaption></figure>
+
+**Positions** tab shows actually existing positions by Options with previously selected in the Instrument lookup underlier; positions opened by this underlier can be also displayed here.
+
+**Orders** tab shows all orders by Options with previously selected in the Instrument lookup underlier; orders created by this underlier can be also displayed here.
+
+**Test on paper** tab shows all 'test on paper' results, and also all actually existing positions which form the portfolio. Use 'Analyze' and 'Send' checkboxes to manage the portfolio. Check/uncheck the corresponding boxes in order to define which positions need to be analyzed in Analyzer tab or opened. Use 'Place all' button in order to send all selected positions to the exchange. Click 'Remove' to delete the corresponding position.
+
+Test on paper panel contains a very useful column “Link” which is hidden by default and is used to link current asset price to the column “Price” of created (paper) order. “Link” values: Ask, Bid and Last.
+
+The Leverage column contains leverage value, if applicable.
+
+The following buttons of the tab allow the following actions:
+
+* Add underlier - opens ‘Order entry’ panel.
+* Cancel all - cancels all 'test on paper' orders;
+* Place selected - places selected 'test on paper' orders.
+
+{% hint style="warning" %}
+If short positions are not allowed for the instrument (Options or Underlier), a notification about the prohibition of setting short positions will be displayed. In the “Test on paper” table, rows with orders will be coloured red when Side = Sell, Quantity < 0, Type = Paper, based on:
+
+* Underlier - for orders which are created via the “Add underlier” button;
+* Options - for orders which are created by specifying Quantity with a negative sign in the “Paper position” column (in Call/Put tables), leading to the opening of a short position.
+
+Thus, if the “Test on paper” tab contains at least one order with a red fill, then short positions will be forbidden.
+{% endhint %}

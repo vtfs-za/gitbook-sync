@@ -6,7 +6,7 @@ Average True Range can often reach a high value at the bottom of the market afte
 
 The ATR is commonly used as an exit method that can be applied regardless of how the entry decision is made. One popular technique that is known as "chandelier exiting" was developed by Chuck LeBeau. According to this technique, a trailing stop is placed below the highest high the stock has reached since you entered the trade. The distance between the highest high and the stop level is defined as multiple ATR values. For example, we can subtract three times the ATR value from the highest high since entering the trade.
 
-## Calculation
+### Calculation
 
 The range of a day’s trading is simply _high – low_. The true range extends it to yesterday’s closing price if it was outside of today’s range:
 
@@ -20,22 +20,30 @@ The true range is the largest of the:
 
 The ATR at the moment of time _t_ is calculated using the following formula:
 
-![](<../../../../.gitbook/assets/image (44).png>)
+<div align="left"><img src="../../../../.gitbook/assets/image (1050).png" alt=""></div>
 
 The first ATR value is calculated using the arithmetic mean formula:
 
-![](<../../../../.gitbook/assets/image (41).png>)
+<div align="left"><img src="../../../../.gitbook/assets/image (1017).png" alt=""></div>
 
 **ATR analysis basics**
 
 * The greater the indicator value, the greater the possibility for a trend reversal;
 * The smaller the value, the weaker the trend.
 
-## Main parameters
+### Main parameters
 
 * Period of Moving average – number of periods involved in the indicator calculation, 13 by default;
-* Type of Moving average – Moving average calculation type, available values: Simple, Exponential, Modified, Linear weighted.
+*   Type of Moving average – Moving average calculation type, available values: Simple, Exponential, Modified, Linear weighted and Deviation-based.<br>
+
+    When _Deviation-based_ type is selected, the following additional parameters become available:
+
+    * Upper deviation (%) – upper deviation threshold used for bar filtering;
+    * Lower deviation (%) – lower deviation threshold used for bar filtering;
+    * Bar filter – if checked, enables filtering of bars based on the configured deviation thresholds;
+    * ATR Deviation-based – color of the ATR line;
+    * Maximum Movement from Previous Close – color of the MMPC line.
 
 The indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/screenshot_2 (31).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_2 (42).jpg>)

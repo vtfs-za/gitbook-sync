@@ -6,4 +6,4 @@ All customers can use the auxiliary functions when working with VelocityTrader W
 * About – allows showing service information about current version of the Web application;
 * External link – when configured in the Back Office, allows opening an external link content in a dedicated detachable panel named after the link text.
 
-![](<../.gitbook/assets/screenshot_4 (1).png>)
+<figure><img src="../.gitbook/assets/image (1456).png" alt=""><figcaption></figcaption></figure>

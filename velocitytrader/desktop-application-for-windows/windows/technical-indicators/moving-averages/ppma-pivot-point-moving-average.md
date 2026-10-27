@@ -4,7 +4,7 @@ Pivot point analysis is a method of identifying key levels that the price can re
 
 This indicator was designed to smooth out market noise and show market trends more clearly. The goals are achieved in the same way as in the case of the Simple moving average indicator. The only difference is the original price used to calculate the two indicators: Simple moving average uses any price from the list of data sources (mainly the closing price), while PPMA uses Pivot point values ​​that are calculated for each period. Whether used alone or in combination with other methods, pivots are a useful tool in a technical trader's toolbox.
 
-## Calculation
+### Calculation
 
 Pivot Point = (High + Low + Close) / 3 ( Typical Price )
 
@@ -14,10 +14,10 @@ SMA = Simple Moving Average
 
 period = calculation time period
 
-## Main parameters
+### Main parameters
 
 Period of PPMA – allows to specify the number of periods, over which the indicator is to be calculated. The smaller the number is, the fewer market noises the indicator filters, and the faster it reacts to the market price changes.
 
 This indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/screenshot_2 (26).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_2 (29).jpg>)

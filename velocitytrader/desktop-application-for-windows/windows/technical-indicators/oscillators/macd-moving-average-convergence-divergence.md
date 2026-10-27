@@ -6,7 +6,7 @@ The MACD was invented by Gerald Appel in the 1970s, and in 1986, Thomas Aspray a
 
 The MACD is considered a trend-following tool due to the use of moving averages. By subtracting the longer period moving average, the MACD converts from a lagging indicator to a momentum oscillator. MACD fluctuates above and below zero without any upper or lower boundaries.
 
-## Calculation
+### Calculation
 
 The MACD is calculated by subtracting the 26-period exponential moving average value from the 12-period exponential moving average. A 9-period dotted simple moving average of the MACD (signal line) is then plotted on top of the MACD.
 
@@ -20,7 +20,7 @@ Where:
 * SMA — Simple moving average;
 * SIGNAL — the signal line of the indicator.
 
-## Main parameters
+### Main parameters
 
 * FastEMA –number of periods for calculating the exponential moving average, 12 by default (classic value for this indicator);
 * SlowEMA – number of periods for calculating the exponential moving average, 26 by default (classic value for this indicator);
@@ -36,4 +36,4 @@ An indication that the end of the current trend may be near occurs when the MACD
 
 This indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/screenshot_3 (13).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_3 (26).jpg>)
