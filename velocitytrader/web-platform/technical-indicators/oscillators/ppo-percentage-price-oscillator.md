@@ -12,7 +12,7 @@ When the PPO is above zero, it helps to confirm the uptrend as the short-term EM
 
 Crossing the center line also generates trading signals. Traders view a move from below to above the center line as bullish and a move from above to below the center line as bearish. PPO crosses the center line at the intersection of the 12-period and 26-period moving averages.
 
-### Main parameters
+## Main parameters
 
 * Fast EMA period – for selecting the period of fast EMA, 12 by default;
 * Slow EMA period – for selecting the period of slow EMA, 26 by default;
@@ -20,4 +20,4 @@ Crossing the center line also generates trading signals. Traders view a move fro
 
 The indicator itself looks as follows on the chart:
 
-<figure><img src="../../../.gitbook/assets/image (290).png" alt=""><figcaption></figcaption></figure>
+![](../../../.gitbook/assets/ppo.jpg)

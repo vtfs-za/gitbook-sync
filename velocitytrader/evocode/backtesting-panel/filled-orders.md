@@ -2,7 +2,7 @@
 
 Filled orders panel displays trading history performed during backtesting.
 
-![](<../../.gitbook/assets/2 (34).png>)
+![](<../../.gitbook/assets/2 (27).png>)
 
 The following columns are available in the panel:
 
@@ -11,7 +11,7 @@ The following columns are available in the panel:
 * Quantity – amount of the trade;
 * Price – shows price at which the order fills;
 * Date/Time – date/time when the operation was executed.
-*  Trade ID – unique number of the trade;
+* Trade ID – unique number of the trade;
 * Order ID – unique number that the trading system assigns to each order. If a position is opened based on an order, the position will have the same number;
 * Exposure – quantity recalculated in account currency;
 * Order type – type of order;
@@ -19,13 +19,13 @@ The following columns are available in the panel:
 * Gross P/L – total profit/loss of the trade;
 *   Bought
 
-    &#x20;      \- In case of Forex:
+    * In case of Forex:
 
     if 'Side = Buy', then this column shows the value of 'Price \* Lot size \* Qty.' in base currency;
 
     if 'Side = Sell', then this column shows the value of 'Price \* Lot size \* Qty.' in quoting currency.
 
-    &#x20;      \- In case of Futures, Futures CFD, Options
+    * In case of Futures, Futures CFD, Options
 
     with 'Quoting type=Tick cost/Tick size':
 
@@ -39,20 +39,20 @@ The following columns are available in the panel:
 
     if 'Side = Sell', then this column shows the value of 'Qty \* Lot size \* Price'.
 
-    &#x20;      \- In other cases:
+    * In other cases:
 
     if 'Side = Buy', then this column shows the value of 'Qty. \* Lot size' – amount of bought assets (contracts, equities);
 
     if 'Side = Sell', then this column shows the value of 'Price \* Lot size \* Qty.' in quoting currency.
 *   Sold
 
-    &#x20;      \- In case of Forex:
+    * In case of Forex:
 
     if 'Side = Sell', then this column shows the value of 'Price \* Lot size \* Qty.' in base currency;
 
     if 'Side = Buy', then this column shows the value of 'Price \* Lot size \* Qty.' in quoting currency.
 
-    &#x20;      \- In case of Futures, Futures CFD, Options
+    * In case of Futures, Futures CFD, Options
 
     with 'Quoting type=Tick cost/Tick size':
 
@@ -66,7 +66,7 @@ The following columns are available in the panel:
 
     if 'Side = Sell', then this column shows the value of 'Qty' .
 
-    &#x20;      \- In other cases:
+    * In other cases:
 
     if 'Side = Buy', then this column shows the value of 'Price \* Lot size \* Qty.' in quoting currency;
 
@@ -74,7 +74,7 @@ The following columns are available in the panel:
 * Expiry date – date of contract expiration;
 * Strike price – price of option contract performance.
 
-### **Context menu**
+## **Context menu**
 
 Customer can also use standard functions from context menu of the panel:
 

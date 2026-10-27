@@ -7,7 +7,7 @@ According to the Technical Analysis theory:
 * a buy signal can be considered when the Swing Index crosses over zero value - the trader can expect a short-term upward price movement - the price is not growing yet, but we have an upward swing;
 * a sell signal can be viewed when the Swing Index falls below zero - the trader can expect a short-term downward price movement - the price has not yet moved down, but we are starting to have a downward swing.
 
-### Calculation
+## Calculation
 
 The basic formula for the Swing Index is:
 
@@ -47,10 +47,10 @@ If (3) is the largest, R = (Hу - Lу) + .25(C - O)
 
 T = move limit in one direction
 
-### Main parameters
+## Main parameters
 
-T -  move limit value in one direction, default is 300.0
+T - move limit value in one direction, default is 300.0
 
 The indicator looks as follows on the chart:
 
-<figure><img src="../../../.gitbook/assets/image (304).png" alt=""><figcaption></figcaption></figure>
+![](<../../../.gitbook/assets/screenshot_1 (38).jpg>)

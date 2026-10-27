@@ -10,7 +10,7 @@ Acceleration oscillator is able to quite accurately predict the phases of price 
 
 In the case when the AC indicator is below zero, the presence of three successively growing green bars can serve as a signal to buy. The same is true for sales.
 
-### Main parameters
+## Main parameters
 
 The main parameters concern the appearance of the histogram, the user can select the desired color and line thickness. The following colors are used by default:
 
@@ -19,7 +19,4 @@ The main parameters concern the appearance of the histogram, the user can select
 
 The indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/Screenshot_2 (50).jpg>)
-
-
-
+![](<../../../../.gitbook/assets/screenshot_2 (18).jpg>)

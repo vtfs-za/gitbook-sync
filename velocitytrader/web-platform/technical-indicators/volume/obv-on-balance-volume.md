@@ -14,11 +14,11 @@ Trend Confirmation - to confirm the direction of the trend, see if the OBV line 
 
 Potential breakout or breakdown from the ranging market - during ranging market conditions, you should watch closely for increases or decreases in on-board volume indicator values ​​as this could signal a potential price breakout or fall. The rising OBV line can warn of a potential breakout to the upside because accumulation is taking place.
 
-### Calculation
+## Calculation
 
-<div align="left"><img src="../../../.gitbook/assets/image (1014).png" alt=""></div>
+![](<../../../.gitbook/assets/image (46).png>)
 
-Where:&#x20;
+Where:
 
 OBV = Current on-balance volume level;
 
@@ -26,12 +26,10 @@ OBV prev = Previous on-balance volume level;
 
 Volume = Latest trading volume amount.
 
-Note: For the first calculated value of the indicator, take the volume of the first bar as the previous OBV value.
-
-### Main parameters
+## Main parameters
 
 Sources prices for OBV: Close, Open, High, Low, Typical, Medium, or Weighted.
 
 The indicator looks as follows on the chart:
 
-<figure><img src="../../../.gitbook/assets/image (303).png" alt=""><figcaption></figcaption></figure>
+![](../../../.gitbook/assets/obv.jpg)

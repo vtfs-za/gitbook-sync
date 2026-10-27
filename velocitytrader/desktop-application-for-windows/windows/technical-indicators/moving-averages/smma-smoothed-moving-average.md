@@ -4,7 +4,7 @@ The Smoothed moving average is a kind of mix of a Simple moving average and an E
 
 This moving average is used to monitor price changes. The effect of the moving average is to smooth out the price movement so that the long-term trend becomes less volatile and therefore more obvious. When the price rises above the moving average, it indicates that investors are becoming bullish on the commodity. When prices fall lower, it indicates a bearish commodity. In addition, when the moving average crosses the longer-term moving average, research indicates a downward reversal of the market. When the short-term moving average crosses the longer-term moving average, it indicates an upswing in the market. The longer the period of the moving average, the smoother the price movement. Longer moving averages are used to highlight long-term trends.
 
-### Calculation
+## Calculation
 
 The first value of the Smoothed moving average is calculated as the simple moving average (SMA):
 
@@ -42,11 +42,11 @@ After arithmetic conversions, the formula can be simplified:
 
 SMMA (i) = (SMMA (i - 1) \* (N - 1) + CLOSE (i)) / N
 
-### Main parameters
+## Main parameters
 
 * Period of smoothed moving average – allows specifying the number of periods, over which the indicator is calculated;
 * Sources prices for MA – determines the type of price at which the moving average is calculated, available values: Close, Open, High, Low, Median, Typical, Weighted.
 
 The indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/Screenshot_1 (9).jpg>)
+![](<../../../../.gitbook/assets/screenshot_1 (18).jpg>)

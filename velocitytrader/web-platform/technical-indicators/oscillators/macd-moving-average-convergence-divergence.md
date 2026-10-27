@@ -14,7 +14,7 @@ The basic rule of MACD trading is to sell when the MACD falls below the signal l
 
 An indication that the end of the current trend may be near occurs when the MACD diverges from the symbol. A bullish divergence occurs when the Moving average convergence/divergence indicator reaches new highs while prices fail to reach them. A bearish divergence occurs when the MACD makes new lows while prices fail to reach new lows. Both of these divergences are most significant when they occur at relatively overbought/oversold levels.
 
-### Calculation
+## Calculation
 
 The MACD is calculated by subtracting the 26-period exponential moving average value from the 12-period exponential moving average. A 9-period dotted simple moving average of the MACD (signal line) is then plotted on top of the MACD.
 
@@ -28,7 +28,7 @@ Where:
 * SMA — Simple moving average;
 * SIGNAL — the signal line of the indicator.
 
-### Main parameters
+## Main parameters
 
 * Sources prices for MA – determines the type of price at which the moving average is calculated, available values: Close, Open, High, Low, Median, Typical, Weighted;
 * Period of FastEMA –number of periods for calculating the exponential moving average, 12 by default (classic value for this indicator);
@@ -38,4 +38,4 @@ Where:
 
 This indicator looks as follows on the chart:
 
-<figure><img src="../../../.gitbook/assets/image (283).png" alt=""><figcaption></figcaption></figure>
+![](../../../.gitbook/assets/macd.jpg)

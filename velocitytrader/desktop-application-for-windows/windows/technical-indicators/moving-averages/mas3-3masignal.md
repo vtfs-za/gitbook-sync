@@ -2,13 +2,13 @@
 
 As the name of this technical indicator implies, its plotting is based on the intersection of three Moving averages, namely: Short moving average, Middle moving average, and Long Moving Average. Utilizing this technical indicator the user can get three signals in one: the intersection of three moving averages.
 
-### Calculation
+## Calculation
 
-This indicator is calculated in three stages. At the first stage, the number of the period from which the indicator will be calculated is determined. For this, the following values specified by the user in the settings are used: short period, middle period, long period, and amount of bars passed before opening position.&#x20;
+This indicator is calculated in three stages. At the first stage, the number of the period from which the indicator will be calculated is determined. For this, the following values specified by the user in the settings are used: short period, middle period, long period, and amount of bars passed before opening position.
 
-At the second stage, a moving average is calculated for all three periods.&#x20;
+At the second stage, a moving average is calculated for all three periods.
 
-At the third stage, the indicator value is calculated cyclically. The number of calculation cycles is equal to the number of bars passed before the opening position. If the number of bars passed before an opening position is negative or equal to zero, then the indicator value at any point is equal to zero.&#x20;
+At the third stage, the indicator value is calculated cyclically. The number of calculation cycles is equal to the number of bars passed before the opening position. If the number of bars passed before an opening position is negative or equal to zero, then the indicator value at any point is equal to zero.
 
 During the first calculation cycle of the current indicator value, the following conditions are checked:
 
@@ -28,7 +28,7 @@ The indicator value is calculated for the period that is away from the current p
 
 If none of the conditions is met, then the indicator value for this calculation cycle remains the same and moving to the next calculation cycle.
 
-### Main parameters
+## Main parameters
 
 * Short moving average – the number of periods involved in calculating the moving average;
 * Middle moving average – the number of periods involved in calculating the moving average;
@@ -37,4 +37,4 @@ If none of the conditions is met, then the indicator value for this calculation 
 
 This technical indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/Screenshot_1 (48).jpg>)
+![](<../../../../.gitbook/assets/screenshot_1 (17).jpg>)

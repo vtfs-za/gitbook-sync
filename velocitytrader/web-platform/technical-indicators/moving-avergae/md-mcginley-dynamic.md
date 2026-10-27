@@ -2,7 +2,7 @@
 
 A little known technical indicator developed by John McGinley in 1990. The indicator attempts to solve a problem inherent in moving averages that use fixed time intervals (i.e. moving averages with a period of 10 or 21), the problem that causes those moving averages to be outrun in fast markets.
 
-The McGinley Dynamic indicator (MD) was developed to avoid false trading signals due to volatility spikes. While this looks like a "normal" moving average, it actually uses an offset to push the moving average forward 1 period and a volatility filter to avoid reversals. While simple and exponential moving averages are faster than the MD, the MD adjusts to faster/slower moving markets and has a more stable track record when associated with longer-term trends.&#x20;
+The McGinley Dynamic indicator (MD) was developed to avoid false trading signals due to volatility spikes. While this looks like a "normal" moving average, it actually uses an offset to push the moving average forward 1 period and a volatility filter to avoid reversals. While simple and exponential moving averages are faster than the MD, the MD adjusts to faster/slower moving markets and has a more stable track record when associated with longer-term trends.
 
 Key findings of the indicator are:
 
@@ -10,18 +10,18 @@ Key findings of the indicator are:
 * The McGinley Dynamic indicator solves the problem of changing market speeds by including an automatic adjustment factor in its formula that speeds up or slows down the indicator in trending or ranging markets;
 * The McGinley Dynamic Indicator enhances conventional moving averages by minimizing price separation and volatile reversals to more accurately reflect price movement.
 
-### Calculation
+## Calculation
 
 The indicator is calculated using the following simplified formula:
 
 Dynamic = Yesterday's EMA + ( ( Today's close - Yesterday's EMA ) / ( Today's close / Yesterday's EMA \* 125 ) )
 
-Where:&#x20;
+Where:
 
 * 125 - smoothing factor (periods) set by default;
 * EMA – Exponential moving average.
 
-### Main settings
+## Main settings
 
 The main setting of this indicator, which differs from others, is Periods of smoothing i.e. the number of periods involved in smoothing the indicator.
 
@@ -37,4 +37,4 @@ McGinley indicator should be combined with moving averages to form a Forex tradi
 
 This indicator looks as follows on the chart:
 
-<figure><img src="../../../.gitbook/assets/image (275).png" alt=""><figcaption></figcaption></figure>
+![](<../../../.gitbook/assets/md (1).jpg>)

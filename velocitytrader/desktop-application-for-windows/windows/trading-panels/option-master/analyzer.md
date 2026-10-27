@@ -4,7 +4,7 @@ Analyzer tab is used for graphic analysis before starting to trade options.
 
 Analyzer tab has the general view as follows:
 
-![](<../../../../.gitbook/assets/Analyzer (1).jpg>)
+![](../../../../.gitbook/assets/analyzer.jpg)
 
 The main purpose of this tab is to describe graphically the portfolio of positions (Test on paper tab), and also to model changing of impact factors on portfolio.
 
@@ -33,7 +33,7 @@ Probability calculation:
 
 Option analyzer chart has a possibility to display additional data ("greeks") in the form of **overlays**.
 
-![](<../../../../.gitbook/assets/gamma (1).png>)
+![](../../../../.gitbook/assets/gamma.png)
 
 Analyzer chart has two axes: main (right) and auxiliary (left). Not only auxiliary data series ("greeks"), but the same data as on the main axis can be displayed on the left axis. If both axes contain the same data, for example, PL, then only one data series will be displayed on both axes; there is no overlay in such case. Auxiliary axis supports Auto/Manual chart mode.
 
@@ -41,7 +41,7 @@ Right click by the auxiliary axis and choose data series to display as overlay o
 
 Only one data series can be selected. "What if" scenario is not applied to the data series located on the auxiliary axes. Double click in the chart area or by X axis in order to enable Auto scale mode for both axes simultaneously.
 
-### **Probability calculation algorithm**
+## **Probability calculation algorithm**
 
 **Single mode**
 

@@ -4,7 +4,7 @@ The Option master panel shows detailed information about options, allows to anal
 
 To open a new Option master panel go to Terminal - > Option master.
 
-![](<../../../../.gitbook/assets/Option master. Overview.jpg>)
+![](<../../../../.gitbook/assets/option-master.-overview (1).jpg>)
 
 **Level 1 symbol data:**
 
@@ -16,11 +16,11 @@ Here user can select an instrument that underlies the option which user is going
 
 **Settings:**
 
-Clicking on the button<img src="../../../../.gitbook/assets/Screenshot_1 (3).png" alt="" data-size="original"> calls the dialog window Option master – settings. This block allows specifying general settings of the Option master panel. General settings tab is divided into three sections: General, Analyzer and Volatility lab.
+Clicking on the button![](<../../../../.gitbook/assets/screenshot_1 (18) (2).png>) calls the dialog window Option master – settings. This block allows specifying general settings of the Option master panel. General settings tab is divided into three sections: General, Analyzer and Volatility lab.
 
 **General:**
 
-![](<../../../../.gitbook/assets/general opt m.png>)
+![](../../../../.gitbook/assets/general-opt-m.png)
 
 The section General has the following options:
 
@@ -31,7 +31,7 @@ The section General has the following options:
 
 **Option chain:**
 
-![](<../../../../.gitbook/assets/opt chain opt.png>)
+![](../../../../.gitbook/assets/opt-chain-opt.png)
 
 * Strikes aggregation style – allows selecting style of strikes count from the drop-down list. There are two available styles:
   * From ATM strike – strikes are counted from the ATM strike, this is the default style of strikes aggregation;
@@ -40,17 +40,21 @@ The section General has the following options:
 
 If coloring method is Classic, the following options can be selected:
 
-In-the-money color – allows selecting 'In the money' color.
+```
+     ****In-the-money color – allows selecting 'In the money' color.
 
-Out-the-money-color – allows selecting 'Out the money' color.
+     Out-the-money-color – allows selecting 'Out the money' color.
+```
 
-![](<../../../../.gitbook/assets/histor volat.png>)
+![](../../../../.gitbook/assets/histor-volat.png)
 
-If coloring method is Historical volatility, the following options can be selected: Current HV, % – shows current level of the historical volatility for the underlier (Min = 0, Max = 1000, Step = 0.1). Pressing the button<img src="../../../../.gitbook/assets/Screenshot_2 (7).png" alt="" data-size="original"> allows to reset custom value of the historical volatility to the calculated value from the symbol chart by the selected price type (described below).
+If coloring method is Historical volatility, the following options can be selected: Current HV, % – shows current level of the historical volatility for the underlier (Min = 0, Max = 1000, Step = 0.1). Pressing the button![](<../../../../.gitbook/assets/screenshot_2 (8) (2).png>) allows to reset custom value of the historical volatility to the calculated value from the symbol chart by the selected price type (described below).
 
-Price – allows specifying the underlier price from which sought values Std. and 2\*Std. will be plotted. The following prices are available here: Last, (Bid + Ask)/2, OHLC/4 and OHL/3.
+```
+    Price – allows specifying the underlier price from which sought values Std. and 2\*Std. will be plotted. The following prices are available here: Last, \(Bid + Ask\)/2, OHLC/4 and OHL/3.
 
-ATM strike color, Std. color, 2\* Std. color – standard setting for color selection.
+    ATM strike color, Std. color, 2\* Std. color – standard setting for color selection.
+```
 
 **Coloring logic**
 
@@ -72,7 +76,7 @@ occurs over 2\*Std.coloring.
 
 **Analyzer:**
 
-![](<../../../../.gitbook/assets/Screenshot_3 (11).png>)
+![](<../../../../.gitbook/assets/screenshot_3 (6).png>)
 
 This tab allows specifying colors and style for displaying the main lines of the option position profile:
 
@@ -90,7 +94,7 @@ Probability simulations:
 
 View:
 
-Coloring method – allows selecting coloring scheme for Analyzer tab: Historical volatility or None. Current HV, % – shows current level of the historical volatility for the underlier (Min = 0, Max = 1000, Step = 0.1). Pressing the button<img src="../../../../.gitbook/assets/Screenshot_2 (7).png" alt="" data-size="original"> allows to reset custom value of the historical volatility to the calculated value from the symbol chart by the selected price type (described below).
+Coloring method – allows selecting coloring scheme for Analyzer tab: Historical volatility or None. Current HV, % – shows current level of the historical volatility for the underlier (Min = 0, Max = 1000, Step = 0.1). Pressing the button![](<../../../../.gitbook/assets/screenshot_2 (8).png>) allows to reset custom value of the historical volatility to the calculated value from the symbol chart by the selected price type (described below).
 
 Price – allows specifying the underlier price from which sought values Std. and 2\*Std. will be plotted. The following prices are available here: Last, (Bid + Ask)/2, OHLC/4 and OHL/3.
 
@@ -98,7 +102,7 @@ Standard deviation color, 2 Standard deviation color – standard setting for co
 
 **Volatility lab:**
 
-![](<../../../../.gitbook/assets/volat lab.png>)
+![](../../../../.gitbook/assets/volat-lab.png)
 
 The section Volatility lab allows to set up parameters of the Volatility lab tab of the Option master panel.
 
@@ -144,7 +148,7 @@ The style of a font can be selected.
 
 **Panel navigation:** use this block in order to manage tabs of Option master panel.
 
-**Info panel:** click on the button<img src="../../../../.gitbook/assets/info panel.png" alt="" data-size="original">to enable/disable the information panel displaying.
+**Info panel:** click on the button![](../../../../.gitbook/assets/info-panel.png)to enable/disable the information panel displaying.
 
 This panel consists of 3 logical blocks:
 

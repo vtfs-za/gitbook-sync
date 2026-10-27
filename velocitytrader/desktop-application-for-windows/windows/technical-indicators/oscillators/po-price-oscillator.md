@@ -8,7 +8,7 @@ When the 9-day moving average crossed the 18-day moving average, the price oscil
 
 Likewise, when the 9-day moving average crossed below the 18-day moving average, the price oscillator crossed below the zero line. When the short-term moving average passes below the long-term moving average, a bearish crossover occurs. Usually, bearish crossovers are considered to be a good time for selling.
 
-### Calculation
+## Calculation
 
 The Price oscillator displays the difference between moving averages in points, plotted on the basis of two periods:
 
@@ -20,7 +20,7 @@ MA (P, n1) - moving average of the P price within n1 periods,
 
 MA (P, n2) - moving average of the P price within n2 periods.
 
-### Main parameters
+## Main parameters
 
 * Type of Moving average – for selecting the MA type, available values: Simple, Exponential, Modified, Linear weighted;
 * Sources prices for MA – determines the type of price at which the moving average will be calculated, available values: Close, Open, High, Low, Median, Typical, and Weighted;
@@ -28,4 +28,4 @@ MA (P, n2) - moving average of the P price within n2 periods.
 
 This technical indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/Screenshot_2 (13).jpg>)
+![](<../../../../.gitbook/assets/screenshot_2 (21).jpg>)

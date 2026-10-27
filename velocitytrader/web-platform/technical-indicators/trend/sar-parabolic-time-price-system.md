@@ -1,6 +1,6 @@
 # SAR (Parabolic time/price system)
 
-The Parabolic Time/Price system, developed by Welles Wilder, is used to set trailing price stops and is usually referred to as the "SAR" (stop-and-reversal). This indicator is explained thoroughly in Wilder's book, New Concepts in Technical Trading Systems. SAR trails price as the trend extends over time. The indicator is below prices when prices are rising and above prices when prices are falling. In this regard, the indicator stops and reverses when the price trend reverses and breaks above or below the indicator.&#x20;
+The Parabolic Time/Price system, developed by Welles Wilder, is used to set trailing price stops and is usually referred to as the "SAR" (stop-and-reversal). This indicator is explained thoroughly in Wilder's book, New Concepts in Technical Trading Systems. SAR trails price as the trend extends over time. The indicator is below prices when prices are rising and above prices when prices are falling. In this regard, the indicator stops and reverses when the price trend reverses and breaks above or below the indicator.
 
 **Trading signals:**
 
@@ -9,16 +9,16 @@ Your first step is to confirm that the market is trending:
 * Use a trend indicator, or
 * Stop trading with the Parabolic SAR if you are whipsawed twice in a row and re-commence after you observe a breakout from the chart pattern.
 
-A trade is signaled when the price bars and stop levels intersect:&#x20;
+A trade is signaled when the price bars and stop levels intersect:
 
 * Go long when price meets the Parabolic SAR stop level, while short;
 * Go short when price meets the Parabolic SAR stop level, while long.
 
-### Calculation
+## Calculation
 
 Parabolic SAR uses values of the previous period to come up with the new calculation. The calculation also differs regarding whether SAR is rising or falling.
 
-#### Rising Parabolic SAR <a href="#rising-parabolic-sar" id="rising-parabolic-sar"></a>
+### Rising Parabolic SAR <a href="#rising-parabolic-sar" id="rising-parabolic-sar"></a>
 
 In general, we have three elements – the prior SAR, and two indicator-specific values known as the extreme point (EP) and acceleration factor (AF).
 
@@ -34,7 +34,7 @@ In the SAR calculation formula, the current SAR value is calculated by taking th
 
 Current SAR = Prior SAR + Prior AF \* (Prior EP – Prior SAR)
 
-#### Falling Parabolic SAR <a href="#falling-parabolic-sar" id="falling-parabolic-sar"></a>
+### Falling Parabolic SAR <a href="#falling-parabolic-sar" id="falling-parabolic-sar"></a>
 
 The three elements stay the same – we use prior SAR, extreme point (EP), and acceleration factor (AR).
 
@@ -42,11 +42,11 @@ They are combined into the SAR formula very similarly, just that instead of addi
 
 Current SAR = Prior SAR – Prior AF \* (Prior EP – Prior SAR)
 
-### Main parameters
+## Main parameters
 
 * Step of parabolic SAR system i.e. the acceleration factor, 0.02 by default;
 * Maximum step i.e. the extreme point, 0.2 by default.
 
 The indicator itself looks as follows on the chart:
 
-<figure><img src="../../../.gitbook/assets/image (307).png" alt=""><figcaption></figcaption></figure>
+![](../../../.gitbook/assets/sar.jpg)

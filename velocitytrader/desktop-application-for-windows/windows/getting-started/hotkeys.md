@@ -1,14 +1,14 @@
 # Hotkeys
 
-Hotkey is a key or a combination of keys providing quick access to a particular function. The same functionality can be activated using the mouse by selecting the functionality in a menu, but using the equivalent hotkey is much faster. The description below is given within the bounds of each panel.
+Hotkey is a key or a combination of keys providing quick access to a particular function. The same functionality can be activated using the mouse by selecting the functionality in a menu, but using the equivalent hotkey is much faster. The description below is given within the bounds of each panel.
 
-![](<../../../.gitbook/assets/new1 (23).jpg>)
+![](<../../../.gitbook/assets/new1 (15).jpg>)
 
-### &#xD;Accounts
+Accounts
 
 View report – allows viewing a report of account activity. The certain account in the panel should be chosen to make the hotkey work.
 
-### Chart
+## Chart
 
 Display in full screen mode – allows displaying the chart in the full screen mode.
 
@@ -40,7 +40,7 @@ Show open positions – allows displaying opened positions on the chart;
 
 Show volume – shows the volume profile on the chart.
 
-Show working orders – allows displaying working orders on the chart;
+Show working orders – \_\*\*\_allows displaying working orders on the chart;
 
 Set period (Tick, 1 m, 5 m, 15 m, 30 m, 1 H, 4 H, 1 D, 1 W, 1 Month, 1 Y) – allows specifying the timeframe.
 
@@ -92,14 +92,14 @@ Cancel Sell order(s) closest to the last price – allows cancelling Sell order(
 
 Set qty. equal to opened position's qty. – allows setting quantity equal to opened position’s quantity.
 
-### General
+## General
 
-Connections – opens the screen ‘Connections’.\
-\
-Show settings – opens the screen with settings.\
-\
-Show hotkeys – opens the screen with settings of hotkeys.\
-\
+Connections – opens the screen ‘Connections’.
+
+Show settings – opens the screen with settings.
+
+Show hotkeys – opens the screen with settings of hotkeys.
+
 New Chart panel – allows opening a new Chart panel.
 
 New OE panel – allows opening a new Order entry panel.
@@ -110,11 +110,11 @@ New Positions panel – allows opening a new Positions panel.
 
 Search in panels – evokes search window inside of the chosen panel. Click on the chosen panel to allow the hotkey work.
 
-### Grid Group
+## Grid Group
 
 Grid fullsize panel – allows gridding the fullsize panel.
 
-### Market depth
+## Market depth
 
 Cancel last order on selected instrument – allows cancelling the last order on the selected instrument.
 
@@ -150,7 +150,7 @@ Sell Ask – allows selling Ask according to your preset parameters.
 
 Buy Bid – allows buying Bid according to your preset parameters.
 
-### Matrix
+## Matrix
 
 Cancel all active orders on selected instrument – allows cancelling all active orders on the selected instrument.
 
@@ -172,7 +172,7 @@ Set recenter type to bid – allows setting recenter type to bid.
 
 Set qty. equal to opened position's qty. – allows setting quantity equal to opened position’s quantity.
 
-### Order entry
+## Order entry
 
 Open Buy OE – opens Order entry with default state ‘Buy’.
 
@@ -180,13 +180,13 @@ Open Sell OE – opens Order entry with default state ‘Sell’.
 
 Place order – allows placing an order with the parameters which are chosen in the panel.
 
-### Panels
+## Panels
 
 Help – allows opening the article in Knowledge Base about the panel which is in the focus.
 
 Show panel settings – opens the screen of panel settings.
 
-### Positions
+## Positions
 
 Close position – allows closing a chosen position.
 
@@ -194,7 +194,7 @@ Modify position – allows modifying a chosen position.
 
 View position history – allows viewing position history.
 
-### Super DOM
+## Super DOM
 
 Cancel last order on selected instrument – allows cancelling the last order on the selected instrument.
 
@@ -204,15 +204,15 @@ Cancel Buy order(s) closest to the last price – allows cancelling Buy order(s)
 
 Cancel Sell order(s) closest to the last price – allows cancelling Sell order(s) closest to the last price.
 
-Mouse trading – activates trading using mouse.\
-\
+Mouse trading – activates trading using mouse.
+
 Set qty. equal to opened position's qty – allows setting quantity equal to opened position’s quantity.
 
-Recenter – allows recentering Bid/Ask while scrolling the panel.\
-\
-Modifier: Stop order when mouse click – allows modifying the order into Stop order while pressing the hotkey and clicking on the order. &#x20;
+Recenter – allows recentering Bid/Ask while scrolling the panel.
 
-### Trading
+Modifier: Stop order when mouse click – allows modifying the order into Stop order while pressing the hotkey and clicking on the order.
+
+## Trading
 
 Close all positions screen – opens the screen for closing all positions.
 
@@ -226,11 +226,11 @@ Cancel all orders and close all positions immediately – allows cancelling all 
 
 Open Reports – allows opening Reports.
 
-### Watchlist
+## Watchlist
 
 Remove symbol – allows removing a symbol.
 
-### Working orders
+## Working orders
 
 Modify order – allows modifying an order.
 
@@ -242,6 +242,6 @@ View order history – allows viewing order history.
 
 To change the value of a hotkey, click on its current value.
 
-Find information about Scalper hotkeys here:&#x20;
+Find information about Scalper hotkeys here:
 
-[Scalper](../trading-panels/scalper.md)_._
+[Scalper](https://help.za.velocitytrade.com/desktop-application-for-windows/windows/trading-panels/scalper)_._

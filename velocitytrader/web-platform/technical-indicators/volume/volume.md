@@ -6,4 +6,4 @@ A sudden increase in trading volume points to an increased probability of the pr
 
 This indicator looks as follows on the chart:
 
-<figure><img src="../../../.gitbook/assets/image (301).png" alt=""><figcaption></figcaption></figure>
+![](../../../.gitbook/assets/volume.jpg)

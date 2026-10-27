@@ -1,12 +1,10 @@
 # Object manager
 
-Object manager tool is used to manage drawings, indicators and overlays more effectively and quickly. This panel consists of three tabs which have similar options: Indicators, Drawings and Overlays. In order to open Object manager panel, click on the appropriate button<img src="../../../../.gitbook/assets/42.png" alt="" data-size="original">at the chart toolbar or select "Object manager" option from the context menu.
+Object manager tool is used to manage drawings, indicators and overlays more effectively and quickly. This panel consists of three tabs which have similar options: Indicators, Drawings and Overlays. In order to open Object manager panel, click on the appropriate button![](<../../../../.gitbook/assets/42 (1).png>) at the chart toolbar or select "Object manager" option from the context menu.
 
-![](<../../../../.gitbook/assets/object manager.gif>)
+## **Indicators**
 
-### **Indicators**
-
-![](../../../../.gitbook/assets/43.png)
+![](<../../../../.gitbook/assets/43 (1).png>)
 
 * Name – shows full name of the indicator.
 * Window – shows type of the window for displaying: Main or Sub.
@@ -14,9 +12,9 @@ Object manager tool is used to manage drawings, indicators and overlays more eff
 * Settings – evokes window with settings of the chosen indicator.
 * Remove – allows removing indicator in one click.
 
-### **Drawings**
+## **Drawings**
 
-![](../../../../.gitbook/assets/44.png)
+![](<../../../../.gitbook/assets/44 (1).png>)
 
 * Name – shows full name of the drawing.
 * Window – shows type of the window for displaying: Main or Sub.
@@ -24,11 +22,9 @@ Object manager tool is used to manage drawings, indicators and overlays more eff
 * Settings – evokes window with settings for the chosen drawing.
 * Remove – allows removing drawing in one click.
 
-{% hint style="warning" %}
-Use "Ctrl + B" hotkey for quick evoking the Drawings tab.
-{% endhint %}
+Note: use hot button "Ctrl + B" for quick evoking the Drawings tab.
 
-### **Overlays**
+## **Overlays**
 
 ![](../../../../.gitbook/assets/45.png)
 

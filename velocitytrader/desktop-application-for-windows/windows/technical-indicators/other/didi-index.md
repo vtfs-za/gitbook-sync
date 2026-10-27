@@ -10,7 +10,7 @@ BUY - Traders can Buy when the green line is above the yellow line.
 
 SELL - Traders can Sell when the green line is below the yellow line.
 
-### Main parameters
+## Main parameters
 
 * Fast line – short MA, 3 by default;
 * Slow line – long MA, 20 by default;
@@ -20,5 +20,4 @@ SELL - Traders can Sell when the green line is below the yellow line.
 
 The indicator looks as follows:
 
-![](<../../../../.gitbook/assets/Screenshot_2 (25).jpg>)
-
+![](<../../../../.gitbook/assets/screenshot_2 (30).jpg>)

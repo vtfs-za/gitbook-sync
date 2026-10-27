@@ -20,21 +20,20 @@ The breakout of trading channel boundaries can be an important signal for tradin
 * Channel width: breakouts of narrow channels tend to provide particularly reliable trading signals;
 * Breakout confirmation: the presence of the fundamental reasons and supporting purchases (sales) strengthens the trend.
 
-All the forces of supply and demand are represented by price. The predominance of one force creates trend direction. Trend channels occur in all time frames and in every asset class, like futures, stocks, mutual funds, etc., and are useful for trading or investing.&#x20;
+All the forces of supply and demand are represented by price. The predominance of one force creates trend direction. Trend channels occur in all time frames and in every asset class, like futures, stocks, mutual funds, etc., and are useful for trading or investing.
 
-### Calculation
+## Calculation
 
 The Price Channel calculations are simple:
 
 * The upper band (line) of the channel is constructed as the highest high over a specified period of time (the specified number of price bars);
-* &#x20;The lower band (line) of the channel is constructed as the lowest low over a specified period of time;
-* &#x20;The middle line is constructed as the average of the highest high and the lowest low.
+* The lower band (line) of the channel is constructed as the lowest low over a specified period of time;
+* The middle line is constructed as the average of the highest high and the lowest low.
 
-### Main parameters
+## Main parameters
 
 Period of price channel – allows setting the number of periods for which price highs and lows will be determined.
 
 The indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/Screenshot_3 (9).jpg>)
-
+![](<../../../../.gitbook/assets/screenshot_3 (11).jpg>)

@@ -2,11 +2,11 @@
 
 To view any reports of account activities, select Account -> Reports.
 
-<figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXebbIzNW9RZ7GUT0W81gjH_RJqietxy7ppcObfNvslRosz5DAp8sHVHa99JLwKRLo3AaBjj0tGG6A9xfsT-mWoqclKd8YtluCvYBpgr_8l3sHG4tYH3Nr-SInwU-yh-8TZLK6vbw3BSbQp7xMV6bBt8j5cR?key=i34kSG4duM_DXcQbimGXZQ" alt=""><figcaption></figcaption></figure>
+![](../../../.gitbook/assets/report.png)
 
-Users can export reports to CSV or Excel.
+Users can export reports to CSV or Excel.
 
-Users may choose to generate reports by user or by user group. For a user it is needed to specify one account or all accounts. By default, reports include all symbols.
+Users may choose to generate reports by user or by user group. For a user it is needed to specify one account or all accounts. When ‘Asset’ is checked, you can make reports for one specified symbol only. By default, reports include all symbols.
 
 The list of reports available for trader is the following:
 

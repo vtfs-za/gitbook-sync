@@ -6,11 +6,11 @@ Cluster chart fits for analysis on any timeframe for any style of the trading: s
 
 ![](../../../../.gitbook/assets/555.png)
 
-Cluster aggregation type can be set up using timeframe selector:
+Cluster aggregation type can be set up using timeframe selector:
 
-![](<../../../../.gitbook/assets/11 (4).png>)
+![](<../../../../.gitbook/assets/11 (1).png>)
 
-### **Cluster timeframe parameters**
+## **Cluster timeframe parameters**
 
 * Build from – allows selecting the time period for plotting the chart, available periods here are: tick, second, minute, hour, day, week, month, year.
 * Value – allows setting value for selected period from “Build from” field.
@@ -25,20 +25,20 @@ Cluster chart fits for analysis on any timeframe for any style of the trading: s
   * Delta/Volume,% – each cluster row will show the percentage of the delta in the volume;
   * Trades – each cluster row contains the number of trades which took place on a certain price level;
   * Custom pair – in the case, when this setting is chosen, each cluster row will contain two parameters simultaneously, divided by sign “x”. For example, Volume & Trades. Fields “Parameter #1” and “Parameter #2” are only available for Custom pair mode. In this mode, user can specify random pair of parameters by choosing the corresponding data in the combo boxes.
-  *    Volume imbalance – allows to automatically determine imbalance between Buy volume which is at one price level, and Sell volume which is at a higher price level.&#x20;
+  * Volume imbalance – allows to automatically determine imbalance between Buy volume which is at one price level, and Sell volume which is at a higher price level.&#x20;
 
-![](<../../../../.gitbook/assets/12 (6).png>)
+![](<../../../../.gitbook/assets/12 (4).png>)
 
-### Cluster chart settings
+## Cluster chart settings
 
-![](<../../../../.gitbook/assets/Screenshot_3 (3).png>)
+![](<../../../../.gitbook/assets/screenshot_3 (3).png>)
 
 * Value filter – if checked, it is necessary to plot only those clusters, total data (volume, delta, etc.) of which meets the condition specified in the fields ‘Operator’ and ‘Filter value’.
 * Highlight maximum – allows allocating the maximum value in the cluster. If several values are maximal at the same time, they will be both highlighted.
 * Cluster color – allows allocating upward and downward clusters.
 * Doji
 
-![](<../../../../.gitbook/assets/Up, down cluster.jpg>)
+![](../../../../.gitbook/assets/up-down-cluster.jpg)
 
 * Font color – allows to set up the font color of the numbers which are displayed inside of the clusters.
 * Color scheme – allows setting the coloring style of background inside the cluster. Four color schemes are available:
@@ -49,6 +49,4 @@ Cluster chart fits for analysis on any timeframe for any style of the trading: s
 * Price step, Custom step – allows setting the price step by Y-axis.
 * Strong Sell volume, Strong Buy volume, Neutral volume – color pickers (color schemes are oriented on the volume type).
 
-{% hint style="warning" %}
-Relative and algorithmic price scales are not applied to this aggregation type.
-{% endhint %}
+Note: relative and algorithmic price scales are not applied to this aggregation type.

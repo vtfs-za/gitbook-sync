@@ -24,7 +24,7 @@ Conversely, a downtrend is indicated when the price trades below the alligatorâ€
 
 Once the alligator has killed and eaten sufficiently, it begins to lose interest and fall asleep again, prompting the blue, red, and green Balance Lines to converge and cross over as its mouth closes. This indicates the time to take profits has arrived and the trend is over.
 
-### Calculation
+## Calculation
 
 Median price (n) = \[High (n) + Low(n)] / 2
 
@@ -43,4 +43,4 @@ Where:
 
 This indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/Screenshot_2 (31).jpg>)
+![](<../../../../.gitbook/assets/screenshot_2 (25).jpg>)

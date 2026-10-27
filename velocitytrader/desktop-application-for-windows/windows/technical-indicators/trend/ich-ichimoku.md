@@ -16,7 +16,7 @@ Tenkan-Sen is used as the indicator of a market trend. If this line grows or fal
 
 **Senkou Span A** demonstrates the middle between the previous 2 lines, moved forward on the value of the second time frame. **Senkou Span B** demonstrates the average value of the price for the third time frame, moved forward on the value of the second time frame. The area between them depicts the trend, which is also used as the price of the support and resistance. This leads the actual time by 26 periods.
 
-### Calculation
+## Calculation
 
 1\) Tenkan-Sen = Conversion Line = (Highest High + Lowest Low) / 2, for the past 9 periods;
 
@@ -30,7 +30,7 @@ Tenkan-Sen is used as the indicator of a market trend. If this line grows or fal
 
 The Kumo (or clouds) is the area between Senkou Span A and Senkou Span B.
 
-### Main parameters
+## Main parameters
 
 * Tenkan Sen period, default is 9;
 * Kijun Sen period, default is 26;
@@ -39,4 +39,4 @@ The Kumo (or clouds) is the area between Senkou Span A and Senkou Span B.
 
 The Ichimoku chart looks as follows:
 
-![](<../../../../.gitbook/assets/Screenshot_2 (40).jpg>)
+![](<../../../../.gitbook/assets/screenshot_2 (24).jpg>)

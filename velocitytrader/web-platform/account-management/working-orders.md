@@ -4,19 +4,19 @@ Working orders panel lists all created orders which are visible for a user.
 
 To open a new Working orders panel, select Terminal -> Working orders.
 
-<figure><img src="../../.gitbook/assets/image (1351).png" alt=""><figcaption></figcaption></figure>
+![](../../.gitbook/assets/screenshot_6-1-.png)
 
-The following columns are available in the panel:
+The following columns are available in the panel:
 
 * Symbol – name of the instrument to be traded.
 * Side – type of the trade to be performed (Buy or Sell).
 * Date/Time – date and time when the order was placed.
-* Type – the order type. Note that if the order was created with the _Overnight execution_ setting enabled, the following icon ![](<../../.gitbook/assets/image (1631).png>) will appear next to the order type;&#x20;
+* Type – the order type.
 * Quantity – the order amount measured in lots or in currency units, depending on what is selected in the Settings dialog box.
 * Price – price, at which the order is to be executed.
 * Stop price – stop price for special stop order.
 * Current price – market price obtainable from broker.
-* Validity – allows specifying order validity by selecting among the following time frames: Day, GTC, IOC, GTD, FOK, GTS.
+* Validity – allows specifying order validity by selecting among the following time frames: Day, GTC, IOC, GTD, FOK.
 * Qty. filled – executed quantity of the order when only part of the order was executed.
 * Qty. remaining – difference between quantity and executed quantity when only part of the order was executed.
 * Order ID – unique number that the trading system assigns to each order. If a position is opened based on an order, the position will have the same number.
@@ -28,33 +28,23 @@ To open a new Working orders panel, select Terminal -> Working orders.
 * Login – login of a user.
 * Symbol description – comments to the instrument.
 * Exchange – indicates whether the instrument has a stock exchange or off-exchange type;
-* Status – status of the current order. It can have the following values: Pending new, Pending execution, Pending cancel, Pending modification, Created, Accepted, Partially filled, Waiting for market, Waiting cancellation, Off market, Unplaced;
+* Status – status of the current order. It can have the following values: Created, Partially filled,  Modified;
 * SL offset – shows the stop loss order offset in ticks, fractional ticks or points (depending on the current configuration of the Trading defaults section of the General settings);
 * TP offset – shows the take profit order offset in ticks, fractional ticks or points (depending on the current configuration of the Trading defaults section of the General settings);
 * SL limit price – Limit price set for SL order;
 * SL limit offset – Limit offset for SL order;
-* Avg. price – shows the average execution price calculated across all fills of the order;
 * Product type – shows the current trading mode and margin check method of the instrument;
-* Strike price – price of option contract performance;
-* SL validity - shows the validity (TIF) selected for the order's Stop loss;
-* TP validity - shows the validity (TIF) selected for the order's Take profit;
-* Expiry date – date of contract expiration;
-* MAM group ID – unique number of orders group. It is applicable if orders created in MAM Group;
-* Leverage - contains leverage value, if applicable;
-* User comment - additional details or instructions for the order. Available only for Care order type;
-* Strategy ID – identifier of an execution strategy that placed order.
+* Strike price – price of option contract performance.
+* Expiry date – date of contract expiration.
+* MAM group ID – unique number of orders group. It is applicable if orders created in MAM Group.
 
-{% hint style="warning" %}
-Users can select which columns to display in the Working orders panel in the context menu of the panel.
-{% endhint %}
+Note: Users can select which columns to display in the Working orders panel in the context menu of the panel.
 
-### **Buttons toolbar**
+## **Buttons toolbar**
 
-The most important functions related to Working orders can be viewed as buttons in the toolbar of the panel. To select the buttons to be displayed, right-click on the toolbar of the panel and select the needed buttons from the menu.&#x20;
+The most important functions related to Working orders can be viewed as buttons in the toolbar of the panel. To select the buttons to be displayed, right-click on the toolbar of the panel and select the needed buttons from the menu. The following buttons are available:
 
-<figure><img src="../../.gitbook/assets/workingOrders.gif" alt=""><figcaption></figcaption></figure>
-
-The following buttons are available:
+![](<../../.gitbook/assets/screenshot_1 (9).png>)
 
 * Cancel all – cancels all orders.
 * Cancel Buy – cancels all buy orders.
@@ -68,22 +58,15 @@ The following buttons are available:
 * Modify order – allows modification of the selected order.
 * Change to Market – changes order type to market for selected orders.
 
-{% hint style="warning" %}
-Clicking these buttons doesn't evoke confirmation screens, even if confirmations are enabled in the 'General settings'.
-{% endhint %}
+Note: clicking on these buttons doesn't evoke confirmation screens, even if confirmations are enabled in the 'General settings'.
 
-Double-click on the needed order evokes the Working order cancel window for a quick order cancelling. User can disable order cancellation on double-click in the [General settings](../getting-started/general-settings.md) panel.
+Double-click on the needed order evokes the Working order cancel window for a quick order cancelling.
 
-### **Context menu**
+## **Context menu**
 
 The following actions can be performed via the Context menu:
 
-* Modify order – allows modification of the selected order.&#x20;
-
-{% hint style="warning" %}
-If Stop limit order is activated, the Stop price field will be disabled in Modify screen. Thus, only Limit price can be modified. The same is true for closing Stop loss limit orders.
-{% endhint %}
-
+* Modify order – allows modification of the selected order. Note: If Stop limit order is activated, the Stop price field will be disabled in Modify screen. Thus, only Limit price can be modified. The same is true for closing Stop loss limit orders.
 * Change to Market – changes order type to market for the selected orders.
 * Cancel order – allows cancelling all selected orders, all orders by selected symbol, all orders by selected account, all orders.
 * View – allows to show toolbar.

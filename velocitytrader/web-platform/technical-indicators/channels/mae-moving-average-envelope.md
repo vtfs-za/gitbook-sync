@@ -12,7 +12,7 @@ Envelopes define the upper and lower margins of the price range. A sell signal a
 
 The logic behind the Envelopes is that overzealous buyers and sellers push the price towards extreme values (i.e., upper and lower bands), at which point the prices often stabilize, moving towards more realistic levels.
 
-### Calculation
+## Calculation
 
 UPPER BAND = SMA (CLOSE, N) \* \[1 + K / 1000]
 
@@ -32,7 +32,7 @@ N — averaging period;
 
 K / 1000 — shifting value from the average (measured in basis points).
 
-### Main parameters
+## Main parameters
 
 The parameters of the Moving average envelopes depend on your trading/investing goals and the characteristics of the security involved. Traders will likely use shorter (faster) moving averages and relatively tight envelopes. Investors will likely prefer longer (slower) moving averages with wider envelopes.
 
@@ -44,4 +44,4 @@ The parameters of the Moving average envelopes depend on your trading/investing 
 
 This indicator looks as follows on the chart:
 
-<figure><img src="../../../.gitbook/assets/image (300).png" alt=""><figcaption></figcaption></figure>
+![](<../../../.gitbook/assets/mae (1).jpg>)

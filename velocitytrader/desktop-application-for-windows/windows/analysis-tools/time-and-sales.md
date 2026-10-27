@@ -8,18 +8,18 @@ The Time & Sales panel chronologically shows all trades for a symbol in real tim
 
 The information about chosen symbol starts streaming upon opening the panel.
 
-![](<../../../.gitbook/assets/time\&sales (1).gif>)
+![](../../../.gitbook/assets/time-and-sales.png)
 
 For each trade, the following data is available:
 
 * Symbol – the relevant symbol.
-* Time – the time of the trade, can be displayed in two modes depending on the time format set in the settings: hh:flag\_mm:ss or hh:flag\_mm:ss:ms.
+* Time – the time of the trade, can be displayed in two modes depending on the time format set in the settings: hh:mm:ss or hh:mm:ss:ms.
 * Price – the price at which the trade fills.
 * Size – the size of the trade.
 * Side – shows side of the trade: Buy or Sell.
 * Source – a source of market data, where a trade took place.
 
-### **Context menu**
+## **Context menu**
 
 Right clicking within the Time\&Sales panel evokes its context menu with following options:
 
@@ -36,9 +36,9 @@ If Show quotes = true and Aggregation = false, then all requests are aggregated 
 * Export – allows to export table to CSV or Excel format.
 * Table alerts – allows to receive notifications about trading events by preset conditions.
 
-### **Time & Sales settings**
+## **Time & Sales settings**
 
-* Time format – the time of the trade, can be displayed in two modes depending on the time format set in the settings: hh:flag\_mm:ss or hh:flag\_mm:ss:ms.
+* Time format – the time of the trade, can be displayed in two modes depending on the time format set in the settings: hh:mm:ss or hh:mm:ss:ms.
 * Show size in – allows selecting in what form the volume will be shown. General defaults – is taken from general settings; Lots – will be displayed in lots; Real size - will be displayed in real value.
 * Round precision – if checked, user can set the precision of the volume display.
 * Autosize of columns – allows showing T\&S table in auto size mode.

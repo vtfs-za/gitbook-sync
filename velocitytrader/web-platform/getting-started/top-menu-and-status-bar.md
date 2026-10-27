@@ -1,8 +1,8 @@
-# Top menu, Side bar, Info bar, Status bar
+# Top menu and Status bar
 
-### **Top menu**
+## **Top menu**
 
-<figure><img src="../../.gitbook/assets/image (1396).png" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/te-w (1).png>)
 
 * Terminal: access to various panels which allow to trade, analyze trading activity, and monitor market conditions.
 * More: access to VelocityTrader Global website and About current version screen.
@@ -11,18 +11,18 @@
 * Balance & Projected balance: access to account information.
 * Account: Accounts, Withdrawal, Reports, Change password, Change trading password.
 * Help: access to VelocityTrader Guide.
-* Settings: access to general settings of the Web platform. Read more about this section here: [General settings](general-settings.md)
-* Log out: allows to log out of the Web platform and evokes login screen.
+* Settings: access to general settings of the Web platform. Read more about this section here: [General settings](https://help.za.velocitytrade.com/web-platform/getting-started/general-settings)
+* Log out: allows to log out of the Web \_\*\*\_platform and evokes login screen.
 * Connection status: shows the status of connection to the server.
 * Ping information: shows the response time of the server (ms) to which the application is connected.
 
-### **Status bar**&#x20;
+## **Status bar**
 
 The Status bar, located at the bottom of the platform, makes it possible to "stream" information such as news and many others. The Status bar can be customized to show only information that user needs.
 
-<figure><img src="../../.gitbook/assets/image (1397).png" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/3 (34).png>)
 
-The Status bar displays (from left to right):
+The Status bar displays (from left to right):
 
 * Workspace(s) – shows a particular configuration of panels, toolbars, charts and/or table layouts that makes up trading environment.
 * Trading notifications – notifications about changes in the platform and server. A notification appears when a deal ticket comes, then it disappears.

@@ -1,14 +1,10 @@
 # VWAP+
 
-VWAP+ allows calculating a cumulative volume-weighted average price by ticks for defined period. For activating, select it from the list of analysis tools:
+VWAP+ allows calculating a cumulative volume-weighted average price by ticks for defined period.
 
-![](../../../../../.gitbook/assets/vwap.gif)
+![](<../../../../../.gitbook/assets/screenshot_2 (38).jpg>)
 
-Please note that VWAP+ plotting may take some time. The following settings are available for this analysis tool:
-
-![](<../../../../../.gitbook/assets/Screenshot_2 (27).jpg>)
-
-Visible – controls visibility of the render on a chart. Default state – False.
+Visible – controls visibility of the render on a chart. Default state – False.
 
 Historical mode – allows determining whether the render will count its historical values. Default state – False.
 
@@ -38,4 +34,4 @@ Line style – a set of standard controls for settings of visual look of a rende
 
 Line #2 and Line #3 have the same settings as Line #1.
 
-![](<../../../../../.gitbook/assets/Screenshot_4 (16).jpg>)
+![](<../../../../../.gitbook/assets/screenshot_4 (9).jpg>)

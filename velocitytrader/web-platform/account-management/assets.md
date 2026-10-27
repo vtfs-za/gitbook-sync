@@ -2,7 +2,7 @@
 
 Assets panel contains information about all assets by the chosen account(-s). If different accounts have the same asset, then it is displayed in different rows in the table.
 
-<figure><img src="../../.gitbook/assets/image (1691).png" alt=""><figcaption></figcaption></figure>
+![](../../.gitbook/assets/assets-web-01.png)
 
 There are the following columns in the table:
 
@@ -30,8 +30,8 @@ Current value for sell = Available for sell \*Current price \* CrossPrice
 
 Right-click on the asset evokes the following context menu:
 
-<figure><img src="../../.gitbook/assets/image (1692).png" alt=""><figcaption></figcaption></figure>
+![](../../.gitbook/assets/assets-web3.png)
 
 You can choose the columns, which have to be displayed by right-click on one of the columns.
 
-<figure><img src="../../.gitbook/assets/image (1693).png" alt=""><figcaption></figcaption></figure>
+![](../../.gitbook/assets/assets-web2.png)

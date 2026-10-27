@@ -13,15 +13,15 @@ To choose the type of aggregation for a chart, click on the Time frame button lo
 * Cluster – displays value of the specific parameter (Volume, Delta, Trades, etc.) by each price level. One cluster corresponds to one bar.
 * Profile – displays each bar in the form of “market profile”. The base for building the profile is typical time bars or tick bars which instead of general candle are displayed as a column of letters of the Latin alphabet.
 
-![](<../../../../.gitbook/assets/7 (20).png>)
+![](<../../../../.gitbook/assets/7 (2).png>)
 
-User can simply choose predefined aggregation type from the set of saved states, click on it and it'll be immediately applied to the chart or set a new one by clicking on the "Edit" link where user can interactively customize and streamline different types of the chart representation. In the timeframe editor users can adjust each value in each group by adding new items or editing the existing ones. In order to add a new aggregation type, click on "+" button and specify all the necessary parameters for this type:
+User can simply choose predefined aggregation type from the set of saved states, click on it and it'll be immediately applied to the chart or set a new one by clicking on the "Edit" link where user can interactively customize and streamline different types of the chart representation. In the timeframe editor users can adjust each value in each group by adding new items or editing the existing ones. In order to add a new aggregation type, click on "+" button and specify all the necessary parameters for this type:
 
-![](<../../../../.gitbook/assets/8 (11).png>)
+![](../../../../.gitbook/assets/8.png)
 
-To edit the existing type, simply click on its button, change the parameters and click "Apply". User can delete aggregation items from the tab by clicking on a chosen item and clicking a button<img src="../../../../.gitbook/assets/9 (14).png" alt="" data-size="original">.
+To edit the existing type, simply click on its button, change the parameters and click "Apply". User can delete aggregation items from the tab by clicking on a chosen item and clicking a button![](../../../../.gitbook/assets/9.png).
 
-Clicking on the Custom aggregation button allows users to choose period, time and other parameters for a custom aggregation type which is now applied to the chart:
+Clicking on the Custom aggregation button allows users to choose period, time and other parameters for a custom aggregation type which is now applied to the chart:
 
 Additionally, users can choose the quantity of bars that they want to see on chart. The period of data displaying can be: 1 day, 5 days, 10 days, 20 days, etc.
 

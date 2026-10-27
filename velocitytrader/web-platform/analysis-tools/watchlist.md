@@ -2,9 +2,9 @@
 
 The Watchlist panel displays real-time market data for each symbol available through a broker. To open a Watchlist panel, select Terminal -> Watchlist.
 
-<figure><img src="../../.gitbook/assets/image (1426).png" alt="" width="429"><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/watchlist (1).png>)
 
-### **Columns**
+## **Columns**
 
 Right-click on any column name to select the columns, which will be displayed in the panel.
 
@@ -15,9 +15,6 @@ The following columns are available in the panel:
 * Last size - the last trade volume.
 * Last date - the last update date.
 * Last time - time of the last quote update.
-* Last source - the source of the Last price.
-* Bid source - the source of the Bid price.
-* Ask source - the source of the Ask price.
 * Volume - shows cumulative volume traded for today; Volume is null for OTC FX instruments, not null for Exchange traded instruments.
 * Exchange - name of the exchange on which symbol is traded.
 * Match volume - shows volume traded on the auction session (pre & post).
@@ -40,44 +37,40 @@ The following columns are available in the panel:
 * Last update - last data update.
 * Ind. auction pr. - the price at which the orders participating in an auction will be executed, if the auction match were occurred at that point.
 * Current session - information on the current trading session for the instrument.
-* Symbol status - the instrument trading status, available values: Open, Closed, Liquidation only. With the symbol status set to Closed, the instrument trading is blocked;
+* Symbol status - the instrument trading status, available values: Open, Closed. With the symbol status set to Closed, the instrument trading is blocked;
 * Ticks - displays quantity of L1 quotes that came from Provider; also can be used for displaying the volumes of FX symbols.
 * Settlement price - shows value of the current settlement price.
 * Previous settlement price - shows value of the previous day settlement price.
 * Reference price - reference price for equities.
-* Current funding rate - current funding rate value as a percentage.
-* Next funding settlement - displays the countdown time to the next funding settlement.
 * Reset to defaults - allows to reset settings to defaults.
 * Comment - allows user to add some useful information about trading symbol, to describe the market situation and potential trading possibilities. Click on the comment row in order to open a dialog window for adding, editing and saving the comments.
 
-### **Customizing the Watchlist**&#x20;
+## **Customizing the Watchlist**
 
-In order to add symbols to the Watchlist, click on the<img src="../../.gitbook/assets/1new - Copy.png" alt="" data-size="original">button, located at the top left corner of the panel. Select the needed symbols from the 'Symbols lookup' window. By finishing symbols selection, press 'Add'.
+In order to add symbols to the Watchlist, click on the![](../../.gitbook/assets/1new-copy.png)button , located at the top left corner of the panel. Select the needed symbols from the 'Symbols lookup' window. By finishing symbols selection, press 'Add'.
 
 ​Right-clicking within the Watchlist panel evokes its context menu. From this menu a user can:
 
 * add new symbols;
 * remove selected symbol(s); &#x20;
 * clear all symbols at once;
-* group symbols by symbol type (Options type can be additionally grouped by Call or Put).
+* group symbols by symbol type.
 
-### &#xD;**Symbols lists creation**&#x20;
+**Symbols lists creation**
 
-The Watchlist panel enables a user to create custom sets of symbols lists. In order to add symbols to the Watchlist, click on the<img src="../../.gitbook/assets/++.png" alt="" data-size="original">button,&#x20;located at the top left corner of the panel’s toolbar. Select the needed symbols from the 'Symbols lookup' window. By finishing symbols selection, press 'Add'. From the drop-down menu of Symbol list user is able to create new symbol lists. In this list all created instruments lists are displayed. Buttons for renaming or deleting of a list are located right to each list.&#x20;
+The Watchlist panel enables a user to create custom sets of symbols lists. In order to add symbols to the Watchlist, click on the![](<../../.gitbook/assets/20 (1) (3) (1).png>)button, located at the top left corner of the panel’s toolbar. Select the needed symbols from the 'Symbols lookup' window. By finishing symbols selection, press 'Add'. From the drop-down menu of Symbol list user is able to create new symbol lists. In this list all created instruments lists are displayed. Buttons for renaming or deleting of a list are located right to each list.
 
-<figure><img src="../../.gitbook/assets/image (1427).png" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/screenshot_2 (9).png>)
 
-### **Symbol Info**&#x20;
+## **Symbol Info**
 
 Symbol Info panel allows displaying settings information for a selected symbol. To open the panel, evoke a context menu of a certain symbol in the Watchlist and select the "Symbol info" option. The Symbol info window will be opened:
 
-<figure><img src="../../.gitbook/assets/watchlistSymbolinfo.gif" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/screenshot_4 (3).jpg>)
 
-{% hint style="warning" %}
-The panel header contains a control for panel linking, it is not active by default. When linking is enabled in the Symbol info panel, focusing on an instrument in another panel (Watchlist, Positions, Orders, etc.) leads to replacing the information displayed in the Symbol info panel i.e. the information will be changed to the one about the instrument in focus.
-{% endhint %}
+Please note, that the panel header contains a control for panel linking, it is not active by default. When linking is enabled in the Symbol info panel, focusing on an instrument in another panel (Watchlist, Positions, Orders, etc.) leads to replacing the information displayed in the Symbol info panel i.e. the information will be changed to the one about the instrument in focus.
 
-All information is divided into 6 groups. Each group can be hidden by one click on a group header. The following symbols appear on a header when a group is hidden or opened<img src="../../.gitbook/assets/4 (84).png" alt="" data-size="original">.
+All information is divided into 6 groups. Each group can be hidden by one click on a group header. The following symbols appear on a header when a group is hidden or opened![](../../.gitbook/assets/4.png).
 
 The following information is available in each group:
 
@@ -102,22 +95,18 @@ The following information is available in each group:
 
 For symbols with asset class Futures and Options, expiration dates templates are available on the Server. Your administrator can select there the following templates, depending on which the dates will be defined for Symbol info panel:
 
-&#x20;     \- Contract month;
-
-&#x20;     \- Contract month, Last trade date, Settlement date, Notice date, First trade date;
-
-&#x20;     \- Contract month, Last trade date, Settlement date, Notice date;
-
-&#x20;     \- Contract month, Last trade.
-
-* Delivery method – type of asset delivery. Available for Futures, Fixed income, Spot, Forward instruments. Can be only Cash for Fixed income;
+* Contract month;
+* Contract month, Last trade date, Settlement date, Notice date, First trade date;
+* Contract month, Last trade date, Settlement date, Notice date;
+* Contract month, Last trade.
+* Delivery method – type of asset delivery. Available for Futures, Bonds, Spot, Forward instruments. Can be only Cash for Bonds;
 * Strike price – price level of an underlier by which Option contract must be executed;
 * Maturity date – date of the contract expiration;
-* Face value – a security's nominal value defined in quoting currency. Available for Fixed income, T-Bills;
+* Face value – a security's nominal value defined in quoting currency. Available for Bonds, T-Bills;
 * Yield – current yield value, this signed value is displayed in percent. Available for T-Bills. Clicking the Refresh link to the right allows to refresh the yield value;
-* Coupon rate, % – a nominal interest rate for a bond, which is regulated during a bond's emission. Available for Fixed income;
-* Coupon cycle – periodicity of a bond yield payment to a position holder. Available for Fixed income;
-* YTM, % – a current interest rate on a bond yield. Available for Fixed income. Clicking the link Refresh allows to refresh the YTM's value.
+* Coupon rate, % – a nominal interest rate for a bond, which is regulated during a bond's emission. Available for Bonds;
+* Coupon cycle – periodicity of a bond yield payment to a position holder. Available for Bonds;
+* YTM, % – a current interest rate on a bond yield. Available for Bonds. Clicking the link Refresh allows to refresh the YTM's value.
 
 YTM, % = ( (Coupon payment + (Face value - Current price)/N) / ((Face value + Current price)/2) ) \* 100%, where:
 
@@ -127,23 +116,17 @@ Current price - Current price of a bond;
 
 N - quantity of years before a bond redemption date.
 
-**Note:** If the bond price is displayed as a percentage of Face value, it must first be converted into a monetary value and the final formula will be:
-
-YTM = (Coupon payment + (Face value – (Current price × Face value / 100)) / (N / 365)) / ((Face value + Current price) / 2).
-
-* Accrued interest – value of accrued interest, which a buyer will pay when buying a Bond, and a seller will get when selling a Bond. Value is indicated for 1 lot. Measured in quotting currency. Available for Fixed income. Clicking the link Refresh allows to refresh the Accrued interest's value in its field;
-* Previous yield payment – last date of yield payment according to 'Coupon cycle'. Available for Fixed income;
-* Next yield payment – next date of yield payment according to 'Coupon cycle'. Available for Fixed income;
+* Accrued interest – value of accrued interest, which a buyer will pay when buying a Bond, and a seller will get when selling a Bond. Value is indicated for 1 lot. Measured in quotting currency. Available for Bonds. Clicking the link Refresh allows to refresh the Accrued interest's value in its field;
+* Previous yield payment – last date of yield payment according to 'Coupon cycle'. Available for Bonds;
+* Next yield payment – next date of yield payment according to 'Coupon cycle'. Available for Bonds;
 * Asset – name of the asset for the instrument. Available for Equities/CFD, Spot, Forward;
 * ISIN – International securities identification number;
 * Industry – shows the industry identification of a symbol;
-* Sector – shows the sector identification of a symbol;
-* Days per month - number of days in a month used for interest calculations. Available only for Fixed income. Possible values are: 30, Actual;
-* Days per year - number of days in a year used for interest calculations. Available only for Fixed income. Possible values are: 360, Actual.
+* Sector – shows the sector identification of a symbol.
 
 2\) Trading info:
 
-* Symbol status – trading status; available values: Open, Closed, Trading halt, Liquidation only. When the symbol status is Closed or Trading halt, the instrument trading is blocked;
+* Symbol status – trading status; available values: Open, Closed, Trading halt. When the symbol status is Closed or Trading halt, the instrument trading is blocked;
 * Current session – information on the current trading session period for the instrument;
 * Trading blocked on session – shows whether trading is blocked for the current session, available values: Yes, No;
 * Quoting currency – information about currency in which quote is calculated;
@@ -152,8 +135,6 @@ YTM = (Coupon payment + (Face value – (Current price × Face value / 100)) / (
 * Contract size – amount of the underlying asset for one contract;
 * Minimal lot – the smallest part of lot for which trading is available;
 * Maximum lot – the largest trade allowed in lots;
-* Maximum lot in cash – the largest allowed trade value in quoting currency;
-* Exposure limit – maximum allowed exposure value. Currency is displayed next to the value;
 * Max. position qty. – shows maximum quantity of positions per selected symbol;
 * Lot step – step of lot changes;
 * Next holiday – shows date of a next holiday when trade is not allowed;
@@ -161,22 +142,17 @@ YTM = (Coupon payment + (Face value – (Current price × Face value / 100)) / (
 * Allowed order types – shows order types allowed for a current symbol;
 * High limit – is an upper limit of an allowable price band above which delayed orders are not accepted;
 * Low limit – is a lower limit of an allowable price band below which delayed orders are not accepted;
-* High limit warning – the upper limit of the allowable last price range with last change %. If the value is above it, a user will receive a warning by limit orders;
-* Low limit warning – the lower limit of the allowable last price range with last change %. If the value is below it, a user will receive a warning by limit orders;
 * Allow short positions – this parameter shows whether opening short positions using the current symbol is allowed;
-* Easy-to-borrow – ETB means that there’s a supply of stock and generally would be available for short selling;
 * Tick size – minimal price change;
 * Tick cost – amount of base asset for one tick.
 
-{% hint style="warning" %}
-The variable tick cost/size value for the Futures, Futures CFD, Options symbol types can be set depending on price ranges. The variable tick size value for the Equities, Equities CFD and Indices also can be set depending on price ranges.
-{% endhint %}
+Note: The variable tick cost/size value for the Futures, Futures CFD, Options symbol types can be set depending on price ranges. The variable tick size value for the Equities, Equities CFD and Indices also can be set depending on price ranges.
 
 3\) Margin requirements:
 
 * Margin type – type of margin calculation. Can be different for different assets;
 * Margin by account – shows margin requirements based on account coefficients;
-* Margin req. – shows margin requirements, which depend on the margin calculation type. When the "None" margin calculation type is selected for the instrument, the "-" is displayed. When the 'Tiered price based custom coeffieicent' margin calculation type is selected, the margin req. values are displayed for all the Tiers set. Also the 'Tiered price based custom coef. by group' type can be selected and the the relevant information will be displayed;
+* Margin req. – shows margin requirements, which depend on the margin calculation type. When the "None" margin calculation type is selected for the instrument, the "-" is displayed. When the 'Tiered price based custom coeffieicent' margin calculation type is selected, the margin req. values are displayed for all the Tiers set;
 * Buy – shows margin requirements for long positions which use different long/short margin and don’t depend on overnight margin;
 * Sell – shows margin requirements for short positions which use different long/short margin and don’t depend on overnight margin;
 * Day – shows day margin requirements which don’t depend on long/short margin;
@@ -188,11 +164,7 @@ The variable tick cost/size value for the Futures, Futures CFD, Options symbol t
 * Day buy – amount of margin which is necessary for holding a long position during a trade session;
 * Day sell – amount of margin which is necessary for holding a short position during a trade session.
 
-{% hint style="warning" %}
-If coefficients of initial and maintenance margin have the same value, for example 2%, then they will be displayed as one value in the Margin requirements section – Margin req. – 2 %. The same is true for each Tier.
-
-Also if any Time conditions are configured for your margin plan on the server, margin requirements may be displayed separately for each condition. Rows under the default condition are shown as usual, while rows for any other time condition are shown as a separate group with the condition name in brackets next to the row title, e.g. "Tier 1 Day (Weekend Close) - 20 % / 15 % / 10 %".
-{% endhint %}
+Note: if coefficients of initial and maintenance margin have the same value, for example 2%, then they will be displayed as one value in the Margin requirements section – Margin req. – 2 %. The same is true for each Tier.
 
 4\) Fees:
 
@@ -213,8 +185,7 @@ Also if any Time conditions are configured for your margin plan on the server, m
 * Latest historical short swap – shows the short swap value for the previous day;
 * Historical swap last updated on – shows the date of last historical swaps update;
 * Option exercise fee (Long) – fee that will be charged on the Long option expiration date, but only if the option has status ‘in-the-money’ by that time. Commission will be charged for the early option execution as well;
-* Option exercise fee (Short) – fee that will be charged on the Short option expiration date, but only if the option has status ‘in-the-money’ by that time;
-* Order per lot with fixed part – trader pays a fixed fee for trading up to a predefined minimum volume. Once this volume is exceeded, an additional fee per lot is applied to the remaining traded volume.
+* Option exercise fee (Short) – fee that will be charged on the Short option expiration date, but only if the option has status ‘in-the-money’ by that time.
 
 The fee value for the fee types such as 'Fill per lot', 'Order per lot', 'Per fill', 'Volume, %' and 'Order volume %' can be set depending on quantity ranges.
 

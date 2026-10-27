@@ -18,7 +18,7 @@ The Average directional index (ADX), Minus directional indicator (-DI), and Plus
 
 It is interesting that ADX, being a trend indicator, is plotted not on the chart, but in a separate window. Because of this, some traders consider it an oscillator, but formally it is a trend detection indicator.
 
-### Calculation
+## Calculation
 
 ADX = SUM ((+DI - (-DI)) / (+DI + (-DI)), N) / N
 
@@ -32,11 +32,11 @@ SUM (..., N) — sum for N periods;
 
 -DI — value of the negative price movement indicator (negative directional index).
 
-### Main parameters
+## Main parameters
 
 * Type of MA – type of Moving average calculation: Simple, Exponential, Modified, Linear weighted;
 * Period of MA – Moving average period for calculation, 13 by default.
 
 This technical indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/Screenshot_1 (38).jpg>)
+![](<../../../../.gitbook/assets/screenshot_1 (30).jpg>)

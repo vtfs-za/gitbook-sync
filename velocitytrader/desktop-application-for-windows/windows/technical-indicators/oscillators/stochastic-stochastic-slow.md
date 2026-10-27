@@ -1,12 +1,12 @@
 # Stochastic (Stochastic slow)
 
-Developed by George C. Lane in the late 1950s, the Stochastic oscillator is a momentum indicator that shows the location of the close relative to the high-low range over a set number of periods. The indicator can range from 0 to 100.&#x20;
+Developed by George C. Lane in the late 1950s, the Stochastic oscillator is a momentum indicator that shows the location of the close relative to the high-low range over a set number of periods. The indicator can range from 0 to 100.
 
 The closing price tends to close near the high in an uptrend and near the low in a downtrend. If the closing price then slips away from the high or the low, then momentum is slowing. Stochastics are most effective in broad trading ranges or slow-moving trends. Two lines are graphed, the slow oscillating %K and a moving average of %K commonly referred to as %D.
 
 The difference between the Slow and Fast stochastic oscillators is the Slow %K incorporates a %K slowing period of 3 that controls the internal smoothing of %K. Setting the smoothing period to 1 is equivalent to plotting the Fast stochastic oscillator.
 
-### Calculation
+## Calculation
 
 **Stochastic oscillator**
 
@@ -57,7 +57,7 @@ Short signals:
 2. Go short when %K or %D rises above the Overbought level then falls back below it;
 3. Go short when %K crosses below %D.
 
-### Main parameters
+## Main parameters
 
 * Period of indicator – number of data that is involved in the calculation of the stochastic oscillator, 10 by default;
 * Smoothing – number of periods involved in the calculation of the Stochastic oscillator, 3 by default;
@@ -65,4 +65,4 @@ Short signals:
 
 The indicator itself looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/Screenshot_2 (4).jpg>)
+![](<../../../../.gitbook/assets/screenshot_2 (17).jpg>)

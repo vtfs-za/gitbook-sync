@@ -10,7 +10,7 @@ There are three main methods of scalping:
 2. Pulse scalping lies in the constant assessment of external markets and instruments which can cause impulsive directional movement of the traded instrument.
 3. Hybrid scalping combines features of the first two methods and is used in the terminal.
 
-Scalping has many advantages, such as:
+Scalping has many advantages, such as:
 
 * The highest potential profitability among other types of trading. Scalper can make from a few percent to several tens of percent on capital per day.
 * The opportunity to start with a small start-up capital. And with the right approach you can quickly increase this small capital.
@@ -18,19 +18,17 @@ There are three main methods of scalping:
 * User can trade immediately after opening the panel. Since the most liquid and volatile instruments always have activity and trades on such instruments can be made almost every second.
 * The result of the trade has already been known for a couple of tens of seconds, etc.
 
-![](<../../../.gitbook/assets/1 (53).jpg>)
+![](<../../../.gitbook/assets/1 (34).jpg>)
 
-The Scalper panel allows traders to view and to trade Level II quotes, to use overlay and impulse indicators for analysis and to view Time & Sales chart – all in one panel.
+The Scalper panel allows traders to view and to trade Level II quotes, to use overlay and impulse indicators for analysis and to view Time & Sales chart – all in one panel.
 
-{% hint style="warning" %}
-Trading with instruments which have "Net position" trading type is only allowed in the Scalper panel.
-{% endhint %}
+**Note:** trading with instruments which have "Net position" trading type is only allowed in the Scalper panel.
 
 To open a new Scalper panel go to Terminal - > Scalper.
 
 The top panel of the Scalper consists of the Symbol and Account lookups, trading buttons and Menu button.
 
-![](<../../../.gitbook/assets/2 (20).jpg>)
+![](<../../../.gitbook/assets/2 (10).jpg>)
 
 * Compress spread – allows skipping empty levels between the best bid and best ask.
 * Recenter button – allows manually recentering the Market depth section relatively to spread.
@@ -38,19 +36,16 @@ The top panel of the Scalper consists of the Symbol and Account lookups, trading
 * Mouse trading button - allows trading with the help of the mouse and Market depth section. Both trading types (Hot keys and Mouse) are available simultaneously.
 * Context menu button – allows to evoke the Context menu of the panel, also it is available through right click tapping within the Scalper panel:
 
-![](<../../../.gitbook/assets/3 (17).jpg>)
+![](<../../../.gitbook/assets/3 (15).jpg>)
 
-\- Show impulse indicator – allows to enable/disable the market sentiment indicators (not more than three).
-
-\- Show cumulative indicator – allows enabling an indicator of the growing volume.
-
-\- Show size changes – if enable, then volume change at a given price will be dynamically displayed in the charts area next to each price level.
-
-\- Settings – allows opening settings tab.
+* Show impulse indicator – allows to enable/disable the market sentiment indicators (not more than three).
+* Show cumulative indicator – allows enabling an indicator of the growing volume.
+* Show size changes – if enable, then volume change at a given price will be dynamically displayed in the charts area next to each price level.
+* Settings – allows opening settings tab.
 
 The bottom status bar consists of the three sections:
 
-![](<../../../.gitbook/assets/66 (1).png>)
+![](../../../.gitbook/assets/66.png)
 
 1. Working quantity indicator – shows the current value of the working quantity that displays the number of active combination and the values themselves (working quantity – increase quantity – decrease quantity). All three available combinations are displayed on the status bar, and active combination is highlighted.
 2. SL/TP indicator – shows SL/TP values that are currently set in the settings. Also the separate indicator shows what type of adding SL/TP mode is now active (auto or manual).
@@ -67,7 +62,7 @@ The color of QTY cell depends on the side of the position:
 
 User has a possibility to change a size of Time and sales chart section using left mouse button (drag\&drop), to provide this just disable Mouse trading and resize chart section to desired width.
 
-![](../../../.gitbook/assets/scalper.gif)
+![](../../../.gitbook/assets/scalper.jpg)
 
 **Market depth section**
 
@@ -86,27 +81,22 @@ If an order is open on current price, then clicking (with any button) on it (in 
 If several orders are open on current price (summary volume is shown in the orders area), then when canceling the order the first exposed order will be cancelled in the first place.
 
 * Hot keys trading – allows trading using Hotkeys on the keyboard (when the corresponding button is activated on the top panel). Both types of trading can be available simultaneously when both buttons are active.
+* The open position is displayed on the Market depth and pending orders are on the right side of price scale opposite to each installation price. Limit orders are displayed as numbers, and Stop orders - as underlined numbers. The volume of pending orders is shown depending on side the fill color of the order cell is changed. Group of oders is displayed with two vertical lines of the pending order left side.
+* The position movement on the Market depth section is displayed graphically and with color. The position of the open price should be fixed.
+* "Quantity indicators" is located on the left side of price scale – the column indicates the amount of orders for each specific price. Rows in the column are colored from left to right, depending on the number of orders. The marker is placed in the cell with the largest volume (Bid and Ask) in visible area.
+* Cumulative indicator is displayed near "Quantity indicators" column on the background of the Time and Sales chart section. Cumulative indicator graphically shows the cumulative sums of Bids and Asks sizes. Indicator is drawn from right to left line by line starting from the first price in the Market depth. Only the order volume is displayed for the first price, for the second price – the volumes corresponding to the first and second price are summed (1+2), for the third price – orders volume for the third price is added to the previous sum (1+2+3) and etc. The indicator is displayed as a Background, i.e. never overcast tick chart, trades and overlays.
+* Overlay indicators – are any other symbols, the movement or side of which may be preceded by the movement of the traded asset, and the whole process of leading one another called "correlation". They are shown as line charts which are outputted in the panel without reference to Market depth section (not more than 3).
+* Impulse indicators – are any other symbols which can cause impulsive directional movement of the traded instrument (not more than 3). Impulse indicator is presented in the form of two vertical columns opposite each other at the bottom and top of the panel Scalper. Upper column shows the total amount of purchases over a certain time interval, the lower - total sales for the specified time interval.
 
-1. The open position is displayed on the Market depth and pending orders are on the right side of price scale opposite to each installation price. Limit orders are displayed as numbers, and Stop orders - as underlined numbers. The volume of pending orders is shown depending on side the fill color of the order cell is changed. Group of oders is displayed with two vertical lines of the pending order left side.
-2. The position movement on the Market depth section is displayed graphically and with color. The position of the open price should be fixed.
-3. "Quantity indicators" is located on the left side of price scale – the column indicates the amount of orders for each specific price. Rows in the column are colored from left to right, depending on the number of orders. The marker is placed in the cell with the largest volume (Bid and Ask) in visible area.
-4. Cumulative indicator is displayed near "Quantity indicators" column on the background of the Time and Sales chart section. Cumulative indicator graphically shows the cumulative sums of Bids and Asks sizes. Indicator is drawn from right to left line by line starting from the first price in the Market depth. Only the order volume is displayed for the first price, for the second price – the volumes corresponding to the first and second price are summed (1+2), for the third price – orders volume for the third price is added to the previous sum (1+2+3) and etc. The indicator is displayed as a Background, i.e. never overcast tick chart, trades and overlays.
-5. Overlay indicators – are any other symbols, the movement or side of which may be preceded by the movement of the traded asset, and the whole process of leading one another called "correlation". They are shown as line charts which are outputted in the panel without reference to Market depth section (not more than 3).
-6. Impulse indicators – are any other symbols which can cause impulsive directional movement of the traded instrument (not more than 3). Impulse indicator is presented in the form of two vertical columns opposite each other at the bottom and top of the panel Scalper. Upper column shows the total amount of purchases over a certain time interval, the lower - total sales for the specified time interval.
-
-### &#xD;Data source
-
-In the Scalper panel a user can see the the extended information about the source of Last, Bid and Ask prices. In order to open the table with the detailed information, click on the![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LMCqxhh2XAdWPUjcvxR%2F-MfIYcdWuv-eukLG8pEP%2F-MfIakX0yTFROe9sWNn-%2F1.png?alt=media\&token=f36c8fd2-928f-4e0a-ac1d-8fadf83757a5)arrow and the widget will be shown:![](https://gblobscdn.gitbook.com/assets%2F-LMCqxhh2XAdWPUjcvxR%2F-MfIYcdWuv-eukLG8pEP%2F-MfIbDK9zH-Kl-RGKYc1%2F2.png?alt=media\&token=0db7a960-0d47-456f-8306-6472e0f4face)
-
-### **Scalper settings**
+**Scalper settings**
 
 Scalper settings have six sections to setup.
 
 **General**
 
-![](<../../../.gitbook/assets/Screenshot_4 (3).jpg>)
+![](<../../../.gitbook/assets/screenshot_4 (2).jpg>)
 
-Line types, colors and steps for the horizontal grid that are used in the charting area can be set here. General color of the panel background is also set here.
+Line types, colors and steps for the horizontal grid that are used in the charting area can be set here. General color of the panel background is also set here.
 
 * Recenter – if checked, then re-centering will occur when hovering cursor over the panel area;
 * Recenter type – allows selecting the recenter type: by Ask, Bid or Bid (+ Ask)/ 2.
@@ -119,16 +109,10 @@ Show toolbar – allows showing toolbar.
 
 * Cancellation priority – allows setting the priority for canceling orders in group (FIFO, LIFO).
 * Replacing priority – allows setting the priority for replacing orders in group (FIFO, LIFO).
-* Expected position limit – displays quantity in lots which the open position cannot exceed.
-
-{% hint style="warning" %}
-Theoretically, this limit can be exceeded when trading with hot keys.
-{% endhint %}
-
+* Expected position limit – displays quantity in lots which the open position cannot exceed. Note: theoretically, this limit can be exceeded when trading with hot keys.
 * Cancel orders after close position – if checked, all pending orders are cancelled after closing the position.
 * Cancel orders before open position - if checked, while placing a new order it will be checked for the possibility to open position on it, and if the conditions are executed (Stop, Limit), then all other existing orders will be deleted, and after that a new position will be opened.
 * Automatically add SL/TP after open position - if checked, after opening or editing the position the orders will be added automatically. If unchecked, the orders can be added using Hotkeys.
-* Offset in – allows selecting the unit for displaying offsets in the Scalper settings. Available options: Ticks – displays the offset in tick units; Percent – displays the offset as a percentage.
 * Default SL/TP/Trailing stop, offset – allows setting the default offset values when placing different types of orders.
 * Working qty. 1, 2, 3 – three different combinations are available where the user can set different options for work. Switching between options will be done using Hotkeys:
 
@@ -140,9 +124,7 @@ Decrease qty. – allows setting quantity of decreasing the position.
 
 ![](../../../.gitbook/assets/70.png)
 
-{% hint style="warning" %}
 Please note that for these fields (Working qty, Increase qty, Decrease qty), fractional values are allowed, which are limited to two decimal places, for example 0.01. Smaller values will not be accepted by the system. The system also checks for compliance of the Minimum lot and Lot step values format in the new Instrument selected in the lookup and specified in the Q1/Q2/Q3 fields of the Scalper panel. If the format does not match during the check (fractional and integer), then the Q1, Q2, Q3 fields will be highlighted in red, and when trying to trade using the Mouse trading/Scalper hotkeys, the user will receive a reject with a corresponding notification.
-{% endhint %}
 
 **Orders execution scheme:**
 
@@ -160,21 +142,17 @@ For ‘Sell orders’ the offset is counted from Bid price by default. Positive 
 
 ![](../../../.gitbook/assets/71.png)
 
-For Limit order strategy (increase/decrease), user can choose the order type (Buy or Sell) that allows to set up correct offsets for Buy/Sell orders.
-
-{% hint style="warning" %}
-When selecting the Order type, "Offset from" and "Offset" settings should be saved separately for Buy and Sell orders.
-{% endhint %}
+For Limit order strategy (increase/decrease), user can choose the order type (Buy or Sell) that allows to set up correct offsets for Buy/Sell orders. Note, when selecting the Order type, "Offset from" and "Offset" settings should be saved separately for Buy and Sell orders.
 
 * Market (buy, sell, increase, decrease) – always by market. All orders will be placed at the market price.
 
-![](<../../../.gitbook/assets/2 (144).png>)
+![](<../../../.gitbook/assets/2 (28).png>)
 
 Put over volume (buy, sell, increase, decrease) – allows setting order volume in the “Volume” field which should be skipped till placing user’s own order, i.e. some number of orders is skipped forward with the condition that the sum of their volume does not exceed the one specified in the field.
 
 ![](../../../.gitbook/assets/73.png)
 
-**Time & Sales chart**
+**Time & Sales chart**
 
 ![](../../../.gitbook/assets/74.png)
 
@@ -214,30 +192,23 @@ Relative by custom volume – all cells are colored entirely, the color saturati
 
 ![](../../../.gitbook/assets/76.png)
 
-2\. Cumulative size indicator:
-
-* Show cumulative size indicator – allows enabling the cumulative indicator. User can set the cumulative size width in the active field to display in the panel.
-* Color settings for the Ask and Bid parts (text, background) are also set here.
-
-3\. Additional settings:
-
-* Hover – color and line types settings when sliding the cursor through each price level.
-* Grid – color of the vertical grid in the Market depth section.
-
-4\. Coloring scheme:
-
-* Color settings for filling the volumes by Ask and Bid;
-* Color settings for volume change indicators by each price;
-* Color settings for max volume markers.
+1. Cumulative size indicator:
+2. Show cumulative size indicator – allows enabling the cumulative indicator. User can set the cumulative size width in the active field to display in the panel.
+3. Color settings for the Ask and Bid parts (text, background) are also set here.
+4. Additional settings:
+5. Hover – color and line types settings when sliding the cursor through each price level.
+6. Grid – color of the vertical grid in the Market depth section.
+7. Coloring scheme:
+8. Color settings for filling the volumes by Ask and Bid;
+9. Color settings for volume change indicators by each price;
+10. Color settings for max volume markers.
 
 ![](../../../.gitbook/assets/77.png)
 
-5\. Lvl. 2 colors:
-
-* Color settings for the prices column;
-* Color settings for Best ask and Best bid rows.
-
-1\.      Trading:
+1. Lvl. 2 colors:
+2. Color settings for the prices column;
+3. Color settings for Best ask and Best bid rows.
+4. Trading:
 
 Color and line types settings for established orders and positions.
 
@@ -272,7 +243,7 @@ Bar height, % - allows setting the size of one column in percent from panel heig
 * Show price marker – allows showing near the chart the marker with price change in percent from the beginning of the day (the opening of trade).
 * Right margin, % - allows setting the distance from Market depth section at which the overlay chart will be built.
 
-### **Scalper hot buttons**
+## **Scalper hotkeys**
 
 The list of hotkeys to set for the Scalper panel is available in the General settings - > Hotkeys - > Scalper.
 
@@ -300,4 +271,3 @@ Scalper hotkeys have the following functions:
 * Modifier: Create OCO link - modifier that allows exposing the order links. Principle of operation: Clamp the modifier - > Select the first price - > without releasing the left mouse button, drag the cursor to the second price.
 * Modifier: All operations with position quantity – modifier that allows executing all operations with current position volume.
 * Modifier: Add by mouse SL/TP – modifier that allows adding the arbitrary SL/TP orders using mouse.
-

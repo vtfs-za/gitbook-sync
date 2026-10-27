@@ -8,7 +8,7 @@ QStick, like many other technical indicators, provides a range of trading signal
 2. Extreme Levels: the QStick also provides extreme readings that can often indicate market tops and bottoms. The QStick value has no upper or lower limit, so traders will have to look at previous tops and bottoms in the indicator when they run counter to impulsive moves.
 3. Divergence: the last trading rule for the QStick indicator is to look for divergences between the price of the security and the indicator. Traders will want to buy the security if the QStick increases and the price decreases. Conversely, traders will want to sell when the QStick falls and the price rises.
 
-### Calculation
+## Calculation
 
 The QStick simply plots an n-period moving average that shows the difference between the close and open prices:
 
@@ -16,7 +16,7 @@ QStick = MA (n, (Close - Open)),
 
 Where 'n' is the amount of periods for calculating themoving average.
 
-### Main parameters
+## Main parameters
 
 * Period – for selecting the period of Moving average, 20 by default;
 * MA type – for selecting the type of Moving average, available types are Simple, Exponential, Modified, Linear weighted.
@@ -25,4 +25,4 @@ QStick can provide many informative trading signals. Extremely low QStick values
 
 This indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/Screenshot_2 (35).jpg>)
+![](<../../../../.gitbook/assets/screenshot_2 (27).jpg>)

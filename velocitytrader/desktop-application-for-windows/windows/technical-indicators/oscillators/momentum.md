@@ -16,7 +16,7 @@ Generally speaking, the buy and sell signals discussed above are poor exits, whe
 
 When the Momentum is reversing course and is heading back towards the zero line, it means that profits have been eroded. How much of a retracement back towards the zero line before the exit is triggered is up to the trader. Another option is to draw a trend line. When the trend line is broken, that could be an exit signal. Like most technical analysis indicators, interpreting them is part science and part art form.
 
-### Calculation
+## Calculation
 
 The Momentum indicator compares the current price with the past price. How far in the past the comparison is made is up to the technical analysis trader. The calculation of Momentum is pretty simple:
 
@@ -26,10 +26,10 @@ Where:\
 Close (i) — closing price of the current bar;\
 Close (i-N) — closing price of the bar N periods ago.
 
-### Main parameters
+## Main parameters
 
 Period of momentum – allows setting the past period for which the data will be taken when plotting the indicator. The default value is 20.
 
 The indicator itself looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/Screenshot_1 (44).jpg>)
+![](<../../../../.gitbook/assets/screenshot_1 (20).jpg>)

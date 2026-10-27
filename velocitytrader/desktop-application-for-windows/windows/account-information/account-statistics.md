@@ -4,17 +4,19 @@ Account statistics panel is a tool for traders that provides detailed informatio
 
 Account statistics panel offers the feature of exporting all statistics and charts to HTML format as a report. To take advantage of this option use the 'Export to HTML' button located on the top right corner of the panel. The report is generated for the selected accounts over the chosen period considering values displayed in the corresponding tabs.
 
-<figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXf6netCthKAm9hG58ihYsv8KjbyJhiIg_qbdLLITIvMK20L5Ve5S2O4zgl_B6-JDy4yshHb0tG1KTOE-WloIlMa7005iY-N_O-GHWOPplaYNj-ZHvuH7pmLOA0q9Y2LvSKptWan416KqCibrW3CW-3ZWmAX?key=i34kSG4duM_DXcQbimGXZQ" alt=""><figcaption></figcaption></figure>
+![](<../../../.gitbook/assets/1 (125).png>)
 
 Account statistics panel consists of 2 tabs: ‘Performance Data’ and ‘Performance Charts’.
 
-<figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXfP4g3KIdCmBocveEBjPXouWHuunOnwd7xw_MIM5kKvJLO5lprSEWwZfdEDRiyaCU_Vumw5nVl7mADkH9XFehhMOiFAK2Cs_ljx1XqSUahsBqBbwQt4130ug7CGuZQRv8kVLnG_HEQBILgJYPzI04nEU7w?key=i34kSG4duM_DXcQbimGXZQ" alt=""><figcaption></figcaption></figure>
+![](<../../../.gitbook/assets/2 (2).jpg>)
+
+At the top right corner of the panel, you can find ‘Account link’ icon and ‘Menu’ button.
 
 Select ‘Show toolbar’, to make Account lookup, Data filter and ‘Export’ button visible. In the Data filter, you can choose options ‘Daily’ or ‘Range’.
 
 To refresh account statistics data, click on the Timer button![](https://lh5.googleusercontent.com/J-F_5TfLskCBJ3ckVGmtDeRYyNHOlpqcTu-x1IxPknz7d6ryEcXTRWo2XSaNSdCS5nJTibc7zkZlvJG_TlwTl5xVkK59SGr0UhDLJx8Z6086qk_jrxOIOJidbQwV3AigGe9c4-yk)or wait for 1 minute.
 
-### **Performance Data**
+## **Performance Data**
 
 3 parameters:
 
@@ -82,22 +84,26 @@ STD – standard deviation of the trading results;
 
 STD = SQRT(1/(n-1) \* SUM(xi-avr\_x)^2)
 
-* Win/Loss Ratio – is a ratio of the probability of the profitable trade receiving to the probability of the losing trade receiving. Calculation formula: Win/Loss ratio =%TP/%SL
+*   Win/Loss Ratio&#x20;
+
+    – is a ratio of the probability of the profitable trade receiving to the probability of the losing trade receiving. Calculation formula: Win/Loss ratio =%TP/%SL
 *   Equity linearity factor – shows the dispersion degree of the balance chart relative to its regression line. Calculation algorithm:
 
     1\) Calculate the linear regression on the cumulative array of points of the balance (equity).
 
     Ŷ = a + b\*x
 
-![](<../../../.gitbook/assets/3 (132).png>)
+![](<../../../.gitbook/assets/3 (17).png>)
 
 2\) Calculate the standard deviation (SD):
 
-![](<../../../.gitbook/assets/4 (54).png>)
+![](<../../../.gitbook/assets/4 (3).png>)
 
 3\) Plot +1SD and -1SD from obtained regression line.
 
-4\) Calculate the percentage of points that went beyond the boundaries of standard deviation:
+```
+   4\) Calculate the percentage of points that went beyond the boundaries of standard deviation:
+```
 
 Equity linearity factor = (Number of points that are below and above the SD lines/Total number of points) \* 100%
 
@@ -116,17 +122,20 @@ Trades population:
 
 Drawdowns:
 
-* Maximal drawdown – is the highest difference between one of local upper extremums of the balance chart and the following lower extremums.
+*   Maximal drawdown – is the highest difference between one of local upper extremums of the balance chart and the following lower extremums.
 
-Maximal drawdown, % = (Maximal drawdown ÷ Peak Balance value) \* 100%
-
+    ```
+     Maximal drawdown, % = \(Maximal drawdown ÷ Peak Balance value\) \* 100%
+    ```
 * Absolute drawdown – is the difference between the current capital and current local upper extremum.
 * Average drawdown – is the arithmetic average of all drawdowns over a given time period.
-* Average drawdown, % – is the ratio of the sum of the drawdowns expressed as a percentage to the total number of drawdowns.
+*   Average drawdown, % – is the ratio of the sum of the drawdowns expressed as a percentage to the total number of drawdowns.
 
-Average drawdown, % = Sum (DD1,% +…+DDn,%)/N
+    ```
+     Average drawdown, % = Sum \(DD1,% +…+DDn,%\)/N
+    ```
 
-### **Performance Charts**
+## **Performance Charts**
 
 Performance Charts tab allows users to view changes of their balances and P/L graphically.
 
@@ -143,27 +152,27 @@ If you choose ‘Cumulative P/L’ or ‘Aggregate P/L’, you can select by wha
 * Long – allows building a chart by long trades.
 * Short – allows building a chart by short trades.
 
-### **Cumulative P/L chart**
+## **Cumulative P/L chart**
 
-Cumulative P/L chart allows users to view changes of their balances and P/L graphically. Cumulative P/L chart in the **Operations** mode displays how a user’s balance was changed depending on the trade operations performed within the selected period. Operations mode is opened by default, if a user changes mode, he can return to Operations mode by clicking on the button <img src="../../../.gitbook/assets/2 (40).png" alt="" data-size="original">.
+Cumulative P/L chart allows users to view changes of their balances and P/L graphically. Cumulative P/L chart in the **Operations** mode displays how a user’s balance was changed depending on the trade operations performed within the selected period. Operations mode is opened by default, if a user changes mode, he can return to Operations mode by clicking on the button ![](<../../../.gitbook/assets/5 (6) (2).png>).
 
-<figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXdPAaRnSRjZ2AmsolvVEuFxZjvvWv8sgc80sLApQNEYcnvvt_qK2kvOKgwtb-_qTz9MzOdXYsgr4zCYqK2frCtdunObNqUl_nYMe_xxG2665rwopeKEy-g6Ic7OylXQoy-epCNIOhTHQtqn19AVBlG7-S8I?key=i34kSG4duM_DXcQbimGXZQ" alt=""><figcaption></figcaption></figure>
+![](<../../../.gitbook/assets/3 (91).png>)
 
-Horizontal scale allows plotting P/L chart by operations or by hours/days/months for chosen in the main panel window period of time. If section 'hours/days/months' is selected, then all operations are aggregated by hours/days/months. Click on the buttons<img src="../../../.gitbook/assets/7 (16).png" alt="" data-size="original"> to select the corresponding modes.
+Horizontal scale allows plotting P/L chart by operations or by hours/days/months for chosen in the main panel window period of time. If section 'hours/days/months' is selected, then all operations are aggregated by hours/days/months. Click on the buttons![](<../../../.gitbook/assets/7 (26).png>) to select the corresponding modes.
 
 Section 'Total' is selected and displayed by default in all the tabs. Volume bars are plotted on the chart regardless of selected horizontal scale type (Operations, Hours, Days, etc.). Volume is displayed in lots.
 
-### **Aggregate P/L Chart**
+## **Aggregate P/L Chart**
 
-<figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXeGXE6u-74SYTy5qxtWFxgYeJHZfCBbw4O6Grpw6PpdO9mSTxT8kO142VrGSVfONPdXzA_pV9-kZtvgrapPwaRVdi-7ari_qPcotf5dLRpEOdflna-O5R50gzTLY32aoFQ0g10z8l5yZ7WesQWZv1jzxoDN?key=i34kSG4duM_DXcQbimGXZQ" alt=""><figcaption></figcaption></figure>
+![](<../../../.gitbook/assets/4 (63).png>)
 
 **Aggregated P/L** charts display Gross and Net P/L for selected 'aggregation' interval.
 
 Aggregation interval – allows aggregating P/L chart by the needed periods: by months, by days, by hours. Option 'Hours' (i.e. By hour of the day) is set by default. The charts can be also displayed by side of the trading, available side tabs are: Total, Buy, Sell.
 
-### **Trades Population Chart**
+## **Trades Population Chart**
 
-<figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXc6-tr3F6f1SrGy_77AUHAc3mLUfvsAoWSYNqTZB0iSWWytPxW2lctrXUoZGAvGueZLMAcrSmJEMQKDlThY9MBw0R1ClQb26CF9g4XlPziHsSblqp0_TNXLlptseBSfOV_khLnnW7S4_86WR2DuRyT928k?key=i34kSG4duM_DXcQbimGXZQ" alt=""><figcaption></figcaption></figure>
+![](<../../../.gitbook/assets/5 (55).png>)
 
 **Trades population** consists of two charts:
 
@@ -174,8 +183,8 @@ When user clicks on the sector of a pie chart.
 
 Profitable chart displays Cumulative P/L and volumes of trades made for the selected symbol within specified period.
 
-### **Drawdowns Chart**
+## **Drawdowns Chart**
 
-<figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXfxSI1LstRI-J8nCJPk5qxYIPpGwG75iy1vBynRb0lx5ROSViSjAhnePqv-mIz0xqdXIqUMaYv__R0TkOQTFMn4aftbB3_50iY3GWvxcCoIazK7SuB9Ztum_t-Un8iNhHYhN1Ger5uEU8RQiypD8j5hr2aA?key=i34kSG4duM_DXcQbimGXZQ" alt=""><figcaption></figcaption></figure>
+![](<../../../.gitbook/assets/6 (43).png>)
 
 Drawdowns chart shows the graphical distribution of drawdowns built trade by trade. Volumes of the trades are also displayed on the chart.

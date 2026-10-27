@@ -1,8 +1,8 @@
 # Volume bars
 
-This functionality allows to organize and analyze vertical volumes on the chart. Volume bars can be opened from the Analysis tools menu by clicking on the button<img src="../../../../../.gitbook/assets/53.png" alt="" data-size="original"> or through the Context menu -> Analysis tools -> Volume bars.​
+This functionality allows to organize and analyze vertical volumes on the chart. Volume bars can be opened from the Analysis tools menu by clicking on the button![](<../../../../../.gitbook/assets/53 (4).png>) or through the Context menu -> Analysis tools -> Volume bars.​
 
-![](<../../../../../.gitbook/assets/volume bars.gif>)
+![](../../../../../.gitbook/assets/bars.png)
 
 Volume bars can be set up in the following way:​
 
@@ -17,22 +17,19 @@ Volume bars can be set up in the following way:​
 E.g., selecting " >=" and specifying the value 30 will result into displaying volume bars having values like 30, 31 \[...] 45 etc.
 
 * Height, % – allows setting the size for area of the volume bars displaying. For example: Height, % = 30, i.e. 30 %;
-* Result type – allows selecting by what type volume bars will be built. Available values:
-  * Total volume – shows total volume traded for a specified period of time (current mode);
-  * Buy volume – shows only buy traded volumes for a specified period of time (defined by flag-aggressor);
-  * Sell volume – shows only sell traded volumes for a specified period of time (defined by flag-aggressor);
-  * Delta – shows difference between buy and sell volumes. Delta = Buy volume – Sell volume;
+*   Result type – allows selecting by what type volume bars will be built. Available values:
 
-{% hint style="warning" %}
-**For the correct Volume calculation, trade history for the Instrument is obligatory, that is:**
+    * Total volume – shows total volume traded for a specified period of time (current mode);
+    * Buy volume – shows only buy traded volumes for a specified period of time (defined by flag-aggressor);
+    * Sell volume – shows only sell traded volumes for a specified period of time (defined by flag-aggressor);
+    * Delta – shows difference between buy and sell volumes. Delta = Buy volume – Sell volume;
 
+    **Note:** **for the correct Volume calculation, trade history for the Instrument is obligatory, that is:**
 * **If there are no trades for the Instrument, then the Volume is defined by quote levels;**
 * _**If Current Price > Previous Price, then Agerssor flag = Ask;**_
 * _**If Current Price < Previous price then Agressor flag = Bid;**_
 * **This leads to the fact that when the price does not change, such quotes fall into the Total volume, but not on one of the Buy/Sell sides, because the system cannot determine their side. Thus, the sum of Buy/Sell volumes may differ from the Total.**
-{% endhint %}
-
-* Average total size – shows average volume of one trade:
+  * Average total size – shows average volume of one trade:
 
 Average total size = Total volume/ Trades count, where: Trades count – total number of trades for a selected period of time;
 

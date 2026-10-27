@@ -10,7 +10,7 @@ When StochRSI goes out of the overbought zone (above 80) to a lower level, it is
 
 Please note that unlike the RSI, where the 30 and 70 levels were used as oversold/overbought zones, here the levels 20 and 80 are used, just like for the Stochastic indicator.
 
-### Main parameters
+## Main parameters
 
 * RSI period – time period to be used in calculating the RSI;
 * RSI mode – method of calculating the RS parameter, Simple or Exponential;
@@ -22,4 +22,4 @@ Please note that unlike the RSI, where the 30 and 70 levels were used as oversol
 
 The indicator itself looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/Screenshot_1 (30).jpg>)
+![](<../../../../.gitbook/assets/screenshot_1 (19).jpg>)
