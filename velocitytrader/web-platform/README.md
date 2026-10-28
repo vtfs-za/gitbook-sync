@@ -1,2 +1,2 @@
-# VelocityTrader for Web
+# Velocity Trader for Web
 

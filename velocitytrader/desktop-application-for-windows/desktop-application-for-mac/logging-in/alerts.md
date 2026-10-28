@@ -1,6 +1,6 @@
 # Alerts
 
-To open the Alerts panel, click the ![](https://lh5.googleusercontent.com/n2puwM_iP0RhExOYxuStFTb0KAj3U9VyChXkuK5xqJyLinpJePyWaP7Z7VDDq0A5ny7Y-Ikdlv3sLjIJacCBsj5-V7nMej_DAT49oTHxY0mA14RTeCI3BtgCQUEo-xD2ZAjfdaN3) button which is located at the header of the VelocityTrader terminal to the left from the Account details widget.&#x20;
+To open the Alerts panel, click the ![](https://lh5.googleusercontent.com/n2puwM_iP0RhExOYxuStFTb0KAj3U9VyChXkuK5xqJyLinpJePyWaP7Z7VDDq0A5ny7Y-Ikdlv3sLjIJacCBsj5-V7nMej_DAT49oTHxY0mA14RTeCI3BtgCQUEo-xD2ZAjfdaN3) button which is located at the header of the Velocity Trader terminal to the left from the Account details widget.&#x20;
 
 ![](../../../.gitbook/assets/Alert.jpg)
 

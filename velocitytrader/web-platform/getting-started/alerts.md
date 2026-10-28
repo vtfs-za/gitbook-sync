@@ -1,6 +1,6 @@
 # Alerts
 
-To open the Alerts panel, click on the ![](<../../.gitbook/assets/image (1398).png>) button which is located at the header of VelocityTrader Web platform. In order to create an alert, click on the ![](<../../.gitbook/assets/image (1399).png>)&#x20;button at the bottom of the panel.
+To open the Alerts panel, click on the ![](<../../.gitbook/assets/image (1398).png>) button which is located at the header of Velocity Trader Web platform. In order to create an alert, click on the ![](<../../.gitbook/assets/image (1399).png>)&#x20;button at the bottom of the panel.
 
 A user can see Bid, Ask, Last, Change% and Volume data by the symbol, selected in the symbol lookup of the panel.
 

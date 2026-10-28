@@ -1,2 +1,2 @@
-# VelocityTrader for Desktop
+# Velocity Trader for Desktop
 

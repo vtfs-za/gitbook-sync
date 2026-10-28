@@ -6,7 +6,7 @@ The application for Desktop will automatically load the default workspace upon s
 
 After making changes to a workspace, it becomes a custom workspace.
 
-All your workspaces are located in the Desktop terminal installation directory C:\Users\user\Documents\VelocityTrader x64\My workspaces\
+All your workspaces are located in the Desktop terminal installation directory C:\Users\user\Documents\Velocity Trader x64\My workspaces\
 \
 To have quick access to this folder click on the button ‘More’ at the top of the terminal and choose ‘Open data folder’:
 

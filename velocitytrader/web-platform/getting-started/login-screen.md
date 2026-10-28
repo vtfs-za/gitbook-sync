@@ -1,6 +1,6 @@
 # Login screen
 
-Use the main login page to sign in to the VelocityTrader Web platform. A valid login and password are required.
+Use the main login page to sign in to the Velocity Trader Web platform. A valid login and password are required.
 
 <figure><img src="../../.gitbook/assets/image (1370).png" alt=""><figcaption></figcaption></figure>
 

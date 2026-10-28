@@ -2,7 +2,7 @@
 
 Accounts panel shows basic details about all accounts that are available for a user.
 
-To open Accounts panel, select Account -> Accounts in the header of VelocityTrader Web platform:
+To open Accounts panel, select Account -> Accounts in the header of Velocity Trader Web platform:
 
 <figure><img src="../../.gitbook/assets/image (1454).png" alt=""><figcaption></figcaption></figure>
 

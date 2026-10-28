@@ -1,6 +1,6 @@
 # General settings
 
-The General Settings menu is used to customize and change general properties of VelocityTrader App. To open it, click on the ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXeXzY2DBylixw6cLmS0aJ-Z1PFbLPOi4JJkh4_jumwy_EsJEzXjZFFi2ieNbRYe2kjm1qJAHWFAcjyw4GKPlR5ARjMy3hH2YpI57McMX8v34JU1-uA3tCl1K1t-EhnAvC96TI8yU-ds2OWUZG0dHSt9o8b0?key=i34kSG4duM_DXcQbimGXZQ) button at the bottom of the sidebar of the App.
+The General Settings menu is used to customize and change general properties of Velocity Trader App. To open it, click on the ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXeXzY2DBylixw6cLmS0aJ-Z1PFbLPOi4JJkh4_jumwy_EsJEzXjZFFi2ieNbRYe2kjm1qJAHWFAcjyw4GKPlR5ARjMy3hH2YpI57McMX8v34JU1-uA3tCl1K1t-EhnAvC96TI8yU-ds2OWUZG0dHSt9o8b0?key=i34kSG4duM_DXcQbimGXZQ) button at the bottom of the sidebar of the App.
 
 ### **General**
 

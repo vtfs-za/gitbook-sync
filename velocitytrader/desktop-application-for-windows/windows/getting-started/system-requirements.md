@@ -1,6 +1,6 @@
 # System requirements
 
-VelocityTrader platform does not have minimum requirements to run. Though please be advised that the following parameters are recommended:
+Velocity Trader platform does not have minimum requirements to run. Though please be advised that the following parameters are recommended:
 
 ### **Single account trading**
 

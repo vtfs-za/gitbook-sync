@@ -20,7 +20,7 @@ Each panel has default location. Some panels are attached by default, others are
 * Detach – allows detaching panel.
 * Autohide – allows hiding panels. After clicking Autohide, panel hides to a label pinned along the edge of the main window. When moves the mouse over the label, the panel expands halfway into the workspace. Click Autohide again to expand the panel. This option is available only for attached panels.
 * On top – allows seeing the panel on top of all others. Applicable only for detached panels.
-* Help – allows opening information about current panel in VelocityTrader Guide.
+* Help – allows opening information about current panel in Velocity Trader Guide.
 * Duplicate panel – allows duplicating the chosen panel.
 * Show toolbar – allows showing toolbar of the chosen panel.
 

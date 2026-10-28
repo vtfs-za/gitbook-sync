@@ -1,7 +1,7 @@
 # Table of contents
 
-* [VelocityTrader Guide](README.md)
-* [VelocityTrader for Desktop](desktop-application-for-windows/README.md)
+* [Velocity Trader Guide](README.md)
+* [Velocity Trader for Desktop](desktop-application-for-windows/README.md)
   * [Windows](desktop-application-for-windows/windows/README.md)
     * [How to](desktop-application-for-windows/windows/how-to.md)
     * [Getting started](desktop-application-for-windows/windows/getting-started/README.md)
@@ -245,7 +245,7 @@
       * [RSS](desktop-application-for-windows/desktop-application-for-mac/informative-panels/rss.md)
       * [Notifications](desktop-application-for-windows/desktop-application-for-mac/informative-panels/notifications.md)
       * [More](desktop-application-for-windows/desktop-application-for-mac/informative-panels/more.md)
-* [VelocityTrader for Mobile](velocitytrader-for-mobile/README.md)
+* [Velocity Trader for Mobile](velocitytrader-for-mobile/README.md)
   * [Phones](velocitytrader-for-mobile/phones/README.md)
     * [Getting started](velocitytrader-for-mobile/phones/getting-started.md)
     * [Settings](velocitytrader-for-mobile/phones/settings.md)
@@ -393,7 +393,7 @@
       * [Metrics](velocitytrader-for-mobile/tablets/my-portfolio/metrics.md)
       * [More](velocitytrader-for-mobile/tablets/my-portfolio/more.md)
     * [External links](velocitytrader-for-mobile/tablets/external-links.md)
-* [VelocityTrader for Web](web-platform/README.md)
+* [Velocity Trader for Web](web-platform/README.md)
   * [Getting started](web-platform/getting-started/README.md)
     * [System requirements](web-platform/getting-started/system-requirements.md)
     * [Login screen](web-platform/getting-started/login-screen.md)

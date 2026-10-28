@@ -12,7 +12,7 @@ By opening the demo version of the app, Onboarding with basic hints will be show
 
 <figure><img src="../../.gitbook/assets/onboarding.png" alt=""><figcaption></figcaption></figure>
 
-The main screen of the demo version is similar to the real application so that the user can familiarize himself with the VelocityTrader system as much as possible:
+The main screen of the demo version is similar to the real application so that the user can familiarize himself with the Velocity Trader system as much as possible:
 
 <figure><img src="../../.gitbook/assets/1z.png" alt=""><figcaption></figcaption></figure>
 

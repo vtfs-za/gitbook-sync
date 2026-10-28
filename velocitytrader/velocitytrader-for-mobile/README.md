@@ -1,2 +1,2 @@
-# VelocityTrader for Mobile
+# Velocity Trader for Mobile
 

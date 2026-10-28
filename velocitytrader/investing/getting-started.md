@@ -1,6 +1,6 @@
 # Getting started
 
-The VelocityTrader Investing application allows a user to grow his capital by investing money in various assets. For novice investors, the advantage of the application is its simplicity, for expert investors it gives plenty of tools to work with. The app is modern, user-friendly and secure. To open the Investing application, use the Segment control at the “More” tab.
+The Velocity Trader Investing application allows a user to grow his capital by investing money in various assets. For novice investors, the advantage of the application is its simplicity, for expert investors it gives plenty of tools to work with. The app is modern, user-friendly and secure. To open the Investing application, use the Segment control at the “More” tab.
 
 ![](<../.gitbook/assets/1 - Copy 1 (1).png>)
 

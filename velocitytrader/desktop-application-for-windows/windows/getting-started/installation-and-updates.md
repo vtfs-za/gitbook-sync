@@ -1,28 +1,28 @@
 # Installation and login
 
-VelocityTrader Desktop App performs automatic updates, meaning you don't need to search and install and worry about the latest updates of the software. The average download size is 30 MB.
+Velocity Trader Desktop App performs automatic updates, meaning you don't need to search and install and worry about the latest updates of the software. The average download size is 30 MB.
 
-To install VelocityTrader Desktop App simply run the .exe file and select the installation directory. Click Install and wait for the VelocityTrader to complete the installation for you.
+To install Velocity Trader Desktop App simply run the .exe file and select the installation directory. Click Install and wait for the Velocity Trader to complete the installation for you.
 
-### How to update VelocityTrader Desktop App?
+### How to update Velocity Trader Desktop App?
 
-When you launch your VelocityTrader Desktop App, an Update manager will launch an automatic update. Thus, you don't need to install the latest updates of VelocityTrader manually.
+When you launch your Velocity Trader Desktop App, an Update manager will launch an automatic update. Thus, you don't need to install the latest updates of Velocity Trader manually.
 
-### How to Uninstall VelocityTrader from your PC?
+### How to Uninstall Velocity Trader from your PC?
 
-To uninstall the VelocityTrader, go to Start -> Programs -> 'Name of the terminal' -> Uninstall. You can also uninstall VelocityTrader from the Control panel.
+To uninstall the Velocity Trader, go to Start -> Programs -> 'Name of the terminal' -> Uninstall. You can also uninstall Velocity Trader from the Control panel.
 
-Uninstalling VelocityTrader won't remove default settings or connections. These data are stored in your profile folder, which is located in one of the following locations, depending on your operation system:
+Uninstalling Velocity Trader won't remove default settings or connections. These data are stored in your profile folder, which is located in one of the following locations, depending on your operation system:
 
 Windows Server 2016, XP - Documents and Settings\\\<UserName>\Application Data\Folder with terminal.
 
 Windows Vista (no longer supported), Windows 7 (no longer supported), Win 8.1/10 - Users\\\<UserName>\AppData\Roaming\Folder with terminal.
 
-After re-installing VelocityTrader into your PC, the newly installed VelocityTrader App will parse the data from your profile folder.
+After re-installing Velocity Trader into your PC, the newly installed Velocity Trader App will parse the data from your profile folder.
 
 ### **How to Login?**
 
-Launch the VelocityTrader Desktop App and enter your credentials to log into your terminal.
+Launch the Velocity Trader Desktop App and enter your credentials to log into your terminal.
 
 <figure><img src="../../../.gitbook/assets/image (365).png" alt="" width="286"><figcaption></figcaption></figure>
 

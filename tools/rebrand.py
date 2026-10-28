@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Rebuild the VelocityTrader docs from a TraderEvolution (vendor) GitBook export.
+"""Rebuild the Velocity Trader docs from a TraderEvolution (vendor) GitBook export.
 
 The vendor docs live on the `upstream` remote. Every vendor page is regenerated from a vendor ref with a
-word-based rebrand, so taking a vendor update means: git fetch upstream, then run this script.
+word-based rebrand, so taking a vendor update means: git fetch upstream, then run this script. The docs are
+written to velocitytrader/, the folder the GitBook space syncs (see gitbook-docs.yaml).
 
     python3 tools/rebrand.py                    dry run: report what would change
     python3 tools/rebrand.py --apply            write the regenerated docs into the working tree
@@ -10,11 +11,13 @@ word-based rebrand, so taking a vendor update means: git fetch upstream, then ru
     python3 tools/rebrand.py --vendor-ref upstream/main ...      use another vendor ref
 
 Changes made to a vendor page (every other byte is kept as it is):
-  - TraderEvolution -> VelocityTrader (whole word, any case); in page paths traderevolution -> velocitytrader
+  - TraderEvolution -> Velocity Trader (whole word, any case); in page paths traderevolution -> velocitytrader
   - absolute links guide.traderevolution.com/{project,traderevolution}/<page> -> relative .md links
   - dead guide.traderevolution.com/~gitbook/image?url=... proxy URLs -> the direct file URL they wrap
-  - .gitbook/assets is made equal to the vendor's
-Pages that exist only in the VelocityTrader docs are listed in EXTRAS and are left alone.
+Vendor images that a page uses and .gitbook/assets lacks are copied in. Images are never deleted or overwritten:
+the folder also holds rebranded screenshots, and images set aside in .gitbook/assets/TraderEvolution/ until a
+rebranded version exists are not copied back.
+Pages that exist only in the Velocity Trader docs are listed in EXTRAS and are left alone.
 """
 import argparse
 import io
@@ -29,20 +32,25 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+DOCS_DIR = "velocitytrader"  # all page and asset paths below are relative to this folder
+DOCS = ROOT / DOCS_DIR
 DEFAULT_REF = "upstream/gitbook/export-2263722b8c2ac01760acb8afcee23ac8"
 FALLBACK_HOST = "https://help.za.velocitytrade.com"
+BRAND_NAME = "Velocity Trader"
 ASSETS = ".gitbook/assets"
-LEGACY_DIRS = ("traderevolution-for-mobile",)  # brand-named folders left by earlier syncs
+SET_ASIDE = "TraderEvolution"  # subfolder of ASSETS for images that show the vendor brand
+GITBOOK_YAML = ".gitbook.yaml"  # holds the redirects for page paths the docs no longer have
+# Folders left by earlier versions of the docs: brand-named folders from earlier syncs, and the old mobile
+# section brought back by GitBook change request GITBOOK-8.
+LEGACY_DIRS = ("traderevolution-for-mobile", "mobile-applications")
 
-# Pages that exist only in the VelocityTrader docs. Each is kept on --apply and listed in SUMMARY.md in
-# front of the entry for `before`; it only counts once its page file exists. `assets` is the filename
-# prefix of its images in .gitbook/assets.
+# Pages that exist only in the Velocity Trader docs. Each is kept on --apply and listed in SUMMARY.md in
+# front of the entry for `before`; it only counts once its page file exists.
 EXTRAS = [
     {
         "page": "desktop-application-for-windows/windows/omnibus-account-management.md",
         "title": "Omnibus account management",
         "before": "desktop-application-for-windows/windows/trading-ideas.md",
-        "assets": "omnibus-account-management-",
     },
 ]
 
@@ -62,22 +70,22 @@ TEXT_URL_LINK = re.compile(
 PROXY_URL = re.compile(
     VENDOR_HOST + r"/(?:project/)?~gitbook/image\?url=(?P<url>[^&\\\"\s)<>]+)(?:\\?(?:&#x26;|&amp;|&)[^\"\s)<>]*)?")
 # Asset paths and external URLs are never word-replaced; anything left over is reported by --check.
-BRAND = re.compile(r"(?P<keep>\.gitbook/assets/[^)\"'<>\n]*|https?://[^\s)\"'<>\]]+)|\btraderevolution\b", re.I)
+KEEP = r"\.gitbook/assets/[^)\"'<>\n]*|https?://[^\s)\"'<>\]]+"
+BRAND = re.compile(rf"(?P<keep>{KEEP})|\btraderevolution\b", re.I)
 TARGET = re.compile(r"\]\(<(?P<a>[^>\n]*)>\)|\]\((?P<b>[^)\s<>]*)\)|\b(?:href|src)=\"(?P<c>[^\"\n]*)\"")
 SUMMARY_LINE = re.compile(r"^(?P<pre>\s*\* \[)(?P<title>.*)(?P<mid>\]\()(?P<target>[^)]*)(?P<post>\).*)$")
 EXTERNAL = re.compile(r"[a-z][a-z0-9+.-]*:|#|//", re.I)
 
 
-def git(*args, input=None, literal=False):
-    env = dict(os.environ, GIT_LITERAL_PATHSPECS="1") if literal else None
-    p = subprocess.run(["git", "-C", str(ROOT), *args], input=input, capture_output=True, env=env)
+def git(*args):
+    p = subprocess.run(["git", "-C", str(ROOT), *args], capture_output=True)
     if p.returncode:
         sys.exit(f"git {' '.join(args[:2])} failed: {p.stderr.decode(errors='replace').strip()}")
     return p.stdout
 
 
 def final_path(path):
-    """Vendor repo path -> VelocityTrader repo path (folders and files named after the brand)."""
+    """Vendor repo path -> path in DOCS (folders and files named after the brand)."""
     return re.sub("traderevolution", "velocitytrader", path, flags=re.I)
 
 
@@ -87,7 +95,7 @@ def brand(text, stats=None):
             return m[0]
         if stats is not None:
             stats["brand words replaced"] += 1
-        return "VelocityTrader"
+        return BRAND_NAME
     return BRAND.sub(sub, text)
 
 
@@ -250,15 +258,15 @@ def load_vendor(ref):
 
 def read_working(dirs):
     current = {}
-    for entry in os.scandir(ROOT):
+    for entry in os.scandir(DOCS):
         if entry.is_file() and entry.name.endswith(".md"):
             current[entry.name] = Path(entry.path).read_bytes()
     for d in dirs:
-        for base, _, names in os.walk(ROOT / d):
+        for base, _, names in os.walk(DOCS / d):
             for name in names:
                 if name.endswith(".md"):
                     f = Path(base) / name
-                    current[f.relative_to(ROOT).as_posix()] = f.read_bytes()
+                    current[f.relative_to(DOCS).as_posix()] = f.read_bytes()
     return current
 
 
@@ -271,35 +279,35 @@ def plan(out, current, extras):
     }
 
 
-def asset_state(sha, vendor_names):
-    adir = ROOT / ASSETS
+def asset_state(vendor_names, out):
+    """Images used by the regenerated pages: (vendor images to copy in, images set aside, files in ASSETS)."""
+    adir = DOCS / ASSETS
     work = {(Path(base) / n).relative_to(adir).as_posix() for base, _, names in os.walk(adir) for n in names}
-    keep = tuple(e["assets"] for e in EXTRAS)
-    stray = sorted(n for n in work - vendor_names if not n.startswith(keep))
-    missing = sorted(vendor_names - work)
-    diff = git("diff", "--name-status", "-z", sha, "--", ASSETS).decode("utf-8", "surrogateescape").split("\0")
-    changed = [diff[i + 1].removeprefix(ASSETS + "/") for i in range(0, len(diff) - 1, 2) if diff[i][0] in "MT"]
-    return changed, missing, stray, work
+    set_aside = {posixpath.basename(n) for n in work if n.startswith(SET_ASIDE + "/")}
+    used = {t.removeprefix(ASSETS + "/") for src, data in out.items()
+            for t in resolved_targets(src, data.decode("utf-8", "surrogateescape")) if t.startswith(ASSETS + "/")}
+    absent = used - work
+    missing = sorted(n for n in absent if n in vendor_names and n not in set_aside)
+    pending = sorted(n for n in absent if n in set_aside)
+    return missing, pending, work
 
 
 def apply(sha, out, changes, assets):
     for path in changes["delete"]:
-        (ROOT / path).unlink()
+        (DOCS / path).unlink()
     for path in changes["add"] + changes["modify"]:
-        f = ROOT / path
+        f = DOCS / path
         f.parent.mkdir(parents=True, exist_ok=True)
         f.write_bytes(out[path])
     for d in sorted({p.split("/")[0] for p in changes["delete"] if "/" in p}):
-        for base, _, _ in os.walk(ROOT / d, topdown=False):
+        for base, _, _ in os.walk(DOCS / d, topdown=False):
             if not os.listdir(base):
                 os.rmdir(base)
-    changed, missing, stray, _ = assets
-    restore = [f"{ASSETS}/{n}" for n in changed + missing]
-    if restore:
-        git("restore", f"--source={sha}", "--worktree", "--pathspec-from-file=-", "--pathspec-file-nul",
-            input="\0".join(restore).encode("utf-8", "surrogateescape"), literal=True)
-    for name in stray:
-        (ROOT / ASSETS / name).unlink()
+    missing, _, _ = assets
+    for name in missing:
+        f = DOCS / ASSETS / name
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_bytes(git("cat-file", "blob", f"{sha}:{ASSETS}/{name}"))
 
 
 def tokens(text):
@@ -310,24 +318,39 @@ def tokens(text):
     t = re.sub(r"https?://\S+", " ", t)
     t = re.sub(r"\{%.*?%\}", " ", t)
     t = re.sub(r"&#x[0-9A-Fa-f]+;", " ", t)
-    t = re.sub(r"(?i)traderevolution|velocitytrader|evolutiontrader", "brand", t)
+    t = re.sub(r"(?i)traderevolution|velocity\s*trader|evolutiontrader", "brand", t)
     return re.findall(r"[a-z0-9]+", t.lower())
+
+
+def resolved_targets(src, text):
+    """Path (relative to DOCS) of every relative link, image or href/src in page src."""
+    for m in TARGET.finditer(text):
+        target = next(m[g] for g in ("a", "b", "c") if m[g] is not None)
+        if not target or EXTERNAL.match(target):
+            continue
+        target = re.sub(r"\\([\\`*_{}\[\]()#+\-.!&|<>])", r"\1", target)
+        target = urllib.parse.unquote(re.split(r"[#?]", target)[0])
+        yield posixpath.normpath(posixpath.join(posixpath.dirname(src), target))
 
 
 def broken_refs(texts, known):
     """(page, resolved target) for every relative link, image or href/src that points at nothing."""
-    broken = set()
-    for src, text in texts.items():
-        for m in TARGET.finditer(text):
-            target = next(m[g] for g in ("a", "b", "c") if m[g] is not None)
-            if not target or EXTERNAL.match(target):
-                continue
-            target = re.sub(r"\\([\\`*_{}\[\]()#+\-.!&|<>])", r"\1", target)
-            target = urllib.parse.unquote(re.split(r"[#?]", target)[0])
-            resolved = posixpath.normpath(posixpath.join(posixpath.dirname(src), target))
-            if resolved not in known:
-                broken.add((src, resolved))
-    return broken
+    return {(src, t) for src, text in texts.items() for t in resolved_targets(src, text) if t not in known}
+
+
+def read_redirects():
+    """The redirects in DOCS/.gitbook.yaml as {old page path: page file}."""
+    f = DOCS / GITBOOK_YAML
+    redirects, inside = {}, False
+    for line in (f.read_text(encoding="utf-8").splitlines() if f.is_file() else []):
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        if not line[0].isspace():
+            inside = line.rstrip() == "redirects:"
+        elif inside:
+            key, _, value = line.strip().partition(": ")
+            redirects[key.strip("'\"")] = value.strip().strip("'\"")
+    return redirects
 
 
 def check(files, vendor_names, gen, current, changes, assets):
@@ -345,24 +368,41 @@ def check(files, vendor_names, gen, current, changes, assets):
                         f"{len(pages - set(targets))} pages without an entry, {len(dupes)} duplicates "
                         f"(e.g. {sorted(set(targets) ^ pages)[:3]})")
 
+    redirects = read_redirects()
+    dangling = sorted(k for k, v in redirects.items() if v not in pages)
+    shadowing = sorted(k for k in redirects if f"{k}.md" in pages or f"{k}/README.md" in pages)
+    if dangling or shadowing:
+        problems.append(f"{GITBOOK_YAML} redirects: {len(dangling)} point at no page, {len(shadowing)} are the path "
+                        f"of an existing page (e.g. {(dangling + shadowing)[:3]})")
+
+    missing, pending, work = assets
     texts = {p: b.decode("utf-8", "surrogateescape") for p, b in current.items()}
-    known = set(current) | {f"{ASSETS}/{n}" for n in assets[3]}
+    known = set(current) | {f"{ASSETS}/{n}" for n in work}
     vendor_texts = {p: b.decode("utf-8", "surrogateescape") for p, b in files.items()}
     vendor_known = set(files) | {f"{ASSETS}/{n}" for n in vendor_names}
     vendor_broken = {(final_path(s), final_path(t)) for s, t in broken_refs(vendor_texts, vendor_known)}
+    absent = {f"{ASSETS}/{n}" for n in missing + pending}  # reported on their own below
     new_broken = {(s, final_path(t)) for s, t in broken_refs(texts, known)} - vendor_broken
+    new_broken = {(s, t) for s, t in new_broken if t not in absent}
     if new_broken:
         problems.append(f"{len(new_broken)} links or images point at nothing (not broken in the vendor docs), "
                         f"e.g. {sorted(new_broken)[:3]}")
+    if missing:
+        problems.append(f"{len(missing)} vendor images used by pages are missing from {ASSETS} "
+                        f"(--apply copies them), e.g. {missing[:3]}")
 
+    prose = {p: re.sub(KEEP, " ", t) for p, t in texts.items()}  # without asset paths and URLs
     leaks = [
-        ("vendor brand", re.compile(r"traderevolution|evolutiontrader", re.I)),
-        ("URL prefix that 404s on the site", re.compile(r"help\.za\.velocitytrade\.com/(?:project|VelocityTrader)/")),
-        ("brand glued to letters", re.compile(r"[A-Za-z]VelocityTrader|VelocityTrader[A-Za-z]")),
-        ("repaired image URL ending in a backslash", re.compile(r"https://\d+-files\.gitbook\.io/[^\s)\"<>]*\\\)")),
+        ("vendor brand", re.compile(r"traderevolution|evolutiontrader", re.I), texts),
+        ("URL prefix that 404s on the site",
+         re.compile(r"help\.za\.velocitytrade\.com/(?:project|VelocityTrader)/"), texts),
+        (f"brand written without the space (not {BRAND_NAME})", re.compile(r"VelocityTrader"), prose),
+        ("brand glued to letters", re.compile(rf"[A-Za-z]{BRAND_NAME}|{BRAND_NAME}[A-Za-z]"), prose),
+        ("repaired image URL ending in a backslash",
+         re.compile(r"https://\d+-files\.gitbook\.io/[^\s)\"<>]*\\\)"), texts),
     ]
-    for label, pattern in leaks:
-        hits = sorted(p for p, t in texts.items() if pattern.search(t))
+    for label, pattern, pages_text in leaks:
+        hits = sorted(p for p, t in pages_text.items() if pattern.search(t))
         if hits:
             problems.append(f"{label} found in {len(hits)} pages, e.g. {hits[:3]}")
 
@@ -380,17 +420,16 @@ def check(files, vendor_names, gen, current, changes, assets):
             drift.append(dst)
     if drift:
         problems.append(f"{len(drift)} pages differ from the vendor text beyond brand and links, e.g. {drift[:3]}")
-
-    changed, missing, stray, _ = assets
-    if changed or missing or stray:
-        problems.append(f"{ASSETS} differs from the vendor's: {len(changed)} changed, {len(missing)} missing, "
-                        f"{len(stray)} extra")
     return problems
+
+
+def set_aside_note(pending):
+    return f"{len(pending)} images used by pages are set aside in {ASSETS}/{SET_ASIDE}/ until a rebranded version exists"
 
 
 def report(sha, gen, changes, assets, extras):
     print(f"vendor ref {sha[:7]}: {len(gen.pages)} pages (incl. README.md, SUMMARY.md); "
-          f"{len(extras)} extra VelocityTrader-only page(s) kept")
+          f"{len(extras)} extra {BRAND_NAME}-only page(s) kept")
     for key, n in sorted(gen.stats.items()):
         print(f"  {key}: {n}")
     for key, n in sorted(gen.contexts.items()):
@@ -403,8 +442,8 @@ def report(sha, gen, changes, assets, extras):
     for kind, paths in changes.items():
         flat = [p for p in paths if "/" not in p and p not in ("README.md", "SUMMARY.md")]
         print(f"  {kind}: {len(paths)}" + (f" ({len(flat)} of them flat root pages)" if kind == "delete" else ""))
-    changed, missing, stray, _ = assets
-    print(f"{ASSETS}: {len(changed)} changed to restore, {len(missing)} missing to restore, {len(stray)} extra to delete")
+    missing, pending, _ = assets
+    print(f"{ASSETS}: {len(missing)} vendor images used by pages are missing, to copy in; {set_aside_note(pending)}")
 
 
 def main():
@@ -417,24 +456,25 @@ def main():
     args = ap.parse_args()
 
     sha, files, vendor_names = load_vendor(args.vendor_ref)
-    extras = [e for e in EXTRAS if (ROOT / e["page"]).is_file()]
+    extras = [e for e in EXTRAS if (DOCS / e["page"]).is_file()]
     gen = Generator(files)
     out = gen.generate(extras)
     dirs = sorted({p.split("/")[0] for p in out if "/" in p} | set(LEGACY_DIRS))
     current = read_working(dirs)
     changes = plan(out, current, extras)
-    assets = asset_state(sha, vendor_names)
+    assets = asset_state(vendor_names, out)
 
     if args.check:
         problems = check(files, vendor_names, gen, current, changes, assets)
         for p in problems:
             print("FAIL:", p)
-        print("check:", "FAILED" if problems else f"ok ({len(current)} pages, assets match vendor {sha[:7]})")
+        print("note:", set_aside_note(assets[1]))
+        print("check:", "FAILED" if problems else f"ok ({len(current)} pages, vendor {sha[:7]})")
         sys.exit(1 if problems else 0)
 
     report(sha, gen, changes, assets, extras)
     if args.apply:
-        dirty = git("status", "--porcelain", "--untracked-files=no", "--", ".", ":(exclude)tools").strip()
+        dirty = git("status", "--porcelain", "--untracked-files=no", "--", DOCS_DIR).strip()
         if dirty and not args.force:
             sys.exit("refusing to --apply: tracked docs have uncommitted changes (commit them or use --force)")
         apply(sha, out, changes, assets)

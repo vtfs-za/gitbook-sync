@@ -6,12 +6,12 @@
 
 * Terminal: access to various panels that allow to trade, analyze trading activity, and monitor market conditions;
 * Tools: access to Strategy manager, MAM, Synthetic instruments, Aggressor Balance Beta, News, RSS, Economic calendar;
-* More: access to the VelocityTrader Global website, log file, private log file, data folder, and the current version screen;
+* More: access to the Velocity Trader Global website, log file, private log file, data folder, and the current version screen;
 * Alerts: access to the Alerts panel;
 * Ideas: access to the Trading Ideas panel;
 * Balance & Projected balance: access to account information;
 * Account: Account statistics, Withdrawal, Transfer, Reports, Change password, Change trading password;
-* Help: access to VelocityTrader Guide;
+* Help: access to Velocity Trader Guide;
 * Connection status: shows the status of connection to the server;
 * Ping information: shows the response time of the server (ms) to which the client is connected.
 
@@ -23,7 +23,7 @@
 * Ideas: access to the Trading Ideas panel;
 * Notifications: access to the Notifications panel;
 * Videos: access to the Videos panel;
-* Help: redirects user to VelocityTrader Guide;
+* Help: redirects user to Velocity Trader Guide;
 * Settings: access to general settings of the terminal. Read more about this section here:[General settings](general-settings.md)
 * Log in/out: evokes login screen or logs user out.
 

@@ -2,7 +2,7 @@
 
 A Trading idea is an investment recommendation based on market analysis. It includes predefined parameters for order placement as well as text description and chart snapshot.&#x20;
 
-In the VelocityTrader Investing application, users-subscribers can receive and use Trading ideas created by users-analysts in the VelocityTrader Desktop application.&#x20;
+In the Velocity Trader Investing application, users-subscribers can receive and use Trading ideas created by users-analysts in the Velocity Trader Desktop application.&#x20;
 
 To be able to receive, view and use Ideas, a user-subscriber needs to be subscribed to a Trading system. Also, to receive Ideas and place orders based on Ideas received, the Instrument used in the idea must be available to the user.&#x20;
 

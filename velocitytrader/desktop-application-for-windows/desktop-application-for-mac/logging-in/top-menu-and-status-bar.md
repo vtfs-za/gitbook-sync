@@ -5,7 +5,7 @@
 ![](<../../../.gitbook/assets/top menu.png>)
 
 *  Account: access to account information, Reports, Change password, Change trading password.
-* Help: access to VelocityTrader Guide.&#x20;
+* Help: access to Velocity Trader Guide.&#x20;
 * Preferences: access to general preferences of the platform. Read more about this section here: [Preferences](velocitytrader-preferences.md)
 *  Log in: evokes login screen.
 * Connection status: shows the status of connection to the server.&#x20;

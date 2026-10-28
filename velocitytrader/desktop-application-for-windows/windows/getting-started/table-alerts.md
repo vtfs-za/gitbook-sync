@@ -1,6 +1,6 @@
 # Alerts
 
-To open the Alerts panel, click on the ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfJuv_r0mkh2na82NtvWsYUtLAZIroFrulsqivYldUMgN3GkvDwik-japuzqWX7E0YIkOcoRo8ywDsDPIQnyV9J_UGLNmcBDSsqBmMXRcdO7FhA02qpoPv454jmE1_IUYfIujtBGXl7Rg5mv585qY6Eqxv-?key=i34kSG4duM_DXcQbimGXZQ) button which is located at the sidebar of the VelocityTrader terminal. In order to create an alert, click on the <img src="../../../.gitbook/assets/2 (47).png" alt="" data-size="original">button at the bottom of the panel.
+To open the Alerts panel, click on the ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfJuv_r0mkh2na82NtvWsYUtLAZIroFrulsqivYldUMgN3GkvDwik-japuzqWX7E0YIkOcoRo8ywDsDPIQnyV9J_UGLNmcBDSsqBmMXRcdO7FhA02qpoPv454jmE1_IUYfIujtBGXl7Rg5mv585qY6Eqxv-?key=i34kSG4duM_DXcQbimGXZQ) button which is located at the sidebar of the Velocity Trader terminal. In order to create an alert, click on the <img src="../../../.gitbook/assets/2 (47).png" alt="" data-size="original">button at the bottom of the panel.
 
 A user can see Bid, Ask, Last, Change% and Volume data by the symbol, selected in the symbol lookup of the panel.
 

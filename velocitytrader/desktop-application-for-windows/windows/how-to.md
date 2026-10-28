@@ -79,7 +79,7 @@ The ability to place Trailing stops must be activated in the User's details -> G
 
 #### **10. How to find a volume by price?**
 
-In VelocityTrader there are few options to view the volume by price:
+In Velocity Trader there are few options to view the volume by price:
 
 * The Market depth panel allows to view the volume per each price level;
 * Info Window in the Chart panel contains the volume value;

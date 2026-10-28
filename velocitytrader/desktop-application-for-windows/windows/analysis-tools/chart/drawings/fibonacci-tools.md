@@ -1,6 +1,6 @@
 # Fibonacci tools
 
-Fibonacci tools help a trader to analyze trends in the price chart and predict the next price. When the price goes up, Fibonacci tools act as resistance levels, and vice-versa. In VelocityTrader platform the following tools are represented:
+Fibonacci tools help a trader to analyze trends in the price chart and predict the next price. When the price goes up, Fibonacci tools act as resistance levels, and vice-versa. In Velocity Trader platform the following tools are represented:
 
 * Fibonacci retracement – retracement and price goals;
 * Fibonacci expansion – estimating support and resistance levels;

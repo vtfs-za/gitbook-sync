@@ -4,14 +4,14 @@ The main menu bar of the application for Mac looks as the following:
 
 ![](<../../../.gitbook/assets/Screenshot_3 (14).jpg>)
 
-The 'VelocityTrader' tab contains such items as:
+The 'Velocity Trader' tab contains such items as:
 
 * Preferences… – opens the general ‘Preferences’ menu;
 * Connections – opens the login screen for connecting using a different user and/or connection;
-* Hide VelocityTrader – allows to hide the VelocityTrader window;
-* Hide Others – allows to hide all windows, except of the VelocityTrader window;
+* Hide Velocity Trader – allows to hide the Velocity Trader window;
+* Hide Others – allows to hide all windows, except of the Velocity Trader window;
 * Show All – allows to show all hidden windows;
-* Quit VelocityTrader – allows to log out of the application.
+* Quit Velocity Trader – allows to log out of the application.
 
 The ‘Edit’ tab contains the following items:
 
@@ -67,6 +67,6 @@ The 'Window' tab allows making the standard manipulations with the application w
 The 'More' tab allows performing the following:
 
 * Search – allows to look up through the whole application for a desired element;
-* Home Page – access to VelocityTrader Global LTD website;
+* Home Page – access to Velocity Trader Global LTD website;
 * Open Data Folder – opens the folder containing application data;
 * About – allows to open About current version screen.

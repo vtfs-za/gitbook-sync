@@ -1,6 +1,6 @@
 # System requirements
 
-VelocityTrader Web has no minimum requirements to run, however it works in a browser, so your PC should have the minimum recommended for stable browser operation. The required parameters are as follows:
+Velocity Trader Web has no minimum requirements to run, however it works in a browser, so your PC should have the minimum recommended for stable browser operation. The required parameters are as follows:
 
 |                        | **Windows**                                                                                       | Mac                     | Linux                                                                           |
 | ---------------------- | ------------------------------------------------------------------------------------------------- | ----------------------- | ------------------------------------------------------------------------------- |
@@ -11,5 +11,5 @@ VelocityTrader Web has no minimum requirements to run, however it works in a bro
 | **Supported browsers** | <p>Google chrome</p><p>Opera</p><p>Mozilla firefox</p><p>Microsoft edge</p><p>Safari (Mac OS)</p> |                         |                                                                                 |
 
 {% hint style="warning" %}
-Please be aware that Internet Explorer is no longer supported by the VelocityTrader Web.
+Please be aware that Internet Explorer is no longer supported by the Velocity Trader Web.
 {% endhint %}
