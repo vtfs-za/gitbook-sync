@@ -17,7 +17,7 @@ The “Filter section” is located in the upper left part of the panel and cont
 
 The “Exchange” section allows displaying information in the table for the required exchanges only, simply check those of interest and the table will be refreshed:
 
-![](<../../../.gitbook/assets/Screenshot_2 (23).jpg>)
+![](<../../../.gitbook/assets/Screenshot_2 (47).jpg>)
 
 The “Date type” drop-down list allows filtering dividends displayed in the table by the following criteria: Announcement date, Declaration date, Ex-date, Record date, Payment date.
 
@@ -31,7 +31,7 @@ The “Informational table” section is divided into two parts. The upper one (
 
 ![](../../../.gitbook/assets/Screenshot_11.jpg)
 
-Contains the following columns:
+Contains the following columns:&#x20;
 
 * Symbol – displays instrument name;
 * Description – instrument’s description;

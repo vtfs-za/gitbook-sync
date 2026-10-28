@@ -10,11 +10,11 @@ Once the moving average is collected, it is subtracted from the current price of
 
 The Kairi relative index chart can also show the investor entry points, which are the exact points when the trend is about to start. This is done by using the center line, which in Kairi's case will always be zero. At the point where the index rises above the center line, it is time for an uptrend. If the index line falls below the top centerline, this should indicate the beginning of a downtrend for the security.
 
-## Calculation
+### Calculation
 
 KRI is calculated by the formula:
 
-![](<../../../.gitbook/assets/screenshot_1 (21).jpg>)
+<div align="left"><img src="../../../.gitbook/assets/Screenshot_1 (2).jpg" alt=""></div>
 
 where:
 
@@ -22,10 +22,10 @@ SMA — Simple Moving Average;
 
 N — number of periods used for calculation.
 
-## Main parameters
+### Main parameters
 
 Period: averaging period for calculation, default is 13.
 
 KRI calculates the deviation of the current price from its simple average as a percentage of the moving average. If the percentage is sufficiently high and positive, these are signals to sell, large and negative - to buy. This indicator looks as follows on the chart:
 
-![](../../../.gitbook/assets/kri.jpg)
+<figure><img src="../../../.gitbook/assets/image (289).png" alt=""><figcaption></figcaption></figure>

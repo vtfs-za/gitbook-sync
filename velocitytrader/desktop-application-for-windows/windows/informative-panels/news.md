@@ -2,11 +2,11 @@
 
 News panel lists the latest news available from the broker and other news sources which user is subscribed to. To open News panel, select Tools -> News.
 
-![](../../../.gitbook/assets/news-links.png)
+![](<../../../.gitbook/assets/news links.png>)
 
-User can choose the News feed from the Routes list which was created on the server using the control![](<../../../.gitbook/assets/screenshot_1 (14).png>).
+User can choose the News feed from the Routes list which was created on the server using the control<img src="../../../.gitbook/assets/Screenshot_1 (11).png" alt="" data-size="original">.
 
-Broker can create news routes, such as: News provider or exact news-wire from the same provider. This feature gives users more possibilities of customization and in some ways decreases the traffic flow through selection of the exact subject or news provider, and not all the news flow in general.
+Broker can create news routes, such as: News provider or exact news-wire from the same provider. This feature gives users more possibilities of customization and in some ways decreases the traffic flow through selection of the exact subject or news provider, and not all the news flow in general.
 
 The following columns are available for the panel:
 
@@ -19,10 +19,12 @@ The following columns are available for the panel:
 * Priority – urgency of news.
 * Link – direct link to news source.
 
-Note: if any columns are not supported by News provider those fields will be empty.
+{% hint style="warning" %}
+If any columns are not supported by News provider those fields will be empty.
+{% endhint %}
 
 User can select time period for which he wants to see logs. Choose from the following time filters:
 
-![](../../../.gitbook/assets/untitled.png)
+<div align="left"><img src="../../../.gitbook/assets/Untitled (5).png" alt=""></div>
 
-To read the story - open context menu and select View news story or simply double-click on the story. A built-in browser window will be opened, containing the full text of the story. It is also possible to remove selected news story or clear the whole table through context menu.
+To read the story - open context menu and select View news story or simply double-click on the story. A built-in browser window will be opened, containing the full text of the story. It is also possible to remove selected news story or clear the whole table through context menu.

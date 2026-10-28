@@ -1,22 +1,20 @@
 # Chart overlay
 
-A user can add any other Symbols to the current chart. To provide this, click on the![](<../../../.gitbook/assets/2 (39).png>) button located near the Symbol lookup. Select a new symbol to integrate into the chart.
+A user can add any other Symbols to the current chart. To provide this, click on the <img src="../../../.gitbook/assets/2 (151).png" alt="" data-size="original">&#x20;button located near the Symbol lookup. Select a new symbol to integrate into the chart.
 
-![](../../../.gitbook/assets/overlay.png)
+<figure><img src="../../../.gitbook/assets/chartOverlay.gif" alt=""><figcaption></figcaption></figure>
 
-The menu of the overlaid symbol contains the following buttons:
+The menu of the overlaid symbol contains the following buttons:
 
-![](<../../../.gitbook/assets/3 (65).png>)
+![](<../../../.gitbook/assets/3 (67).png>)
 
-*   Visible![](<../../../.gitbook/assets/4 (50).png>)
-
-    – if checked, the price scale of the selected overlaid symbol will be shown on the chart;
-* Hide/Show![](<../../../.gitbook/assets/5 (28).png>)– allows to hide or show overlaid symbol on the chart;
-* Remove overlay![](<../../../.gitbook/assets/6 (8).png>)– allows removing the overlay in one click.
+* Visible <img src="../../../.gitbook/assets/4 (26).png" alt="" data-size="original">&#x20;  – if checked, the price scale of the selected overlaid symbol will be shown on the chart;
+* Hide/Show <img src="../../../.gitbook/assets/5 (30).png" alt="" data-size="original"> – allows to hide or show overlaid symbol on the chart;
+* Remove overlay <img src="../../../.gitbook/assets/6 (49).png" alt="" data-size="original"> – allows removing the overlay in one click.
 
 A user can select the following overlay settings:
 
-![](<../../../.gitbook/assets/7 (3).png>)
+<figure><img src="../../../.gitbook/assets/image (1424).png" alt="" width="371"><figcaption></figcaption></figure>
 
 * Symbol – allows selecting symbol for overlay.
 * Data type – type of data which will be displayed: Bid, Ask, Last.

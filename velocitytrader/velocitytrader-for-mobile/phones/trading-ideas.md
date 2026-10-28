@@ -6,7 +6,7 @@ In the TE mobile application, Users (Users-subscribers) can receive and use [Tra
 To be able to receive, view and use Ideas, a User-subscriber needs to be subscribed to a Trading system. Also, to receive Ideas and place orders based on Ideas received, the Instrument used in the idea must be available to the User.
 {% endhint %}
 
-A User-subscriber is notified of receiving an Idea by the <img src="../../.gitbook/assets/image (48).png" alt="" data-size="line"> icon in the left upper corner of the main application menu. The number displayed on the icon means the number of Ideas received.
+A User-subscriber is notified of receiving an Idea by the <img src="../../.gitbook/assets/image (52).png" alt="" data-size="line"> icon in the left upper corner of the main application menu. The number displayed on the icon means the number of Ideas received.
 
 Clicking the icon opens the Ideas panel, which shows all the currently received Ideas:
 
@@ -16,11 +16,11 @@ By clicking on an Idea space in the Ideas panel, User can open the Idea expanded
 
 <figure><img src="../../.gitbook/assets/image (54).png" alt="" width="375"><figcaption></figcaption></figure>
 
-The expanded view of an Idea contains the chart of the Instrument used (if the data on the Instrument is available to the User), Idea text description, remaining lifetime, Take profit, Limit price and Stop loss values and the Idea remaining Life time. With that, the chart of the Instrument used in the Idea is refreshed with the same frequency as the chart panel.
+The expanded view of an Idea contains the chart of the Instrument used (if the data on the Instrument is available to the User), Idea text description, remaining lifetime, Take profit, Limit price and Stop loss values and the Idea remaining Life time. With that, the chart of the Instrument used in the Idea is refreshed with the same frequency as the chart panel.&#x20;
 
 In the Idea expanded view, the User-subscriber can specify the quantity for the Idea order using the Quantity control, view and change the Product type (if available) before placing the order.
 
-If, in addition to the one specified in the Idea, there is a product type available to the User-subscriber that differs from the one specified in the Idea by the User analyst, the User subscriber can switch from "Delivery" to "Intraday" product type using the Product type control:
+If, in addition to the one specified in the Idea, there is a product type available to the User-subscriber that differs from the one specified in the Idea by the User analyst, the User subscriber can switch from "Delivery" to "Intraday" product type using the Product type control: &#x20;
 
 <figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
@@ -40,6 +40,6 @@ After clicking the OK button, the Idea order is placed and the User can manage i
 
 ### Data source <a href="#data-source" id="data-source"></a>
 
-In the Ideas panel the user-subscriber can see the extended information about the source of Last, Bid and Ask prices. In order to open the table with the detailed information, tap the <img src="../../.gitbook/assets/image (547) (1).png" alt="" data-size="line"> button and the widget will be shown:
+In the Ideas panel the user-subscriber can see the extended information about the source of Last, Bid and Ask prices. In order to open the table with the detailed information, tap the <img src="../../.gitbook/assets/image (666).png" alt="" data-size="line"> button and the widget will be shown:
 
 <figure><img src="../../.gitbook/assets/image (1690).png" alt=""><figcaption></figcaption></figure>

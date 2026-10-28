@@ -6,7 +6,7 @@ Users who has access can import their own technical indicators by going to Chart
 
 By clicking on the button, the following "Import script" window will be opened:
 
-<figure><img src="../../../.gitbook/assets/image (322).png" alt="" width="559"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (323).png" alt="" width="559"><figcaption></figcaption></figure>
 
 Here you can select files for import. There are two options available: **Add Folder** and **Add Files**.
 
@@ -21,4 +21,4 @@ After that, clicking the <img src="../../../.gitbook/assets/image (325).png" alt
 
 Now they can be applied on the Chart:
 
-<figure><img src="../../../.gitbook/assets/timeandsales.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/timeandsales (1).gif" alt=""><figcaption></figcaption></figure>

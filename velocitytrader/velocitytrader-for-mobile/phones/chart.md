@@ -12,9 +12,9 @@ Tap the name of the symbol at the list of added symbols to open the chart:
 
 At the top of the Chart window:
 
-* <img src="../../.gitbook/assets/image (1465).png" alt="" data-size="line"> - displays Symbol name and it's brief description;
+* <img src="../../.gitbook/assets/image (1466).png" alt="" data-size="line"> - displays Symbol name and it's brief description;
 * <img src="../../.gitbook/assets/image (1467).png" alt="" data-size="line"> - allows to open the Symbol lookup and switch symbols directly from Chart;
-*   <img src="../../.gitbook/assets/image (1468).png" alt="" data-size="line"> - allows adding/removing the current symbol to/from Watchlist.\
+*   <img src="../../.gitbook/assets/image (1469).png" alt="" data-size="line"> - allows adding/removing the current symbol to/from Watchlist.\
     Tap on the icon will open a window with a range of lists to which you can add or remove the current symbol from:<br>
 
     <figure><img src="../../.gitbook/assets/image (1470).png" alt="" width="375"><figcaption></figcaption></figure>
@@ -26,7 +26,7 @@ Note that tapping anywhere on the chart displays a crosshair showing the Open, H
 
 <figure><img src="../../.gitbook/assets/image (19).png" alt="" width="375"><figcaption></figcaption></figure>
 
-### **Chart toolbar**
+### **Chart toolbar**&#x20;
 
 Tap the <img src="../../.gitbook/assets/image (1473).png" alt="" data-size="line"> button to open Chart toolbar.
 
@@ -61,7 +61,7 @@ The following chart settings are available for configuration:
 * Spread type – allows setting up the way of spread displaying. Available options: Line with price (Bid and Ask) and None. If spread type is None, then single price indicator will be shown, depending on chart data type (Bid, Last, Ask etc.);
 * Display Last instead of calculated Close - if checked, only the Last price is displayed on the price scale. If unchecked, both the Last price and the calculated Close value according to the selected aggregation type are displayed (available only for charts with Heiken Ashi style);
 * Data type - determines which price type is used to plot the chart. Available types are: Bid, Ask, Last and Default by symbol.
-*   Chart mode - The setting allows the user to select the chart scaling mode. There are two modes to choose from: Auto and Manual.
+*   Chart mode - The setting allows the user to select the chart scaling mode. There are two modes to choose from: Auto and Manual.&#x20;
 
     * In Manual mode the chart scaling is performed by Pinch gesture on the price scale, in other words - bringing your fingers together on the price will increase its scale, reducing its accuracy and vice versa spreading your fingers will increase its accuracy for more convenient setting of the order to the required value.
     * In turn, using the Auto mode will bring the chart to the optimal size, so that it would accommodate all the objects on it (indicators, positions, orders, etc.).
@@ -74,7 +74,7 @@ In order to add a new indicator, choose the category <img src="../../.gitbook/as
 
 <figure><img src="../../.gitbook/assets/image (1478).png" alt="" width="375"><figcaption></figcaption></figure>
 
-It will appear in ‘Added indicators’ section and you can set indicator’s parameters by tapping the button <img src="../../.gitbook/assets/image (715).png" alt="" data-size="line">. Tap the button <img src="../../.gitbook/assets/image (716) (1).png" alt="" data-size="line"> located near indicator’s name to remove indicator from this section.
+It will appear in ‘Added indicators’ section and you can set indicator’s parameters by tapping the button <img src="../../.gitbook/assets/image (715).png" alt="" data-size="line">.&#x20;Tap the button <img src="../../.gitbook/assets/image (716).png" alt="" data-size="line"> located near indicator’s name to remove indicator from this section.
 
 <figure><img src="../../.gitbook/assets/image (1479).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -82,7 +82,7 @@ Open the chart to see the added indicators.
 
 <figure><img src="../../.gitbook/assets/Simulator_Screenshot_iPhone_16_Plus_2026_06_08_at_22_20_24.png" alt="" width="375"><figcaption></figcaption></figure>
 
-### **Order entry**
+### **Order entry**&#x20;
 
 The Order entry screen enables user to send orders. The Order entry icon <img src="../../.gitbook/assets/image (1481).png" alt="" data-size="line"> is located at the top right corner of the Chart screen.
 
@@ -90,7 +90,7 @@ The Order entry screen enables user to send orders. The Order entry icon <img sr
 
 Read more information about Order entry screen here:
 
-[Order entry](order-entry/)
+[Order entry](order-entry/README.md)
 
 ### Drawings
 
@@ -152,7 +152,7 @@ The Short and Long Position drawing allows the following:
 * to display absolute increment SL/TP per position;
 * to calculate the ratio of absolute increment SL/TP to position opening price;
 * to calculate position volume considering the number of funds;
-* to calculate PL when closing the position;
+* to calculate PL when closing the position;&#x20;
 * to calculate the account balance after the position is closed if the account size is known in advance;
 * to calculate Risk/Reward ratio.
 
@@ -173,12 +173,12 @@ This bar allows the user to configure the following settings:
 * Line style;
 * Line color;
 * Lock/unlock the drawing on the chart;
-* Open the menu that allows to adjust the levels of drawing, extend it to the left or right side, and select the time and price plotting points.
+* Open the menu that allows to adjust the levels of drawing, extend it to the left or right side, and select the time and price plotting points.&#x20;
 
 By pressing the top of the menu, the user can move it within the chart to any convenient place.
 
 ### Data source
 
-In the Chart panel a user can see the the extended information about the source of Last, Bid and Ask prices. In order to open the table with the detailed information, tap the <img src="../../.gitbook/assets/image (645) (1).png" alt="" data-size="line"> arrow and the widget will be shown:
+In the Chart panel a user can see the the extended information about the source of Last, Bid and Ask prices. In order to open the table with the detailed information, tap the <img src="../../.gitbook/assets/image (724).png" alt="" data-size="line"> arrow and the widget will be shown:
 
 <figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXew5h-nhN2HTT7JBfzroTsydQVPmyqmO-XR5pyE152olzugst82jW3eyJzww7yuTchR6vcdPWxFn-T3kb4StUeKZWUdNnFSFnQMphvnjO4jE4qL4PyGZlCwvyYzB6KejWsqacpQpWbDlyIibrxtW9Afejyu?key=i34kSG4duM_DXcQbimGXZQ" alt=""><figcaption></figcaption></figure>

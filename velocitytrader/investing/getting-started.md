@@ -2,7 +2,7 @@
 
 The VelocityTrader Investing application allows a user to grow his capital by investing money in various assets. For novice investors, the advantage of the application is its simplicity, for expert investors it gives plenty of tools to work with. The app is modern, user-friendly and secure. To open the Investing application, use the Segment control at the “More” tab.
 
-![](<../.gitbook/assets/1 - Copy 1.png>)
+![](<../.gitbook/assets/1 - Copy 1 (1).png>)
 
 The interface of the trading application will be changed to the interface of the Investing functionality. If you need to go back to a trading application, use the Segment control again. After logging into the application, a user can start investing.
 
@@ -12,7 +12,7 @@ If a user has several Investor accounts, he can choose a certain account by tapp
 
 <figure><img src="../.gitbook/assets/image (77).png" alt="" width="375"><figcaption></figcaption></figure>
 
-To open the account menu, tap the ![](<../.gitbook/assets/image (532).png>) button at the top right corner of the screen. The account menu contains the following options:
+To open the account menu, tap the ![](<../.gitbook/assets/image (533).png>) button at the top right corner of the screen. The account menu contains the following options:
 
 <figure><img src="../.gitbook/assets/getting started 3.png" alt=""><figcaption></figcaption></figure>
 
@@ -26,7 +26,7 @@ A user can also easily change the password of the account:
 
 Close account request - an option for users to send requests to close their accounts.
 
-After clicking the ‘Close account’ option, the following confirmation screen will appear:
+After clicking the ‘Close account’ option, the following confirmation screen will appear:&#x20;
 
 <figure><img src="../.gitbook/assets/image (79).png" alt="" width="375"><figcaption></figcaption></figure>
 

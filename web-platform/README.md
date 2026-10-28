@@ -1,2 +1,0 @@
-# VelocityTrader for Web
-

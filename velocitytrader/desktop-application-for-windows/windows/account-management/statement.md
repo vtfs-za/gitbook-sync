@@ -23,11 +23,11 @@ The following columns are available in the panel:
 * Trade ID - identifier of the trade in the system. Available only if account operation is related to the trade;
 * Details - any comment left by the broker for an operation.
 
-Note that it is possible to select the time period for data displayed in the table. There is a drop-down list ![](<../../../.gitbook/assets/image (1150).png>) at the top of the panel, which includes 2 options:
+Note that it is possible to select the time period for data displayed in the table. There is a drop-down list ![](<../../../.gitbook/assets/image (1150).png>) at the top of the panel, which includes 2 options:&#x20;
 
 * Daily - displays data for the current day;
 * Range - activates an additional panel for the period selection.
 
-It is important to note that the Statement panel displays static data, so there is a separate ![](<../../../.gitbook/assets/image (1151).png>) button at the top of the panel for updating/searching the data.
+It is important to note that the Statement panel displays static data, so there is a separate ![](<../../../.gitbook/assets/image (1152).png>) button at the top of the panel for updating/searching the data.
 
 On the right side of the toolbar there is a search bar, which allows to quickly find the needed information on the user account ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXeUvZsv8O9b28l4jLc5A8On1e15PyjLLJ7Jc8c-y-4AI4WvW_aZtbp-VbzEKie0pFdLNqDijJO6okL1iAW_sE_Q7Q8ccRNuBbhcOv8SbyaQ9IR9FsgBgfPEETszAG4QhQ_fQ6xDBB7-_1xnuKJPaEE2ms0?key=K2X5yXfKWEHEXw4fs7RNKQ). By default, the search bar is inactive, the user can activate it using the panel’s context menu.

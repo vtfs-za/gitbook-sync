@@ -8,7 +8,7 @@ Swipe left the instrument at the Watchlist screen and select the corresponding i
 
 <figure><img src="../../../.gitbook/assets/2 (1).JPEG" alt="" width="355"><figcaption></figcaption></figure>
 
-To call the Context menu, press and hold (Long tap) on the needed item:
+To call the Context menu, press and hold (Long tap) on the needed item: &#x20;
 
 <figure><img src="../../../.gitbook/assets/image (476).png" alt=""><figcaption></figcaption></figure>
 
@@ -18,30 +18,30 @@ Actions available in the Context menu:
 * Add to watchlist - this option allows adding selected item to Watchlist;
 * Remove - deletes the symbol from the Option panel.
 
-Under the header of the Option chain screen a user can see the Info bar which displays the following data:
+Under the header of the Option chain screen a user can see the Info bar which displays the following data:&#x20;
 
-* Last - last price by underlier;
-* Change, % - change in percentage by underlier;
-* Volume - volume by underlier;
-* Previous close - the previous day's close price.
+* Last - last price by underlier;&#x20;
+* Change, % - change in percentage by underlier;&#x20;
+* Volume - volume by underlier;&#x20;
+* Previous close - the previous day's close price.&#x20;
 
 The Option chain table contains 3 columns:
 
-* Calls - this column shows the cards of Call strikes that display the following information: Ask, Bid, IV, OI (Open interest), Change. Other parameters can be configured in the Panel settings;
-* Strike - the Strike price;
-* Puts - this column shows the cards of Put strikes that display the following information: Ask, Bid, IV, OI, (Open interest), Change. Other parameters can be configured in the Panel settings.
+* Calls - this column shows the cards of Call strikes that display the following information: Ask, Bid, IV, OI (Open interest), Change. Other parameters can be configured in the Panel settings;&#x20;
+* Strike - the Strike price;&#x20;
+* Puts - this column shows the cards of Put strikes that display the following information: Ask, Bid, IV, OI, (Open interest), Change. Other parameters can be configured in the Panel settings.&#x20;
 
-In Option chain panel the coloring method “By difference” is used. Depending on what type of price change comes at a certain strike to buy or sell, it is highlighted in green or red.
+In Option chain panel the coloring method “By difference” is used. Depending on what type of price change comes at a certain strike to buy or sell, it is highlighted in green or red.&#x20;
 
-IV (Implied volatility) column shows the expected volatility of the option which characterizes the degree of underlier price volatility. If IV is high, strong fluctuations of underlier price are expected.
+IV (Implied volatility) column shows the expected volatility of the option which characterizes the degree of underlier price volatility. If IV is high, strong fluctuations of underlier price are expected.&#x20;
 
-The Open interest column shows the total amount of open positions.
+The Open interest column shows the total amount of open positions.&#x20;
 
 Tap Ask or Bid button on the Option chain screen to select the strike (Leg). It is possible to select several strikes. Tap one more time to delete the Leg from selected ones. Orders can be added to the strategy from different option series for a given underlier.
 
-<figure><img src="../../../.gitbook/assets/image (1122).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1123).png" alt=""><figcaption></figcaption></figure>
 
-At the bottom of the screen there is a panel ![](<../../../.gitbook/assets/image (1121).png>) that gives the opportunity to select different option strategies. Learn more about each available strategy in the following [Option strategies](./) article.
+At the bottom of the screen there is a panel ![](<../../../.gitbook/assets/image (1121).png>) that gives the opportunity to select different option strategies. Learn more about each available strategy in the following [Option strategies](README.md) article.
 
 Also there is a information about the number of selected strikes:
 
@@ -50,7 +50,7 @@ Also there is a information about the number of selected strikes:
 The following buttons are also available here:\
 ![](<../../../.gitbook/assets/image (1125).png>) - allows removing all selected Legs;
 
-![](<../../../.gitbook/assets/image (1120).png>) - allows opening the Order entry screen;
+![](<../../../.gitbook/assets/image (1127).png>) - allows opening the Order entry screen;
 
 ![](<../../../.gitbook/assets/image (1126).png>) - allows opening the Analyzer screen.
 
@@ -68,12 +68,12 @@ By tapping ![](<../../../.gitbook/assets/image (1077).png>) button, a user will 
 * Potential gain - the largest positive P/L value for the total profile;
 * Potential loss - minimum negative P/L value for the total profile.
 
-In addition to the standard parameters of the symbol, the screen also contains Greeks. Greeks are the coefficients used for the characteristics of option cost sensitivity to the changing of various values: Delta, Gamma, Vega and Theta.
+In addition to the standard parameters of the symbol, the screen also contains Greeks. Greeks are the coefficients used for the characteristics of option cost sensitivity to the changing of various values: Delta, Gamma, Vega and Theta.&#x20;
 
-* Delta – is the first derivative of the option price by the underlier price; shows how option price will be changed in points, if the underlier price changes by 1 point.
-* Gamma – is the second derivative of the option price by the underlier price; shows the rapidity of the option delta change.
-* Vega – is the first derivative of the option price by volatility; shows how option price will be changed in points, if the volatility changes by 1%.
-* Theta – is the first derivative of the option price by time; shows how the option price will be reduced after one day.
+* Delta – is the first derivative of the option price by the underlier price; shows how option price will be changed in points, if the underlier price changes by 1 point.&#x20;
+* Gamma – is the second derivative of the option price by the underlier price; shows the rapidity of the option delta change.&#x20;
+* Vega – is the first derivative of the option price by volatility; shows how option price will be changed in points, if the volatility changes by 1%.&#x20;
+* Theta – is the first derivative of the option price by time; shows how the option price will be reduced after one day.&#x20;
 
 ### Order entry
 
@@ -83,7 +83,7 @@ To send orders from the Option chain panel, open Order entry by tapping the ![](
 
 Order entry screen is divided into groups for each Leg. If a trader has several accounts, it is possible to change them, using a control displayed above the list of Legs. Tap ![](<../../../.gitbook/assets/image (1110).png>) button to delete the Leg from the list. Tap ![](<../../../.gitbook/assets/image (1111).png>) button to show/hide the details of a Leg. Tap the “Place strategy” button to send orders.
 
-**Settings**
+**Settings**&#x20;
 
 In order to manage the panel settings, tap the ![](<../../../.gitbook/assets/image (1108).png>) button.
 

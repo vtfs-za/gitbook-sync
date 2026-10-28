@@ -8,4 +8,5 @@ All customers can use the auxiliary functions when working with the Desktop term
 * External link – when configured in the Back Office, allows opening an external link content in a dedicated detachable panel named after the link text;&#x20;
 * About – allows showing service information about current version of the application.
 
-![](<../../.gitbook/assets/screenshot_1 (16).png>)
+![](<../../.gitbook/assets/Screenshot_1 (7).png>)
+

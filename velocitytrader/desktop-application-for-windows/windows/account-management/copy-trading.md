@@ -28,11 +28,11 @@ Let's consider the following setup:
 <figure><img src="../../../.gitbook/assets/image (372).png" alt=""><figcaption></figcaption></figure>
 
 * Master Account: Managed - this account acts as the master account, executing trades that will be copied to the follower accounts;
-* Follower Account: Managed3 - this account is a follower, meaning it will replicate the trades made by the master account.
+* &#x20;Follower Account: Managed3 - this account is a follower, meaning it will replicate the trades made by the master account.
 
 When the position is opened on the master account, the same position is automatically opened on the follower account by the copy trading mechanism:
 
-<figure><img src="../../../.gitbook/assets/image (373).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (374).png" alt=""><figcaption></figcaption></figure>
 
 **Trade on the Master Account**:
 

@@ -2,7 +2,7 @@
 
 The IPO Calendar panel displays initial public offering of stocks on different exchanges in an easy-to-use functional calendar. In order to start using the IPO calendar, select it from the Tools drop-down list located in the terminal main menu. The general view of this panel is as follows:
 
-![](../../../.gitbook/assets/Screenshot_6.jpg)
+![](<../../../.gitbook/assets/Screenshot_6 (6).jpg>)
 
 Upper left part of the panel offers “Upcoming” and “Listed” tabs, which allow switching the calendar display mode:
 
@@ -37,7 +37,7 @@ When the **Day mode** is selected for the calendar, the table contains the follo
 * Listing date – listing date of the certain IPO;
 * Exchange name – exchange on which this IPO will be listed.
 
-If the **Week mode** is selected, the entire calendar week will be highlighted when clicking a certain day in the calendar. Please note that the regional format (Mon-Sun or Sun-Sat) is also considered here.
+If the **Week mode** is selected, the entire calendar week will be highlighted when clicking a certain day in the calendar. Please note that the regional format (Mon-Sun or Sun-Sat) is also considered here.&#x20;
 
 In this mode, the table is divided into two blocks. The first block displays each day of the selected week with a catalogue of IPOs that will be listed on that day. The second, lower block, displays columns with information as for the normal Day mode:
 
@@ -47,7 +47,7 @@ Select the required day in the upper table part to display the relevant data for
 
 ### Listed tab
 
-This tab contains the same controls as for the Upcoming tab (described above), however, the contents of the table differ, since it displays IPOs that have already been listed, that is, only past dates can be selected. Double-clicking on one of the Instruments will open its chart.
+This tab contains the same controls as for the Upcoming tab (described above), however, the contents of the table differ, since it displays IPOs that have already been listed, that is, only past dates can be selected. Double-clicking on one of the Instruments will open its chart.&#x20;
 
 Please note that this tab is always in the “Week” mode and does not have a corresponding switcher:
 
@@ -78,7 +78,7 @@ General tab:
 
 1. Grid – drop-down list for selecting table grid type;
 2. Autosize of columns – automatically sizes columns so that their total width would be equal to the width of a panel. If disabled, each column will be sized by maximum length;
-3. Auto re-sorting – enables auto re-sorting a table after any changes;
+3. Auto re-sorting – enables auto re-sorting a table after any changes;&#x20;
 4. Show totals – allows displaying total amount for columns.
 
 * Colors:
@@ -90,6 +90,6 @@ General tab:
 5. Header row – coloring scheme for the top row;
 6. Total row – coloring scheme for the total's row.
 
-The "Columns" tab offers color settings for each row, namely: the font and filling can be customized.
+The "Columns" tab offers color settings for each row, namely: the font and filling can be customized.&#x20;
 
 Coloring rows – standard settings for customizing the coloring scheme for table rows.

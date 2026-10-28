@@ -7,7 +7,7 @@ Commodity channel index technical Indicator (CCI) measures the deviation of a co
 There are two basic techniques for using Commodity channel index:
 
 * Divergence detection: a divergence occurs when the price reaches a new maximum, and the Commodity channel index cannot rise above the previous highs. This classical divergence is usually followed by price correction;
-* As an indicator of overbuying/overselling: the Commodity channel index usually fluctuates in the ±100 range. Values above +100 indicate an overbought state (and the likelihood of a corrective decline), and values below 100 indicate an oversold condition (and a probability of a corrective increase).
+* As an indicator of overbuying/overselling: the Commodity channel index usually fluctuates in the  ±100 range. Values above +100 indicate an overbought state (and the likelihood of a corrective decline), and values below 100 indicate an oversold condition (and a probability of a corrective increase).
 
 CCI typically oscillates above and below the zero line. Normal oscillations will occur within the range of +100 and −100. Readings above +100 imply an overbought condition, while readings below −100 imply an oversold condition. As with other overbought/oversold indicators, this means that there is a greater likelihood that the price will correct to more representative levels.
 
@@ -57,4 +57,4 @@ Interval – number of periods involved in the calculation, 9 by default.
 
 The indicator looks as follows on the chart:
 
-<figure><img src="../../../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>

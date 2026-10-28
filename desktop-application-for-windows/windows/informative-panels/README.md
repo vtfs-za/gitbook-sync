@@ -1,2 +1,0 @@
-# Informative panels
-

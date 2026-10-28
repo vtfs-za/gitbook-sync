@@ -2,7 +2,7 @@
 
 Positions balance panel shows a summary of the user's open positions by each symbol. To open a Positions balance panel, select Terminal -> Positions balance.
 
-![](https://lh3.googleusercontent.com/rq10TuwrGGbDjgJblmM-CobdcW6e0VTh4PsH5Au-3LW0xCyOAQ8zVVn9pKgBmn1nwztgkawo9U_9EYo2zQQNpv-el9B9AjGUCM7MDQyzL-Qz9lNefE78Luixq2gW8YIQilo514AM)
+<figure><img src="../../.gitbook/assets/image (242).png" alt=""><figcaption></figcaption></figure>
 
 A user can select an account or a group of accounts for which he wants to see information.
 
@@ -39,7 +39,7 @@ _qty i - the volume of the "i" position, taking into account the sign, for a sho
 * Symbol type – type of the symbol.
 * Position value – the current value of the position. Calculation is based on the current market price.
 
-![](<../../.gitbook/assets/screenshot_2 (16) (1) (2) (1).png>)
+![](<../../.gitbook/assets/Screenshot_2 (18).png>)
 
 For long position: _Position value = Position exposure + Gross P/L_
 
@@ -47,4 +47,4 @@ For short position: _Position value = Position exposure - Gross P/L_
 
 User has a possibility to close all positions through the context menu.
 
-The total is shown in account currency if accounts by all opened positions have the same account currency; if accounts by which users have opened positions have different account currencies, then total is displayed in server currency.
+The total is shown in account currency if accounts by all opened positions have the same account currency; if accounts by which users have opened positions have different account currencies, then total is displayed in server currency.<br>

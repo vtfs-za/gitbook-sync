@@ -1,10 +1,10 @@
 # Symbol & Account lookups
 
-In the platform there are two kinds of lookups – 'Account lookup' and 'Symbol lookup' which are helpful in filtering panels' data.
+In the platform there are two kinds of lookups – 'Account lookup' and 'Symbol lookup' which are helpful in filtering panels' data.&#x20;
 
 ### Symbol lookup
 
-The Symbol lookup window shows all symbols which are available through the broker. The Symbol lookup window can be opened in each panel which requires symbol selection through the context menu or by clicking on the button<img src="../../../.gitbook/assets/Artboard1.png" alt="" data-size="original">. Hover the symbol name<img src="../../../.gitbook/assets/regular MAC.png" alt="" data-size="line">in the toolbar of the chosen panel to see this button<img src="../../../.gitbook/assets/hover MAC.png" alt="" data-size="line">.
+The Symbol lookup window shows all symbols which are available through the broker. The Symbol lookup window can be opened in each panel which requires symbol selection through the context menu or by clicking on the button<img src="../../../.gitbook/assets/Artboard1.png" alt="" data-size="original">. Hover the symbol name<img src="../../../.gitbook/assets/regular MAC.png" alt="" data-size="line">in the toolbar of the chosen panel to see this button<img src="../../../.gitbook/assets/hover MAC.png" alt="" data-size="line">.&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (450).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -12,11 +12,11 @@ The Symbol lookup window shows all symbols which are available through the broke
 Click the symbol icon in the lookup of the chosen panel to open the Symbol info panel.
 {% endhint %}
 
-The Symbol lookup contains two drop-down lists with exchanges<img src="../../../.gitbook/assets/all exchanges_116_22.png" alt="" data-size="original">and symbols grouped according to their types, which are used on the server and available to the user<img src="../../../.gitbook/assets/all types_116_22.png" alt="" data-size="original">. All symbols are shown in the default sequence. To filter the Symbol lookup by an exchange or symbol name, you need to select the required exchange and/or symbol type from the lists.
+The Symbol lookup contains two drop-down lists with exchanges<img src="../../../.gitbook/assets/all exchanges_116_22.png" alt="" data-size="original">and symbols grouped according to their types, which are used on the server and available to the user<img src="../../../.gitbook/assets/all types_116_22.png" alt="" data-size="original">. All symbols are shown in the default sequence. To filter the Symbol lookup by an exchange or symbol name, you need to select the required exchange and/or symbol type from the lists.
 
-![](<../../../.gitbook/assets/small amex.png>)
+![](<../../../.gitbook/assets/short list exchanges_196_292.png>)
 
-![](<../../../.gitbook/assets/short list types - 196_202.png>)
+![](<../../../.gitbook/assets/short list types - 196_202 (1).png>)
 
 After selecting the needed value and filtering the items all symbol tabs which don't match the filter will be hidden from the list.
 
@@ -28,12 +28,12 @@ If symbol name in the symbol lookup window is entered from the keyboard, then al
 
 For easy management of the lookup, it has the following buttons located at the bottom of the screen:
 
-* <img src="../../../.gitbook/assets/1 (127).png" alt="" data-size="original">Collapse all – allows to collapse all opened tabs to the form that shows only exchanges in the lookup tree.
+*  <img src="../../../.gitbook/assets/1 (127).png" alt="" data-size="original">Collapse all – allows to collapse all opened tabs to the form that shows only exchanges in the lookup tree.
 * <img src="../../../.gitbook/assets/2 (160).png" alt="" data-size="original"> Expand exchanges – allows showing exchanges and symbol types in the lookup tree.
-* <img src="../../../.gitbook/assets/3 (70).png" alt="" data-size="original"> Expand types – allows showing exchanges, symbol types and symbols in the lookup tree.
+*  <img src="../../../.gitbook/assets/3 (70).png" alt="" data-size="original"> Expand types – allows showing exchanges, symbol types and symbols in the lookup tree.
 * <img src="../../../.gitbook/assets/5 (37).png" alt="" data-size="original"> 'Show additional info' icon – shows short information about the selected symbol.<br>
 
-<figure><img src="../../../.gitbook/assets/image (451).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (452).png" alt=""><figcaption></figcaption></figure>
 
 All symbols are grouped according to categories: Equities, Forex, Futures, etc. The Symbol lookup window displays information as follows: exchange, symbol type and icon, symbol group, symbol, contract or strike price (for Futures and Options).
 
@@ -49,7 +49,7 @@ For Options the detailed symbols' information (description) is also available in
 
 ### Account lookup
 
-The Account lookup is available only for multi-account users. It displays all accounts available for the user. The Account lookup panel can be opened in each panel which requires account selection by clicking on the button<img src="../../../.gitbook/assets/Artboard1.png" alt="" data-size="original">next to the account scroll down menu. The account base currency is displayed next to each account name; if the user has only one account or multi-currency accounts, then the account currencies will not be displayed.
+The Account lookup is available only for multi-account users. It displays all accounts available for the user. The Account lookup panel can be opened in each panel which requires account selection by clicking on the button<img src="../../../.gitbook/assets/Artboard1 (1).png" alt="" data-size="original">next to the account scroll down menu. The account base currency is displayed next to each account name; if the user has only one account or multi-currency accounts, then the account currencies will not be displayed.
 
 <figure><img src="../../../.gitbook/assets/Screenshot_8 (1).jpg" alt="" width="396"><figcaption></figcaption></figure>
 

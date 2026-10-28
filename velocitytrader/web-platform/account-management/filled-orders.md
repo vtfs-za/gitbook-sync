@@ -2,7 +2,7 @@
 
 Filled orders panel displays trading history. To open the Filled orders panel select Terminal -> Filled orders.
 
-![](../../.gitbook/assets/filled.png)
+<figure><img src="../../.gitbook/assets/image (1360).png" alt=""><figcaption></figcaption></figure>
 
 The following columns are available in the panel:
 
@@ -30,10 +30,27 @@ The following columns are available in the panel:
 * Trading exchange – displays a trading exchange where the order was placed;
 * Product type – displays the product type;
 * Description – contains a short description of the instrument by which the event was executed.
+* Leverage - contains leverage value, if applicable.
 
-**Time filter**
+**Displaying totals considering account currency**
+
+The totals are calculated taking into account the account currency according to the filtering results:
+
+* If the filtered entries belong to accounts with the same currency, then the totals are displayed in the account currency.
+* If the filtered entries belong to accounts with different currencies, then the totals are displayed in the server currency.
+
+### &#xD;**Time filter**
 
 At the top left corner of the toolbar of the panel there is a ‘Time filter’ combo box. It allows to select time period for which a user wants to see filled orders. The following periods are available:
 
 * Daily;
-* Range – calls date menu 'From ... To' which allows to set up a desired time range. When the 'Range' period is set up, the icon![](<../../.gitbook/assets/menu (2) (2).png>)appears allowing to change a time range for viewing filled orders.
+* Range – calls date menu 'From ... To' which allows to set up a desired time range. When the 'Range' period is set up, the icon ![](<../../.gitbook/assets/image (1361).png>) appears allowing to change a time range for viewing filled orders.
+
+### Context menu
+
+The following actions can be performed via the Context menu:
+
+* Export - exports this table in the CSV or Excel format;
+* View - allows to show totals;
+* Symbol info - shows full symbol information for the selected instrument;
+* Group by – allows to group orders by Account, Symbol, Symbol type, Order ID, Side, Order type, Date/Time, Leverage.

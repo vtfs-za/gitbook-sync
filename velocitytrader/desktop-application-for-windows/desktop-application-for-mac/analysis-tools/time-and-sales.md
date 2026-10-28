@@ -12,11 +12,11 @@ Information about a chosen symbol starts streaming upon opening the panel.
 
 ![](<../../../.gitbook/assets/!new ts (1).png>)
 
-The context menu of the table's header allows to adjust visibility of the panel's columns.
+The context menu of the table's header allows to adjust visibility of the panel's columns.
 
 For each trade, the following data stored into columns is available:
 
-* Time – time of a trade, can be displayed in two modes depending on time format selected in the preferences: HH:flag\_mm:ss or HH:flag\_mm:ss:ms;
+* Time – time of a trade, can be displayed in two modes depending on time format selected in the preferences: HH:mm:ss or HH:mm:ss:ms;
 * Price – a price at which a trade is executed;
 * Side – shows side of a trade: Buy or Sell;
 * Size – a size of a trade;
@@ -51,7 +51,7 @@ This Preferences menu contains such sections, as View, Columns, Colors.
 This section allows to adjust the following:
 
 * Grid – allows activating and setting up grid: Vertical, Horizontal, Vetrical & horizontal, None;
-* Time format – a time mode displaying on the panel, you can select one of these: HH:flag\_mm:ss, HH:flag\_mm:ss:ms;
+* Time format – a time mode displaying on the panel, you can select one of these: HH:mm:ss, HH:mm:ss:ms;
 * Size in – a form of volume displaying, you can select one of these:
   * General preferences – taken from general preferences;
   * Lots – will be displayed in lots;
@@ -91,9 +91,9 @@ Allows to select background and text colors for:
   * Below Bid;
   * Between Spread.
 
-### Managing adjustments
+### Managing adjustments&#x20;
 
 The 'Time & Sales Preferences' menu contains the following buttons to manage adjustments:
 
-* <img src="../../../.gitbook/assets/set.png" alt="" data-size="original"> – allows to set all current 'Time & Sales Preferences' menu adjustments as default ones;
-* <img src="../../../.gitbook/assets/reset (1).png" alt="" data-size="original"> – allows to reset all the 'Time & Sales Preferences' menu adjustments to 'User Defaults' or to 'Factory Defaults'. 'User Defaults' are the last adjustments, which were stored into the system by clicking on the button 'Set As Default'.
+* <img src="../../../.gitbook/assets/set.png" alt="" data-size="original">  – allows to set all current 'Time & Sales Preferences' menu adjustments as default ones;&#x20;
+* <img src="../../../.gitbook/assets/reset (5).png" alt="" data-size="original">  – allows to reset all the 'Time & Sales Preferences' menu adjustments to 'User Defaults' or to 'Factory Defaults'. 'User Defaults' are the last adjustments, which were stored into the system by clicking on the button 'Set As Default'.&#x20;

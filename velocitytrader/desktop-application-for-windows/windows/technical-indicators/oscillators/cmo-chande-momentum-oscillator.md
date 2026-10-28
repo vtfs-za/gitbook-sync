@@ -6,11 +6,12 @@ The idea of ​​the indicator is as follows – price movement is considered f
 
 The CMO amplitude is limited to -100 and +100. The higher the oscillator rises, the more the asset is "overheated" and the higher the probability of a price rollback downward. Conversely, when the indicator drops too low, it means that the asset is undervalued and worth considering buying opportunities. When the zero line is crossed from bottom to top, a buy signal appears; when crossing from top to bottom, a sell signal appears. In this case, it is recommended to take into account only those intersections, before which the indicator line has moved from zero by at least 20-25 units since signals are often false with a small oscillation amplitude.
 
-## Main parameters
+### Main parameters
 
 * Periods of MA for envelopes, 8 by default;
 * Sources prices for MA, available values: Close, Open, High, Low, Typical, Medium, Weighted.
 
 This indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/screenshot_2 (19).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_2 (43).jpg>)
+

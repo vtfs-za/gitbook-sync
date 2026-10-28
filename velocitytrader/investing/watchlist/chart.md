@@ -12,31 +12,31 @@ The horizontal axis of the chart shows the date, the vertical axis shows the Las
 
 Tap a certain point on a chart to see the following information:
 
-* Close price - Close price at the point selected by a user.
-* Change price - the price change from the beginning of the chart to the specified point.
+* Close price - Close price at the point selected by a user.&#x20;
+* Change price - the price change from the beginning of the chart to the specified point.&#x20;
 
-Change price = СP User - СP Start,
+Change price = СP User - СP Start,&#x20;
 
-where:
+where:&#x20;
 
-_СP User_ - Close price at the point selected by a user.
+_СP User_ - Close price at the point selected by a user.&#x20;
 
 _СP Start_ - Close price at the start point of the chart.
 
 * Date - date of the selected point.
 
-**Settings**
+**Settings**&#x20;
 
 Tap the ![](<../../.gitbook/assets/image (544).png>) button at the top right corner of the chart to see the settings:
 
 <figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXfIFLA-5SwZN5cN7XhHp4K62fytKHA-Gx8LkuF1dzVvYsyHHXLJ3Eki_vcwoKNJNccwXa1qERM3yI0PJrkAQoRMSKqmsMRB0Q2r49u8x_0sZ-dNpWaHM6EzT32X1tckGy1j1hS9Ta5dwM1wx_Uxc6qIHDQ?key=i34kSG4duM_DXcQbimGXZQ" alt="" width="375"><figcaption></figcaption></figure>
 
-* Watermark mode – drop-down list that allows to select one of the options that will be displayed as a watermark on the chart;
+* Watermark mode – drop-down list that allows to select one of the options that will be displayed as a watermark on the chart;&#x20;
 * Watermark color – allows selecting the watermark coloring.
 
-**Comparison**
+**Comparison**&#x20;
 
-In order to compare the instruments on one chart in percentage, tap the![](<../../.gitbook/assets/chart (1).png>)button. After tapping this button, a user can see the Symbol lookup which is divided into 2 blocks. One of them shows the list of “Already added” instruments which a user wants to compare. A user can compare only 2 instruments. In the “Common list” block a user can see all instruments except those which will be compared.
+In order to compare the instruments on one chart in percentage, tap the![](<../../.gitbook/assets/chart (3).png>)button. After tapping this button, a user can see the Symbol lookup which is divided into 2 blocks. One of them shows the list of “Already added” instruments which a user wants to compare. A user can compare only 2 instruments. In the “Common list” block a user can see all instruments except those which will be compared.
 
 <figure><img src="../../.gitbook/assets/image (1175).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -72,7 +72,7 @@ The Order entry screen enables a user to send orders. To open the Order screen w
 
 Depending on the instrument type, two types of OE can be opened:
 
-* OE for Share - allows a user to buy or sell a whole number of a share;
+* OE for Share - allows a user to buy or sell a whole number of a share;&#x20;
 *   OE for Fractional Share - allows a user to buy or sell a part of a share.\
     <br>
 
@@ -82,14 +82,14 @@ Depending on the instrument type, two types of OE can be opened:
 
 For Stocks pre-paid & Long options with “Fully paid” margin type the following fields will be available in Order entry:
 
-Estimated cost and Cost - estimated cost of an order in account currency that will be:
+Estimated cost and Cost - estimated cost of an order in account currency that will be:&#x20;
 
-* deducted from the user’s balance, while sending Buy order;
+* deducted from the user’s balance, while sending Buy order;&#x20;
 * credited, while sending Sell order.
 
-Estimated shares and Shares - estimated amount of shares that will be:
+Estimated shares and Shares - estimated amount of shares that will be:&#x20;
 
-* Bought when sending Buy order with the cash entered in the account currency;
+* Bought when sending Buy order with the cash entered in the account currency;&#x20;
 * Sold when sending Sell order with the cash entered in the account currency.
 
 Estimated fees and Fees - estimated sum of fees in account currency.

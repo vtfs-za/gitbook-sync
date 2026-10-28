@@ -13,10 +13,10 @@ The best Bid and best Ask prices are located at the top of the histogram. Volume
 
 <figure><img src="../../.gitbook/assets/image (1513).png" alt="" width="375"><figcaption></figcaption></figure>
 
-To open Order entry screen, tap the Order entry button <img src="../../.gitbook/assets/image (638).png" alt="" data-size="line"> at the top right corner of the Market depth screen. Also you can open the Order entry screen by tapping the Bid/Ask row. The chosen BID/ASK price is placed as a limit price in OE automatically.
+To open Order entry screen, tap the Order entry button <img src="../../.gitbook/assets/image (643).png" alt="" data-size="line"> at the top right corner of the Market depth screen. Also you can open the Order entry screen by tapping the Bid/Ask row. The chosen BID/ASK price is placed as a limit price in OE automatically.
 
 <figure><img src="../../.gitbook/assets/image (39).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Read more about the Order entry screen here:
 
-[Order entry](order-entry/)
+[Order entry](order-entry/README.md)

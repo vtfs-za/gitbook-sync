@@ -37,4 +37,4 @@ Where:
 
 This indicator looks as follows on the chart:
 
-<figure><img src="../../../../.gitbook/assets/image (1503).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1504).png" alt="" width="375"><figcaption></figcaption></figure>

@@ -54,7 +54,7 @@ If a user exceeds the limit of created alerts, the appropriate error message wil
 
 ### Alerts on chart
 
-The chart displays all active alerts for the instrument selected in the symbol lookup. If the alert is executed, it will not be shown on the chart, but its presence in the panel is controlled by the ‘After execute’ parameter. The chart displays all alerts for an instrument, for Ask, Bid, Last types.
+The chart displays all active alerts for the instrument selected in the symbol lookup. If the alert is executed, it will not be shown on the chart, but its presence in the panel is controlled by the ‘After execute’ parameter. The chart displays all alerts for an instrument, for Ask, Bid, Last types.&#x20;
 
 In order to create a new alert, the user must perform a long tap on the needed price scale level. At the level where the long tap was made, an alert label will appear, it contains a confirmation button for setting an alert:
 
@@ -75,6 +75,6 @@ If the alert was set at the wrong level, the user can simply drag the alert labe
 
 In order to edit or remove the alert, the user should use the corresponding buttons, which become visible by tapping the alert label:
 
-![](<../../.gitbook/assets/Screenshot_2 (2).jpg>)
+![](<../../.gitbook/assets/Screenshot_2 (2) (1).jpg>)
 
 Tapping the Edit button will result in opening the corresponding screen, it is similar to the one intended for creating the alert. Editing the alert from the chart is also possible by using the Drag\&Drop function. When using it, the alert is modified without additional confirmation, just drag the alert to the required position.

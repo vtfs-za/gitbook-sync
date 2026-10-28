@@ -2,7 +2,7 @@
 
 In order to take advantage of the alerts, the user should open the ‘More’ tab and select the appropriate item in the top side of the panel:
 
-<figure><img src="../../.gitbook/assets/image (178).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (179).png" alt="" width="375"><figcaption></figcaption></figure>
 
 To create a new alert, tap the ‘Create’ button located in the general Alerts screen. The alert creation menu looks as follows, the user can also find Bid, Ask, Last, Change%, and Ticks data by the selected symbol here
 
@@ -54,7 +54,7 @@ If a user exceeds the limit of created alerts, then an error message will be dis
 
 ### Alerts on chart
 
-The chart displays all active alerts for the symbol selected in the symbol lookup. If the alert is executed, it will not be shown on the chart, but its presence in the panel is controlled by the ‘After execute’ parameter. The chart displays all alerts for the symbol, for Ask, Bid, Last types.
+The chart displays all active alerts for the symbol selected in the symbol lookup. If the alert is executed, it will not be shown on the chart, but its presence in the panel is controlled by the ‘After execute’ parameter. The chart displays all alerts for the symbol, for Ask, Bid, Last types.&#x20;
 
 In order to create a new alert, the user must perform a long tap on the needed price scale level. At the level where the long tap was made, an alert label will appear, it contains a confirmation button for setting an alert:
 
@@ -75,6 +75,6 @@ If the alert was set at the wrong level, then the user can simply drag the alert
 
 In order to edit or remove the alert, the user should use the corresponding buttons, which become visible by tapping the alert label:
 
-<figure><img src="../../.gitbook/assets/image (620) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (620).png" alt=""><figcaption></figcaption></figure>
 
 By tapping the Edit button, the Editing screen is opened, it is similar to the one required for creating the alert. Editing the alert from the chart is also possible by using the Drag\&Drop function. When using it, the alert is modified without additional confirmation, just drag the alert to the required position.

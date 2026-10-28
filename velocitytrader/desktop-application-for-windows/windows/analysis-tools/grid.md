@@ -1,14 +1,10 @@
 # Grid
 
-The Grid panel allows user to open a set of Charts in one panel and move this set to another monitor as a separate panel.
+The Grid panel allows user to open a set of Charts in one panel and move this set to another monitor as a separate panel. The panel can be accessed in Terminal -> Grid.
 
-![](<../../../.gitbook/assets/12 (3).png>)
+<figure><img src="../../../.gitbook/assets/grid (2).gif" alt=""><figcaption></figcaption></figure>
 
-Double click on the header of a cell in order to maximize it to the size of Grid panel, or use the corresponding button![](<../../../.gitbook/assets/13 (1).png>) for the same action.
-
-![](<../../../.gitbook/assets/14 (2).png>)
-
-To collapse cell to the normal size, use button![](<../../../.gitbook/assets/15 (2).png>)or just double click again on the header of the cell.
+Double click on the header of a cell in order to maximize it to the size of Grid panel, or use the corresponding button<img src="../../../.gitbook/assets/13 (4).png" alt="" data-size="original">for the same action. To collapse cell to the normal size, use button<img src="../../../.gitbook/assets/15 (3).png" alt="" data-size="original">or just double click again on the header of the cell.
 
 **Toolbar**
 
@@ -21,4 +17,8 @@ The Grid panel toolbar consists of three buttons:
 * Refresh – allows to refresh all charts.
 * Reset – this button resets panels size to default state.
 
-All panels in the Grid panel can be resized by a user: move the mouse cursor on the panels’ joint, after that drag and drop the panel to the needed size. In order to move the Grid panel to another monitor, click on the button![](<../../../.gitbook/assets/17 (1).png>) at the top right corner of the Grid panel and select Detach.
+All panels in the Grid panel can be resized by a user: move the mouse cursor on the panels’ joint, after that drag and drop the panel to the needed size. In order to move the Grid panel to another monitor, click on the button<img src="../../../.gitbook/assets/17 (1).png" alt="" data-size="original">at the top right corner of the Grid panel and select Detach.
+
+### Data source
+
+In the Grid panel a user can see the the extended information about the source of Last, Bid and Ask prices. In order to open the table with the detailed information, click on the![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LMCqxhh2XAdWPUjcvxR%2F-MfIYcdWuv-eukLG8pEP%2F-MfIakX0yTFROe9sWNn-%2F1.png?alt=media\&token=f36c8fd2-928f-4e0a-ac1d-8fadf83757a5)arrow and the widget will be shown:![](https://gblobscdn.gitbook.com/assets%2F-LMCqxhh2XAdWPUjcvxR%2F-MfIYcdWuv-eukLG8pEP%2F-MfIbDK9zH-Kl-RGKYc1%2F2.png?alt=media\&token=0db7a960-0d47-456f-8306-6472e0f4face)

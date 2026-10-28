@@ -4,12 +4,12 @@ The Watchlist screen is accessible by default after logging in to the applicatio
 
 <figure><img src="../../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
 
-In the Watchlist you can find information by traded symbols:
+In the Watchlist you can find information by traded symbols:
 
 * Last price – the last trade price;
-* Change, % – the price deviation from a Previous close price in a percentage. In order to get full symbol information and open the chart, tap the Symbol name.
+* Change, % – the price deviation from a Previous close price in a percentage. In order to get full symbol information and open the chart, tap the Symbol name.&#x20;
 
-Tap the button<img src="../../.gitbook/assets/arrow right.jpg" alt="" data-size="original"> at the top corner of the Chart to open the Info window:
+Tap the button<img src="../../.gitbook/assets/arrow right (1).jpg" alt="" data-size="original">at the top corner of the Chart to open the Info window:
 
 <figure><img src="../../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
 
@@ -21,7 +21,7 @@ Tap the button<img src="../../.gitbook/assets/arrow right.jpg" alt="" data-size=
 * Funding (optional) – current funding rate value as a percentage including broker tax;
 * Countdown (optional) – displays the countdown time to the next funding settlement.
 
-To call the Context menu, press and hold (Long tap) on the needed item:
+To call the Context menu, press and hold (Long tap) on the needed item: &#x20;
 
 <figure><img src="../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
 
@@ -34,18 +34,18 @@ Actions available in the Context menu:
 * Symbol info - tap and detailed description of the symbol will be opened;
 * Add alert - allows adding an Alert for the needed symbol;
 * Top - this option moves selected symbol up in the Watchlist;
-* Bottom - this option moves selected symbol down in the Watchlist;
+* Bottom - this option moves selected symbol down in the Watchlist;&#x20;
 * Remove - deletes the symbol from the Watchlist panel.
 
 Tap the settings <img src="../../.gitbook/assets/image (1708).png" alt="" data-size="line"> icon to select the display style for instruments in the watchlist (e.g., Default, Bid/Ask, Extended Bid/Ask, Last/Change/%):
 
-<figure><img src="../../.gitbook/assets/image (1721).png" alt="" width="440"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1722).png" alt="" width="440"><figcaption></figcaption></figure>
 
 Show logo - if checked, displays the instrument logo in the WL.
 
-### **Indices**
+### &#xD;**Indices**
 
-The Indices section provides information about the index price for the one day as a chart and has the following view:
+The Indices section provides information about the index price for the one day as a chart and has the following view:&#x20;
 
 <figure><img src="../../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
 
@@ -59,18 +59,18 @@ By tapping on the card, it will give more detailed information about the asset:
 
 <figure><img src="../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
 
-It contains the next indicators:
+It contains the next indicators:&#x20;
 
 * Open – the day's open price;
 * Change, % – the price deviation from current day's opening price in a percentage.
 * High – the day's highest price;
 * Low – the day's lowest price;
 * Previous close – the previous day's close price;
-* Ticks – total number of ticks.
+* Ticks –  total number of ticks.
 
-### **Symbol lookup**
+### **Symbol lookup**&#x20;
 
-In order to open Symbol lookup, tap the Search field . Check/uncheck the desired symbols. Selected symbols will automatically appear in the Watchlist.
+In order to open Symbol lookup, tap the Search field. Check/uncheck the desired symbols. Selected symbols will automatically appear in the Watchlist.
 
 <figure><img src="../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
@@ -90,15 +90,15 @@ Select the needed symbols from the 'Symbols lookup' window. Tap the "Create new"
 
 ### **Watchlist Filter**
 
-In order to filter the list of displayed symbols tap the button <img src="../../.gitbook/assets/image (164).png" alt="" data-size="line">, located at the top right corner of the Symbol lookup. Choose the needed exchange from the list of available.
+&#x20;In order to filter the list of displayed symbols tap the button <img src="../../.gitbook/assets/image (164).png" alt="" data-size="line">,&#x20;located at the top right corner of the Symbol lookup. Choose the needed exchange from the list of available.
 
 <figure><img src="../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
 
-### **Symbol menu**
+### &#xD;**Symbol menu**
 
-Swipe left the symbol name to open the Symbol menu toolbar.
+Swipe left the symbol name to open the Symbol menu toolbar.                               &#x20;
 
-![](<../../.gitbook/assets/8 (3) (1).png>)
+![](<../../.gitbook/assets/8 (18).png>)
 
 * Market depth – opens the level 2 quotes for the selected symbol;
 * Order Entry – opens the Order entry screen for the selected symbol;

@@ -6,30 +6,30 @@ VWAP is used to identify liquidity points. As a volume weighted price measure, V
 
 VWAP can also be used to measure trading efficiency. After buying or selling a security, institutions or individuals can compare their price to VWAP values. A buy order executed below the VWAP value would be considered a good fill because the security was bought at a below average price. Conversely, a sell order executed above the VWAP would be deemed a good fill because it was sold at an above average price.
 
-## Calculation
+### Calculation
 
 Volume weighted average price (VWAP) is exactly what it sounds like: the average price weighted by volume. VWAP equals the currency value of all trading periods divided by the total trading volume for the current day. The calculation starts when trading opens and ends when trading closes. Because it is good for the current trading day only, intraday periods and data are used in the calculation.
 
-**VWAP = (∑j Pj \* Vj) / ∑j Vj**
+**VWAP = (∑j P \* V) / ∑j V**
 
 Where:
 
-Pj – price of the trade j;
+Pj – price;
 
-Vj – volume of the trade j;
+Vj – volume;
 
-j – each individual trade that takes place over the defined period of time, excluding cross trades and basket cross trades.
+j – Days number in cycle.
 
 The price itself is caluclated by the following formula:
 
 **Price(i)= (High+Low+Close)/3**
 
-## Main parameters
+### Main parameters
 
-* Days number, the number of days for calculating the values of the volume analysis;
-* Start/End time, defines the start/end time of the client's trading day, i.e. defines the VWAP calculation cycle (valid for the client's timezone);
+* Days number,  in cycle - the number of days for calculating the values of the volume analysis;
+* Start/End time,  - defines the start/end time of the client's trading day, i.e. defines the VWAP calculation cycle (valid for the client's timezone);
 * Line style.
 
 The indicator looks as follows on the chart:
 
-![](../../../.gitbook/assets/vwap.jpg)
+<figure><img src="../../../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>

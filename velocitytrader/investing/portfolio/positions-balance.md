@@ -1,6 +1,6 @@
 # Positions balance
 
-Positions balance tab contains the summary of all the opened positions by the chosen account(-s).
+Positions balance tab contains the summary of all the opened positions by the chosen account(-s).&#x20;
 
 Tab can be accessed from Portfolio screen by tapping on the Positions balance button:
 
@@ -23,7 +23,7 @@ The descriptions and calculations of the parameters in the table are below:
 
     <figure><img src="../../.gitbook/assets/image (497).png" alt=""><figcaption></figcaption></figure>
 
-    where:\
+    where: \
     _&#x4E; - the number of open positions for the selected instrument;_
 
     _OPi - Open price;_
@@ -33,9 +33,9 @@ The descriptions and calculations of the parameters in the table are below:
 
     <figure><img src="../../.gitbook/assets/image (498).png" alt=""><figcaption></figcaption></figure>
 
-    where:\
-    _&#x4C;ot size - lot size for the selected instrument;_\
-    _&#x43;ross price - cross rate from the quote currency to the account currency._
+    where: \
+    _Lot size - lot size for the selected instrument;_\
+    _Cross price - cross rate from the quote currency to the account currency._
 *   Net exposure - net exposure for open positions by symbol<br>
 
     <figure><img src="../../.gitbook/assets/image (499).png" alt=""><figcaption></figcaption></figure>
@@ -46,18 +46,18 @@ The descriptions and calculations of the parameters in the table are below:
     <figure><img src="../../.gitbook/assets/image (502).png" alt=""><figcaption></figcaption></figure>
 *   Average short – average selling price of short positions<br>
 
-    <figure><img src="../../.gitbook/assets/image (503) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (503).png" alt=""><figcaption></figcaption></figure>
 *   Position value – current value of the position. Calculation is based on current market price<br>
 
-    <figure><img src="../../.gitbook/assets/image (504) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (504).png" alt=""><figcaption></figcaption></figure>
 
     Note that Position value formula depends on the position side:\
     _&#x4C;ong position: Position value = Position exposure+Gross P/L;_\
-    _&#x53;hort position Position value = Position exposure-Gross P/L._
+    _Short position Position value = Position exposure-Gross P/L._
 
 Also at the bottom of the Positions balance tab the Total Gross P/L can be found. It displays the sum of Gross P/L for all positions.
 
-To call the Context menu, press and hold (Long tap) on the needed item:
+To call the Context menu, press and hold (Long tap) on the needed item: &#x20;
 
 <figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXd_wA9xYgS7MKcfHVrIlbXXtG8bm7Ng9VIIMYf2LK0GFuIzloGp6MjqEeCQnbuNY5PhSVOm33HEvT8g3p-jELGndvd6uDilatz6xvnzBFj278-F1FGsbJPBS-a78VhN9KPT3dVPnHSH-BhsEF6Qd4YTFAE?key=i34kSG4duM_DXcQbimGXZQ" alt="" width="375"><figcaption></figcaption></figure>
 

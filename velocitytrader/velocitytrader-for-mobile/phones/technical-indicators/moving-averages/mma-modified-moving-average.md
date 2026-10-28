@@ -19,4 +19,4 @@ N - period of MA for calculation.
 
 This indicator looks as follows on the chart:
 
-<figure><img src="../../../../.gitbook/assets/image (1492).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1493).png" alt="" width="375"><figcaption></figcaption></figure>

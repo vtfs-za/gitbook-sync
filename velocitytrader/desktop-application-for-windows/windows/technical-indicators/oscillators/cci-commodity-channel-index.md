@@ -11,7 +11,7 @@ There are two basic techniques for using the Commodity channel index:
 
 CCI typically oscillates above and below the zero line. Normal oscillations will occur within the range of +100 and −100. Readings above +100 imply an overbought condition, while readings below −100 imply an oversold condition. As with other overbought/oversold indicators, this means that there is a greater likelihood that the price will correct to more representative levels.
 
-## Calculation
+### Calculation
 
 To find the typical price, you need to add the HIGH, LOW, and CLOSE prices of each bar, and then divide the result by 3:
 
@@ -51,11 +51,11 @@ SUM — sum;
 
 N — number of periods used for the calculation.
 
-## Main parameters
+### Main parameters
 
 * Period of moving average – number of periods involved in the calculation, 14 by default;
 * Type of the moving average – for selecting the MA type, available values: Simple, Exponential, Modified, Linear weighted.
 
 The indicator looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/screenshot_1 (22).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_1 (32).jpg>)

@@ -1,10 +1,10 @@
 # Order entry
 
-The Order entry screen enables user to send orders. The Order entry button<img src="../../../.gitbook/assets/1 — копия.png" alt="" data-size="line"> is located at the top right corner of the Chart. Also it is accessible from the main menu of the platform or from the Symbol menu. Swipe left the Symbol name in Watchlist to open Symbol menu and tap Order Entry button:
+The Order entry screen enables user to send orders. The Order entry button<img src="../../../.gitbook/assets/1 — копия (4).png" alt="" data-size="line">is located at the top right corner of the Chart. Also it is accessible from the main menu of the platform or from the Symbol menu. Swipe left the Symbol name in Watchlist to open Symbol menu and tap Order Entry button:
 
-![](<../../../.gitbook/assets/Screen Shot 2020-06-05 at 5.57.11 PM.png>)
+&#x20;                                            <img src="../../../.gitbook/assets/Screen Shot 2020-06-05 at 5.57.11 PM (10).png" alt="" data-size="original">                 &#x20;
 
-In Order entry users can see detailed information about the traded symbol: symbol name, quantity, order type, price, Validity and information about bid and ask.
+In Order entry users can see detailed information about the traded symbol: symbol name, quantity, order type, price, Validity and information about bid and ask.
 
 <figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
@@ -56,11 +56,11 @@ Validity – allows specifying order validity by selecting among the following t
 
 <figure><img src="../../../.gitbook/assets/image (375).png" alt="" width="302"><figcaption></figcaption></figure>
 
-This field can also be displayed as 'SL limit offset', depending on the configuration in [Settings](../settings.md).
+This field can also be displayed as 'SL limit offset', depending on the configuration in [Settings](../settings.md).&#x20;
 
 If the _Set SL/TP values in offset_ option is enabled in Settings, the SL/TP values will be displayed as offsets. The format of the offset display depends on the _Show offset in_ setting, which allows choosing between: Ticks, Ticks (fractional ticks for Forex), Points and Percents.
 
-If the _Set SL/TP values in offset_ option is disabled, SL/TP values will be displayed as absolute prices instead.
+If the _Set SL/TP values in offset_ option is disabled, SL/TP values will be displayed as absolute prices instead.&#x20;
 
 * Trailing SL offset – allows entering the order trailing stop price.
 
@@ -137,6 +137,6 @@ Please note that if an order is sent outside market hours, a corresponding notif
 
 ### Data source <a href="#data-source" id="data-source"></a>
 
-In the Order entry panel a user can see the the extended information about the source of Last, Bid and Ask prices. In order to open the table with the detailed information, tap the![](<../../../.gitbook/assets/image (547) (1).png>)button and the widget will be shown:
+In the Order entry panel a user can see the the extended information about the source of Last, Bid and Ask prices. In order to open the table with the detailed information, tap the![](<../../../.gitbook/assets/image (547).png>)button and the widget will be shown:
 
 <figure><img src="../../../.gitbook/assets/image (1556).png" alt=""><figcaption></figcaption></figure>

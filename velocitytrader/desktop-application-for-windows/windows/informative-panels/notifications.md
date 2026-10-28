@@ -6,11 +6,11 @@ The Notifications panel displays the history of all received messages addressed 
 
 Please note that in case the User has some unread messages, this will be indicated in the circle near the icon.
 
-The panel will expand from the left side of the terminal, it is divided into two parts: the first shown section contains a toolbar and message cards; select a message card to expand the message body section. Please note that a click anywhere outside the panel will collapse it. The general look of this screen is as follows:
+The panel will expand from the left side of the terminal, it is divided into two parts: the first shown section contains a toolbar and message cards; select a message card to expand the message body section. Please note that a click anywhere outside the panel will collapse it.  The general look of this screen is as follows:
 
-<figure><img src="../../../.gitbook/assets/Screenshot_1 (1) (2).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_1 (1) (4).jpg" alt=""><figcaption></figcaption></figure>
 
-### Toolbar
+### Toolbar&#x20;
 
 The toolbar is located in the upper left part of the panel, above the message cards:
 
@@ -32,7 +32,7 @@ The message card is also colored in category colors, and after reading it become
 
 <figure><img src="../../../.gitbook/assets/Screenshot_5 (7).jpg" alt=""><figcaption></figcaption></figure>
 
-### Text field
+### Text field&#x20;
 
 Right side of the panel displays the main text field, where the topic of the message is at the top and the text itself follows it. To see the full message text click one of the cards from the left part. If no message is selected, the corresponding icon will be shown:
 
@@ -44,12 +44,12 @@ In case the message was not shown as a pop-up in the terminal (can be configured
 
 ### Subscription
 
-The user can subscribe/unsubscribe to the required notification categories in two ways. Please note that the subscription method is selected by the admin in the BackOffice.
+The user can subscribe/unsubscribe to the required notification categories in two ways. Please note that the subscription method is selected by the admin in the BackOffice.&#x20;
 
-The first way to subscribe is a standard Subscriptions panel, you can find more about how it works in the [appropriate article](../account-management/products.md). If this method is selected then notification categories will appear as standard subscription cards in this tab. The user should only select the category of interest to him and subscribe to it by clicking the appropriate button.
+The first way to subscribe is a standard Subscriptions panel, you can find more about how it works in the [appropriate article](../account-management/products.md). If this method is selected then notification categories will appear as standard subscription cards in this tab. The user should only select the category of interest to him and subscribe to it by clicking the appropriate button.&#x20;
 
 The second way to subscribe to notification categories is through General settings. In case when admin selects this method, the corresponding tab will appear in the General settings section:
 
 <figure><img src="../../../.gitbook/assets/image (1068).png" alt=""><figcaption></figcaption></figure>
 
-The user should simply check the boxes of categories of interest to him and the subscription will be made, the user will receive all notifications from this category.
+The user should simply check the boxes of categories of interest to him and the subscription will be made, the user will receive all notifications from this category.&#x20;

@@ -4,9 +4,9 @@ Currencies exposure panel shows a summary of the amount of each currency for whi
 
 To open a new Currencies exposure panel, select Terminal -> Currencies exposure.
 
-![](<../../../.gitbook/assets/15 (4).png>)
+![](<../../../.gitbook/assets/15 (1).png>)
 
-User can select accounts for which he wants to see the information in the panel.
+User can select accounts for which he wants to see the information in the panel.
 
 The following columns are available in the panel:
 
@@ -15,25 +15,25 @@ The following columns are available in the panel:
 
 Amount (Net qty.) = Sum of all positions (Buy/Sell) by base & counter currencies
 
-Base currency:
+Base currency:&#x20;
 
 Buy: Pos. amount \* Lot size\
 Sell: - Pos. amount \* Lot size
 
 Counter currency:\
-Buy: - Pos. amount \* Lot size \* Pos. open price\
-Sell: Pos. amount \* Lot size \* Pos. open price
+&#x20;Buy: - Pos. amount \* Lot size \* Pos. open price\
+&#x20;Sell: Pos. amount \* Lot size \* Pos. open price
 
 For Futures and Options:
 
 Base currency:\
-Buy: Pos. amount\
-Sell: - Pos. amount
+&#x20;Buy: Pos. amount\
+&#x20;Sell: - Pos. amount
 
 Counter currency:
 
 Buy: (- Pos. amount \* Pos. open price)/Tick cost\*Tick size\
-Sell: (Pos. amount \* Pos. open price)/Tick cost\*Tick size
+&#x20;Sell: (Pos. amount \* Pos. open price)/Tick cost\*Tick size
 
 * Gross P/L – current profit or loss for all opened positions.
 * Exposure – exposure of all opened positions, calculate on base of open price.

@@ -16,18 +16,18 @@ By clicking on an Idea space in the Ideas panel, User can open the Idea expanded
 
 <figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
-The expanded view of an Idea contains the chart of the Instrument used (if the data on the Instrument is available to the User), Idea text description, remaining lifetime, Take profit, Limit price and Stop loss values and the Idea remaining Life time. With that, the chart of the Instrument used in the Idea is refreshed with the same frequency as the chart panel.
+The expanded view of an Idea contains the chart of the Instrument used (if the data on the Instrument is available to the User), Idea text description, remaining lifetime, Take profit, Limit price and Stop loss values and the Idea remaining Life time. With that, the chart of the Instrument used in the Idea is refreshed with the same frequency as the chart panel.&#x20;
 
 In the Idea expanded view, the User-subscriber can specify the quantity for the Idea order using the Quantity control, view and change the Product type (if available) before placing the order.
 
 {% hint style="warning" %}
-If, in addition to the one specified in the Idea, there is a product type available to the User-subscriber that differs from the one specified in the Idea by the User analyst, the User subscriber can switch from "Delivery" to "Intraday" product type using the Product type control:
+If, in addition to the one specified in the Idea, there is a product type available to the User-subscriber that differs from the one specified in the Idea by the User analyst, the User subscriber can switch from "Delivery" to "Intraday" product type using the Product type control: &#x20;
 {% endhint %}
 
-![](<../../.gitbook/assets/type cut.png>)
+![](<../../.gitbook/assets/type cut (1).png>)
 
 {% hint style="warning" %}
-If the User-subscriber has only one product type available and it differs from the one specified in the Idea, the User-subscriber can only view the product type without being able to change.
+If the User-subscriber has only one product type available and it differs from the one specified in the Idea, the User-subscriber can only view the product type without being able to change.&#x20;
 {% endhint %}
 
 Also, in the Idea expanded view, User can view an attached Chart snapshot and open the attachment file (if they were added on the Idea creation) by clicking the symbols near the "Screen" and "Attachment" items respectively under the Idea Chart:
@@ -42,6 +42,6 @@ After clicking the OK button, the Idea order is placed and the User can manage i
 
 ### Data source <a href="#data-source" id="data-source"></a>
 
-In the Ideas panel the user-subscriber can see the extended information about the source of Last, Bid and Ask prices. In order to open the table with the detailed information, tap the<img src="../../.gitbook/assets/ds.png" alt="" data-size="line">button and the widget will be shown:
+In the Ideas panel the user-subscriber can see the extended information about the source of Last, Bid and Ask prices. In order to open the table with the detailed information, tap the<img src="../../.gitbook/assets/ds (1).png" alt="" data-size="line">button and the widget will be shown:
 
 <figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>

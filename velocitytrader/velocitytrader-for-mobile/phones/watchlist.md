@@ -4,14 +4,14 @@ The Watchlist screen is accessible by default after logging in to the mobile app
 
 <figure><img src="../../.gitbook/assets/image (1707).png" alt="" width="375"><figcaption></figcaption></figure>
 
-In the Watchlist you can find information by traded symbols:
+In the Watchlist you can find information by traded symbols:
 
 * Last price – the last trade price;
 *   Change, % – the price deviation from a Previous close price in a percentage.
 
-    In order to get full symbol information and open the chart, tap the Symbol name.<br>
+    &#x20;In order to get full symbol information and open the chart, tap the Symbol name. <br>
 
-<figure><img src="../../.gitbook/assets/image (1736).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1737).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Tap the button <img src="../../.gitbook/assets/image (237).png" alt="" data-size="line"> to open the Info window:
 
@@ -54,11 +54,11 @@ It contains the next indicators:
 * High – the day's highest price;
 * Low – the day's lowest price;
 * Previous close – the previous day's close price;
-* Ticks – total number of ticks.
+* Ticks –  total number of ticks.
 
-### **Symbol lookup**
+### **Symbol lookup**&#x20;
 
-In order to open Symbol lookup, tap the Search field . Check/uncheck the desired symbols. Selected symbols will automatically appear in the Watchlist.
+In order to open Symbol lookup, tap the Search field. Check/uncheck the desired symbols. Selected symbols will automatically appear in the Watchlist.
 
 <figure><img src="../../.gitbook/assets/image (239).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -66,7 +66,7 @@ Swipe left the selected symbol to open Market depth/Order entry/Chart screen by 
 
 <figure><img src="../../.gitbook/assets/image (240).png" alt="" width="375"><figcaption></figcaption></figure>
 
-To call the Context menu, press and hold (Long tap) on the needed item:
+To call the Context menu, press and hold (Long tap) on the needed item: &#x20;
 
 <figure><img src="../../.gitbook/assets/image (1457).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -79,7 +79,7 @@ Actions available in the Context menu:
 * Symbol info - tap and detailed description of the symbol will be opened;
 * Add alert - allows adding an Alert for the needed instrument;
 * Top - this option moves selected symbol up in the Watchlist;
-* Bottom - this option moves selected symbol down in the Watchlist;
+* Bottom - this option moves selected symbol down in the Watchlist;&#x20;
 * Remove - deletes the symbol from the Watchlist panel.
 
 For Options the detailed symbols' information (description) is also available in the lookup:
@@ -96,15 +96,15 @@ Select the needed symbols from the 'Symbols lookup' window. Tap the "Create new"
 
 <figure><img src="../../.gitbook/assets/image (226).png" alt="" width="375"><figcaption></figcaption></figure>
 
-### **Watchlist Filter**
+### **Watchlist Filter**&#x20;
 
-In order to filter the list of displayed symbols tap the button<img src="../../.gitbook/assets/4!!!.png" alt="" data-size="line">, located at the top right corner of the Symbol lookup. Choose the needed exchange from the list of available.
+In order to filter the list of displayed symbols tap the button<img src="../../.gitbook/assets/4!!! (1).png" alt="" data-size="line">,&#x20;located at the top right corner of the Symbol lookup. Choose the needed exchange from the list of available.
 
 <figure><img src="../../.gitbook/assets/image (227).png" alt="" width="375"><figcaption></figcaption></figure>
 
-### **Symbol menu**
+### &#xD;**Symbol menu**
 
-Swipe left the symbol name to open the Symbol menu toolbar.
+Swipe left the symbol name to open the Symbol menu toolbar.                                                                                                                                                                                                              &#x20;
 
 <figure><img src="../../.gitbook/assets/image (742).png" alt=""><figcaption></figcaption></figure>
 

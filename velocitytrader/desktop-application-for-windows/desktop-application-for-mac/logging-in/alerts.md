@@ -1,6 +1,6 @@
 # Alerts
 
-To open the Alerts panel, click the ![](https://lh5.googleusercontent.com/n2puwM_iP0RhExOYxuStFTb0KAj3U9VyChXkuK5xqJyLinpJePyWaP7Z7VDDq0A5ny7Y-Ikdlv3sLjIJacCBsj5-V7nMej_DAT49oTHxY0mA14RTeCI3BtgCQUEo-xD2ZAjfdaN3) button which is located at the header of the VelocityTrader terminal to the left from the Account details widget.
+To open the Alerts panel, click the ![](https://lh5.googleusercontent.com/n2puwM_iP0RhExOYxuStFTb0KAj3U9VyChXkuK5xqJyLinpJePyWaP7Z7VDDq0A5ny7Y-Ikdlv3sLjIJacCBsj5-V7nMej_DAT49oTHxY0mA14RTeCI3BtgCQUEo-xD2ZAjfdaN3) button which is located at the header of the VelocityTrader terminal to the left from the Account details widget.&#x20;
 
 ![](../../../.gitbook/assets/Alert.jpg)
 
@@ -34,7 +34,7 @@ The following settings are available when creating an alert:
 
 ![](../../../.gitbook/assets/2a22cdd3-efeb-468a-acc6-ca8124d46599.jpg)
 
-The default expiration value is today + 30 days.
+The default expiration value is today + 30 days.&#x20;
 
 * After execute – allows to select alert behavior after execution. Available options are ‘Stop’ - alert is not active but stored in the list of alerts, and ‘Remove’ - alert is removed after execution;
 * Alert message – input field for entering the alert message text. The text in the message box is generated automatically in accordance with the alert parameters, but the user can customize the notification text if needed;
@@ -44,7 +44,7 @@ The default expiration value is today + 30 days.
 
 The user can browse through created alerts and work with them in the Alerts tab – both with executed and not executed ones. The Alerts tab looks as follows:
 
-<figure><img src="../../../.gitbook/assets/msg394270738-1219705.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/msg394270738-1219705 (3).jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 The tab itself contains the table with alerts which consists of the following columns:
 

@@ -15,7 +15,7 @@ For example, if a currency is oscillating between 1.2700 and 1.3700 for an exten
 
 Conversely, if prices are clustered at the edges of the same range, for example, around 1.3600-1.3700, or 1.2700 and 1.2800, the probability distribution of the prices may not be standard, and using the standard deviation indicator for trading while assuming mean regression may be disastrous.
 
-## Calculation
+### Calculation
 
 StdDev (i) = SQRT (AMOUNT (j = i - N, i) / N)
 
@@ -37,7 +37,7 @@ MA (ApPRICE , N, i) — moving average value with the N period on the current ba
 
 ApPRICE (i) — applied price of the current bar.
 
-## Main parameters
+### Main parameters
 
 * Sources prices for MA – Close, Open, High, Low, Median, Typical, Weighted;
 * Type of Moving average – Simple, Exponential, Modified, or Linear weighted;
@@ -45,4 +45,4 @@ ApPRICE (i) — applied price of the current bar.
 
 The Standard deviation technical indicator looks as follows:
 
-![](../../../.gitbook/assets/sd.jpg)
+<figure><img src="../../../.gitbook/assets/image (311).png" alt=""><figcaption></figcaption></figure>

@@ -1,10 +1,10 @@
 # High/Low list
 
-This panel displays the Low and High lists containing the Instruments, which quote prices reach or exceed the current maximum (day bar "High" price) or minimum (day bar "Low" price) price values. The panel lists are populated with the Instruments, which quotes only exceed the maximum/minimum values or also reach the the maximum/minimum, depending on the algorithm configuration on the server.
+This panel displays the Low and High lists containing the Instruments, which quote prices reach or exceed the current maximum (day bar "High" price) or minimum (day bar "Low" price) price values. The panel lists are populated with the Instruments, which quotes only exceed the maximum/minimum values or also reach the the maximum/minimum, depending on the algorithm configuration on the server.&#x20;
 
-The panel has the following view:
+The panel has the following view:&#x20;
 
-![](../../../.gitbook/assets/high-low-te-front-panel-filled2.png)
+![](<../../../.gitbook/assets/High-Low TE front panel filled2.png>)
 
 In the panel, the following common controls are available:
 

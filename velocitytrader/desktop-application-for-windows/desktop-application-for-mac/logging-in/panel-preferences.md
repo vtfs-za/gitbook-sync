@@ -4,20 +4,20 @@ The menu Preferences can be opened through the Context menu, right click anywher
 
 ![](<../../../.gitbook/assets/1 (42).png>)
 
-### **View**
+### &#xD;**View**
 
 * Grid – allows showing grid between columns and rows (you can select the following options: Vertical, Horizontal, Vertical & horizontal, None);
-* Allow auto-resorting data – allows auto re-sorting a table after any changes;
-* Display totals – allows showing total amount for columns. Be attentive to mark the "Show total" option as checked as well for selected columns in the Columns tab<img src="../../../.gitbook/assets/show totals.png" alt="" data-size="original">;
+* Allow auto-resorting data – allows auto re-sorting a table after any changes;&#x20;
+* Display totals – allows showing total amount for columns. Be attentive to mark the "Show total" option&#x20;  as checked as well for selected columns in the Columns tab<img src="../../../.gitbook/assets/show totals.png" alt="" data-size="original">;
 * Show toolbar – allows showing panel toolbar.
 
-### **Columns**
+### &#xD;**Columns**&#x20;
 
-The 'Columns' tab allows changing columns settings.
+&#x20;The 'Columns' tab allows changing columns settings.
 
 ![](<../../../.gitbook/assets/mac settings.png>)
 
-**Displaying and hiding columns**
+**Displaying and hiding columns**
 
 The Columns box on the left lists the columns available in the panel. To display or hide a column, check or uncheck an appropriate box and click apply.
 
@@ -39,7 +39,7 @@ The Column category lists the following settings:
 * Increase colors – allows drawing the price values which were increased while trading;
 * Decrease colors – allows drawing the price values which were decreased while trading.
 
-**Total**
+**Total**
 
 Show total – if checked, the total value is shown.
 
@@ -52,11 +52,11 @@ The Colors tab allows configuring the color scheme for tables:
 * Text colors – the cell text color (text color);
 * Background colors – the cell background color.
 
-![](<../../../.gitbook/assets/3 (74).png>)
+![](<../../../.gitbook/assets/3 (89).png>)
 
-### **Managing adjustments**
+### &#xD;**Managing adjustments**
 
 Use the following options to manage the adjustments:
 
-* <img src="../../../.gitbook/assets/set as default.png" alt="" data-size="original"> – allows to set all current 'Preferences' menu adjustments as default ones;
-* <img src="../../../.gitbook/assets/reset.png" alt="" data-size="original"> – allows to reset all the 'Preferences' menu adjustments to 'User Defaults' or to 'Factory Defaults'. 'User Defaults' are the last adjustments, which were stored into the system by clicking on the button 'Set As Default'.
+* <img src="../../../.gitbook/assets/set as default.png" alt="" data-size="original">  – allows to set all current 'Preferences' menu adjustments as default ones;
+* <img src="../../../.gitbook/assets/reset.png" alt="" data-size="original">  – allows to reset all the 'Preferences' menu adjustments to 'User Defaults' or to 'Factory Defaults'. 'User Defaults' are the last adjustments, which were stored into the system by clicking on the button 'Set As Default'.

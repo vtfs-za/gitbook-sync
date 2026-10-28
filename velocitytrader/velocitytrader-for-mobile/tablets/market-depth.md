@@ -2,7 +2,7 @@
 
 The Market depth screen allows users to view and trade Level II quotes. It is accessible only from the Symbol menu in the Watchlist screen. Open the Watchlist and swipe left the selected instrument name. Then tap the button 'Market depth' in the Symbol menu.
 
-![](<../../.gitbook/assets/Screen Shot 2020-06-05 at 5.57.11 PM.png>)
+&#x20;                                                 <img src="../../.gitbook/assets/Screen Shot 2020-06-05 at 5.57.11 PM (17).png" alt="" data-size="original">                             &#x20;
 
 The main quote section consists of the following columns:
 
@@ -17,7 +17,7 @@ To open Order entry screen, tap the Order entry button <img src="../../.gitbook/
 
 Read more about the Order entry screen here:
 
-[Order entry](order-entry/)
+[Order entry](order-entry/README.md)
 
 ### Data source
 

@@ -1,10 +1,10 @@
 # Order entry
 
-The Order entry screen enables users to send orders. The Order entry button <img src="../../../.gitbook/assets/image (638).png" alt="" data-size="line"> is located at the top right corner of the Chart screen. Also it is accessible from the main menu located at the bottom of the application or from the Symbol menu. Swipe left the Symbol name in Watchlist to open Symbol menu and tap Order Entry button:
+The Order entry screen enables users to send orders. The Order entry button <img src="../../../.gitbook/assets/image (668).png" alt="" data-size="line"> is located at the top right corner of the Chart screen. Also it is accessible from the main menu located at the bottom of the application or from the Symbol menu. Swipe left the Symbol name in Watchlist to open Symbol menu and tap Order Entry button:&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (669).png" alt=""><figcaption></figcaption></figure>
 
-In Order entry users can see detailed information about the traded symbol: symbol name, quantity, order type, price, Validity and information about bid and ask.
+In Order entry users can see detailed information about the traded symbol: symbol name, quantity, order type, price, Validity and information about bid and ask.&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (1694).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -28,14 +28,14 @@ Order type defines the type of the order – Market, Limit, Stop, Stop limit, Tr
 
 1. Market order guarantees execution at a market price.
 2. Limit order is placed with a brokerage to buy or sell a set number of shares at a specified price or better.
-3. Stop order is placed to buy or sell a security when its price surpasses a particular point, thus ensuring a greater probability of achieving a predetermined entry or exit price, limiting the investor's loss or locking in his or her profit. The <img src="../../../.gitbook/assets/image (671).png" alt="" data-size="line"> icon informs a user that additional Limit price is available if the checkbox 'Use stop limit instead of stop' is active in the Settings;
+3. Stop order is placed to buy or sell a security when its price surpasses a particular point, thus ensuring a greater probability of achieving a predetermined entry or exit price, limiting the investor's loss or locking in his or her profit. The <img src="../../../.gitbook/assets/image (671).png" alt="" data-size="line"> icon informs a user that additional Limit price is available if the checkbox 'Use stop limit instead of stop' is active in the Settings;&#x20;
 4. Stop limit order will be executed at a specified price (or better) after a given stop price has been reached. Once the stop price is reached, the stop-limit order becomes a limit order to buy (or sell) at the limit price or better.
 5. "Sell" trailing stop order sets the stop price at a fixed amount below the market price on the trailing offset. As the market price rises, the stop price rises by the trail amount, but if the stock price falls, the stop loss price doesn't change, and a market order is submitted when the stop price is hit. "Buy" trailing stop orders are the mirror image of sell trailing stop orders.
 6. OCO order is a combined order, where the execution of one automatically cancels the other, allowing to define both a profit-taking target and a protection against loss within a single order. OCO is available only when Stop/Stop Limit and Limit orders are allowed for the selected account and symbol. If Cash mode is selected, the order submission is disabled. By default, the Limit price uses the current Ask for Buy or the current Bid for Sell (otherwise the minimum tick), while the Stop price follows standard Stop price logic.
 
-**Validity:**
+**Validity:**
 
-Validity – allows specifying order validity by selecting among the following time frames: Day, GTC, IOC, GTD, FOK, GTS. This is especially important for active traders:
+Validity – allows specifying order validity by selecting among the following time frames: Day, GTC, IOC, GTD, FOK, GTS. This is especially important for active traders:
 
 1. Day order, as the name implies, is valid for the current trading day.
 2. GTC (Good till cancelled) orders, on the other hand, will remain alive until they are cancelled.
@@ -48,11 +48,11 @@ Validity – allows specifying order validity by selecting among the following t
 
 <figure><img src="../../../.gitbook/assets/image (1751).png" alt="" width="563"><figcaption></figcaption></figure>
 
-When the checkbox near SL price is true, and the checkbox 'Use stop limit instead of stop' is also true (a setting located in Defaults tab of General settings), the additional field 'SL limit price' will appear. It shows Limit price which is set for SL order. This field can also be displayed as 'SL limit offset', depending on the configuration in [Settings](../settings.md).
+When the checkbox near SL price is true, and the checkbox 'Use stop limit instead of stop' is also true (a setting located in Defaults tab of General settings), the additional field 'SL limit price' will appear. It shows Limit price which is set for SL order. This field can also be displayed as 'SL limit offset', depending on the configuration in [Settings](../settings.md).&#x20;
 
 If the _Set SL/TP values in offset_ option is enabled in Settings, the SL/TP values will be displayed as offsets. The format of the offset display depends on the _Show offset in_ setting, which allows choosing between: Ticks, Ticks (fractional ticks for Forex), Points and Percents.
 
-If the _Set SL/TP values in offset_ option is disabled, SL/TP values will be displayed as absolute prices instead.
+If the _Set SL/TP values in offset_ option is disabled, SL/TP values will be displayed as absolute prices instead.&#x20;
 
 It's also possible to set the validity separately for SL/TP if the _Select SL/TP validity in OE_ parameter is activated in the General settings.
 
@@ -130,6 +130,6 @@ Please note that if an order is sent outside market hours, a corresponding notif
 
 ### Data source
 
-In the Order entry panel a user can see the the extended information about the source of Last, Bid and Ask prices. In order to open the table with the detailed information, tap the <img src="../../../.gitbook/assets/image (547) (1).png" alt="" data-size="line"> button and the widget will be shown:
+In the Order entry panel a user can see the the extended information about the source of Last, Bid and Ask prices. In order to open the table with the detailed information, tap the <img src="../../../.gitbook/assets/image (675).png" alt="" data-size="line"> button and the widget will be shown:
 
 <figure><img src="../../../.gitbook/assets/image (191).png" alt=""><figcaption></figcaption></figure>

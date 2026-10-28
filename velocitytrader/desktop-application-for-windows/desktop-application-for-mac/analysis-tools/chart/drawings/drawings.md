@@ -42,25 +42,27 @@ Properties:
 In order to place a tool:
 
 * Open Context menu and select Drawing tools -> \[desired tool] or click on an appropriate icon in the Drawing toolbar.
-* If a tool requires points to be specified on the chart (e.g. a line requires two points while Andrew's pitchfork requires three), you can choose these points using 'Snap to candle' option. This defines which price the lines will follow. In Freehand mode, there is no reference to the price.
+*  If a tool requires points to be specified on the chart (e.g. a line requires two points while Andrew's pitchfork requires three), you can choose these points using 'Snap to candle' option. This defines which price the lines will follow. In Freehand mode, there is no reference to the price.
 
 {% hint style="warning" %}
 Freehand is the default setting when selecting a tool from the Drawing toolbar and 'Snap to candle' is disabled.
 {% endhint %}
 
-### Context menu
+### &#xD;Context menu
 
-Each drawing tool has its Context menu. Right-click on the initial point of the drawing tool in order to evoke its context menu<img src="../../../../../.gitbook/assets/context menu small.png" alt="" data-size="original">.
+Each drawing tool has its Context menu. Right-click on the initial point of the drawing tool in order to evoke its context menu<img src="../../../../../.gitbook/assets/context menu small (1).png" alt="" data-size="original">.&#x20;
 
 * Preferences – allows to specify tool’s appearance and preferences;
 * Remove – deletes selected tool.
 
-Drawing's 'Preferences' window contains different sections depending on drawing's type. In general, the following sections are available in the 'Preferences' menu:
+Drawing's 'Preferences' window contains different sections depending on drawing's type. In general, the following sections are available in the 'Preferences' menu:&#x20;
 
 * Appearance – allows to set up view parameters of a drawing;
 
 ![](../../../../../.gitbook/assets/rectangle1small.png)
 
 * Points – allow to indicate coordinates for every point which must be specified for a drawing. Coordinates indication is realized via values of the fields Time and Price.
+
+
 
 <figure><img src="../../../../../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>

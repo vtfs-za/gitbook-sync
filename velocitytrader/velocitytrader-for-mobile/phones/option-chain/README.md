@@ -1,12 +1,12 @@
 # Option chain
 
-The Option chain screen shows detailed information about a specific option contract and allows a user to trade from this panel.
+The Option chain screen shows detailed information about a specific option contract and allows a user to trade from this panel.&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (1697).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Swipe left the instrument at the Watchlist screen and select the corresponding item to open the Option chain panel.
 
-<figure><img src="../../../.gitbook/assets/image (1516).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1517).png" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 To call the Context menu, press and hold (Long tap) on the needed item.
@@ -52,7 +52,7 @@ Tap Ask or Bid button on the Option chain screen to select the strike (Leg). It 
 
 At the bottom of the screen there is a panel <img src="../../../.gitbook/assets/image (1521).png" alt="" data-size="line"> that gives the opportunity to select different option strategies. Learn more about each available strategy in the following [Option strategies](option-strategies.md) article.
 
-Also there is a information about the number of selected strikes:
+Also there is a information about the number of selected strikes:&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (1522).png" alt=""><figcaption></figcaption></figure>
 
@@ -89,6 +89,8 @@ Greeks are the coefficients used for the characteristics of option cost sensitiv
 To send orders from the Option chain panel, open Order entry by tapping the <img src="../../../.gitbook/assets/image (1528).png" alt="" data-size="line"> button:
 
 <figure><img src="../../../.gitbook/assets/image (1530).png" alt="" width="375"><figcaption></figcaption></figure>
+
+
 
 Order entry screen is divided into groups for each Leg. If a trader has several accounts, it is possible to change them, using a control displayed above the list of Legs. Tap <img src="../../../.gitbook/assets/image (1104).png" alt="" data-size="line"> button to delete the Leg from the list. Tap <img src="../../../.gitbook/assets/image (1105).png" alt="" data-size="line"> button to show/hide the details of a Leg. Tap the “Place strategy” button to send orders.
 

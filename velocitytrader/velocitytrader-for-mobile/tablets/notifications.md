@@ -20,14 +20,14 @@ When the user selects a particular category, only cards of this category will re
 
 Message card contains topic and preview of the received notification. The time of message receiving is indicated in the upper right corner, it will display simply time in case the message was received today, or time and date in case it was received in the previous dates:
 
-<figure><img src="../../.gitbook/assets/image (1668).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1669).png" alt=""><figcaption></figcaption></figure>
 
-Opening the message card will proceed the User to the main text field, where the topic of the message is at the top and the text itself follows it.
+Opening the message card will proceed the User to the main text field, where the topic of the message is at the top and the text itself follows it.&#x20;
 
 ### Subscription
 
-The user can subscribe/unsubscribe to the required notification categories in two ways. Please note that the subscription method is selected by the admin in the BackOffice.
+The user can subscribe/unsubscribe to the required notification categories in two ways. Please note that the subscription method is selected by the admin in the BackOffice.&#x20;
 
-The first way to subscribe is a standard Subscriptions panel, you can find more about how it works in the [appropriate article](subscriptions.md). If this method is selected then notification categories will appear as standard subscription cards in this tab. The user should only select the category of interest to him and subscribe to it by clicking the appropriate button.
+The first way to subscribe is a standard Subscriptions panel, you can find more about how it works in the [appropriate article](subscriptions.md). If this method is selected then notification categories will appear as standard subscription cards in this tab. The user should only select the category of interest to him and subscribe to it by clicking the appropriate button.&#x20;
 
-The second way to subscribe to notification categories is through General settings. In case when admin selects this method, the corresponding tab will appear in the General settings section. The user should simply check the boxes of categories of interest to him and the subscription will be made, the user will receive all notifications from this category.
+The second way to subscribe to notification categories is through General settings. In case when admin selects this method, the corresponding tab will appear in the General settings section. The user should simply check the boxes of categories of interest to him and the subscription will be made, the user will receive all notifications from this category.&#x20;

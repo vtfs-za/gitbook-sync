@@ -4,13 +4,13 @@ The Positions screen displays all opened positions. Every new opened position ap
 
 <figure><img src="../../.gitbook/assets/image (86).png" alt="" width="375"><figcaption></figcaption></figure>
 
-The Positions screen displays a list of opened positions with short information about a symbol on which every position was opened: quantity and open price. Quantity of long positions is blue, quantity of short positions – red.
+The Positions screen displays a list of opened positions with short information about a symbol on which every position was opened: quantity and open price. Quantity of long positions is blue, quantity of short positions – red.
 
 When viewing a position, the user can quickly switch to the chart to assess its current state and return back to the selected position. In order to do this swipe left the card of the selected position and the following buttons will become available:
 
 <figure><img src="../../.gitbook/assets/image (87).png" alt="" width="375"><figcaption></figcaption></figure>
 
-To call the Context menu, press and hold (Long tap) on the needed item:
+To call the Context menu, press and hold (Long tap) on the needed item: &#x20;
 
 <figure><img src="../../.gitbook/assets/image (1718).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -58,7 +58,7 @@ In order to get full information about a symbol, tap a symbol's name.
     Position exposure = Price \* Quantity \* (Tick cost/Tick size) \* Cross price (quoting CCY > account currency) – calculation for Futures
 
     In all cases Cross price (quoting CCY > account currency) is a current cross price.
-*   Exercise – sends an exercise request for the Option position. Available for single positions opened for Options with Exercise style=American, inactive for multiple selected positions.
+*   Exercise – sends an exercise request for the Option position. Available for single positions opened for Options with Exercise style=American, inactive for multiple selected positions.&#x20;
 
     After clicking this menu item, the Position exercise request confirmation dialog box is displayed. Clicking the "Exercise" button in the confirmation box, creates a request for the Option exercise, which switches the position to Pending exercise status and prevents performing the following operations for the position: **Modify position, Close position, Close all.**
 
@@ -66,25 +66,25 @@ In order to get full information about a symbol, tap a symbol's name.
     Also note that broker can prohibit American-style options from being exercised if the strike price is out of the money.
 *   Cancel exercise – cancels an exercise request for the selected Option position with Pending exercise status. Available for single positions opened for Options with Exercise style=American, inactive for multiple selected positions.
 
-    After clicking this menu item, a confirmation dialog box is displayed, which requires a confirmation of canceling an Option exercise request. After the exercise Option request is canceled, the **Modify position, Close position, Close all** operations become allowed for the position.
+    After clicking this menu item, a confirmation dialog box is displayed, which requires a confirmation of canceling an Option exercise request. After the exercise Option request is canceled, the **Modify position, Close position, Close all** operations become allowed for the position.  &#x20;
 
 In order to modify a position, tap the 'Modify' button and the following screen will be opened:
 
 <figure><img src="../../.gitbook/assets/image (90).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Here you can modify stop loss, take profit or trailing stop. For positions with the _Net position by average price_ netting type and if both values of the trading modes (Intraday\Delivery) are available for the Instrument\Account pair, and also if the _Allow trading mode modification_ role is active for this user, this screen will have the additional controls:
+Here you can modify stop loss, take profit or trailing stop. For positions with the _Net position by average price_ netting type and if both values of the trading modes (Intraday\Delivery) are available for the Instrument\Account pair, and also if the _Allow trading mode modification_ role is active for this user, this screen will have the additional controls:
 
 * Target product type – combobox that allows selecting the target product type, contains values except the current one;
 * Modify quantity – switchable numeric for indicating the modification qty. The default value is Modify quantity = Quantity - Start of day qty. Please note that this value cannot be greater than Today traded qty. In case this numeric is enabled, SL/TP price controls are automatically disabled;
-* SL/TP price – Stop loss, Take profit, and Trailing stop prices available for modification. These controls are disabled in case the “Modify quantity” control is active.
+* SL/TP price – Stop loss, Take profit, and Trailing stop prices available for modification. These controls are disabled in case the “Modify quantity” control is active.&#x20;
 
 {% hint style="warning" %}
 The user can also have _Positions close only_ or _Liquidation only_ status depending on his plan. In this case, product type can not be modified and an appropriate reject message is sent to the user.
 {% endhint %}
 
-In order to close a position, tap the button 'Close', and the following intuitive screen allowing a partial position closing will be opened:
+In order to close a position, tap the button 'Close', and the following intuitive screen allowing a partial position closing will be opened:  &#x20;
 
-![](<../../.gitbook/assets/image (657) (1).png>)
+&#x20;                                             ![](<../../.gitbook/assets/image (657).png>)
 
 The field 'Qty. to close' allows to indicate some quantity of lots to close. This option is active, when it is allowed on the server-side with broker's settings. Also, the 'Position closing' confirmation must be activated in the ‘Settings’ menu.
 
@@ -94,7 +94,7 @@ All positions can be closed at once with a special button that is disabled in th
 
 The user can mutually close two positions one by another if this feature is available to him. In order to do this, the user should swipe the first position and select the Mutual close option:
 
-<figure><img src="../../.gitbook/assets/image (658) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (658).png" alt=""><figcaption></figcaption></figure>
 
 After this is done, all positions available for mutual closing in a pair with the selected position will be highlighted.
 

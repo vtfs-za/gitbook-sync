@@ -6,11 +6,11 @@ Market profile allows to organize data in the way that trader can understand who
 
 ![](../../../../.gitbook/assets/15.png)
 
-**Algorithm of profile plotting**
+### &#xD;**Algorithm of profile plotting**
 
 When using market profile, the following method for plotting is applied: general time bars or tick bars which are displayed in the form of the column with Latin letters (A, B..a, b..) is the base for profile plotting. Bar open price is marked by special symbol – @, and bar close price – by #.
 
-## **Profile timeframe parameters**
+### **Profile timeframe parameters**
 
 Profile aggregation can be set via using the timeframe selector:
 
@@ -21,11 +21,13 @@ Profile aggregation can be set via using the timeframe selector:
 * Build from – allows time period selection for chart plotting, available periods are: tick, second, minute, hour, day, week, month, year;
 * Value – allows setting a value for selected period from "Build from" field.
 
-**Important note:** "Build from" value must be less than "Profile based on" value. For example: Profile based on = 1H, Build from value = 5m.
+{% hint style="warning" %}
+"Build from" value must be less than "Profile based on" value. _For example: Profile based on = 1H, Build from value = 5m._
+{% endhint %}
 
-## **Profile settings**
+### **Profile settings**
 
-![](<../../../../.gitbook/assets/image (23).png>)
+![](<../../../../.gitbook/assets/image (882).png>)
 
 * Data type – the way to accept data. Available types are: Default by symbol, Bid, Ask, Last. Based on server settings Last or Bid/Ask type can be disabled;
 * Font – allows selecting style of profile displaying;
@@ -38,9 +40,9 @@ Point of control (POC) – row with the largest number of letters – in fact, i
 
 ![](../../../../.gitbook/assets/17.png)
 
-1. Marker – POC line is allocated by the marker (special symbol, for example >).
+3\. Marker – POC line is allocated by the marker (special symbol, for example >).
 
-![](../../../../.gitbook/assets/profile-chart.jpg)
+![](<../../../../.gitbook/assets/Profile chart.jpg>)
 
 * Point of control style – allows to specify style of the selected POC type, available for "Point of control=Line" only;
 * Value area – specifies the type of VA plotting.
@@ -51,7 +53,8 @@ Value area (VA) – characterizes the most common prices in the profile. Value a
 2. Vertical – VA is plotted in the form of vertical line by the left border of the profile.
 3. Horizontal – VA is plotted in the form of vertical line, as well as with two horizontal lines going to the next profile.
 4. To next profile – VA is plotted in the form of vertical line, as well as with two horizontal lines that are plotted taking into account the next profile.
-5. Value, % – allows setting what part of the total number of letters (TPO) it is necessary to display;
+
+* Value, % – allows setting what part of the total number of letters (TPO) it is necessary to display;
 
 TPO (Time-Price opportunities) – characterizes the total number of letters in the profile.
 
@@ -70,4 +73,6 @@ Singles – horizontal lines are displayed on the profile in those places, where
   * Volume price – coloring goes by rows. All rows are colored in one color. The intensity of the color depends on trades quantity by the price;
   * Volume bars – all bars are colored in one color. The intensity of the color depends on trades quantity in the bar.
 
-Note: relative and algorithmic price scales are not applied to this aggregation type.
+{% hint style="warning" %}
+Relative and algorithmic price scales are not applied to this aggregation type.
+{% endhint %}

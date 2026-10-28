@@ -2,7 +2,7 @@
 
 In order to download the application, use the App Store on your Mac. The login screen of the application looks as the following:
 
-![](<../../../.gitbook/assets/1 (88).png>)
+![](<../../../.gitbook/assets/1 (139).png>)
 
 To open the application with your account, enter your Login and Password.
 
@@ -41,34 +41,35 @@ Also, you can select the 'Change trading password' option in order to change you
 
 ![](<../../../.gitbook/assets/4 (31).png>)
 
-To change this password the user should perform the same steps listed above.
+To change this password the user should perform the same steps listed above.&#x20;
 
 ### **Errors arising when changing the password**
 
 When changing the password the user may have some problems, and the following error messages will be displayed:
 
-1\. Incorrect current password or login - the message appears if the old password is incorrect or the user does not already exist in the system.
+1\.    Incorrect current password or login - the message appears if the old password is incorrect or the user does not already exist in the system.
 
-2\. Incorrect new password: you cannot use the same password - the message appears if the user enters a new password, which coincides with the old password.
+2\.    Incorrect new password: you cannot use the same password - the message appears if the user enters a new password, which coincides with the old password.
 
-3\. New password contains prohibited symbols - the message appears if new password contains prohibited symbols (for example, & etc.).
+3\.    New password contains prohibited symbols - the message appears if new password contains prohibited symbols (for example, & etc.).
 
-4\. Password cannot be the same as login - this message is displayed if the new password matches the login.
+4\.    Password cannot be the same as login - this message is displayed if the new password matches the login.
 
-5\. Please enter new password - this message is displayed when new password has not been sent to the user or the new password field is empty.
+5\.    Please enter new password - this message is displayed when new password has not been sent to the user or the new password field is empty.
 
-6\. Incorrect new password: password should contain 1 number and 1 uppercase letter - this message is displayed if the new password does not meet the required level of password protection (Strong Password required, low level of protection).
+6\.    Incorrect new password: password should contain 1 number and 1 uppercase letter - this message is displayed if the new password does not meet the required level of password protection (Strong Password required, low level of protection).
 
-7\. Incorrect new password: password should contain at least 8 chars and numbers - this message is displayed if the new password does not meet the required level of password protection (Strong Password required, low level of protection).
+7\.    Incorrect new password: password should contain at least 8 chars and numbers - this message is displayed if the new password does not meet the required level of password protection (Strong Password required, low level of protection).
 
-8\. Incorrect new password: password should contain at least 8 symbols including chars, numbers and special symbols - this message is displayed if the new password does not meet the required level of password protection (Strong Password required, low level of protection).
+8\.    Incorrect new password: password should contain at least 8 symbols including chars, numbers and special symbols - this message is displayed if the new password does not meet the required level of password protection (Strong Password required, low level of protection).
 
-9\. Your password can be up to 128 characters long: the password must be no longer than the specified number of characters.
+9\.    Your password can be up to 128 characters long: the password must be no longer than the specified number of characters.
 
 Click 'Log in' to open the application.
 
 In order to update the application, use the App Store on your Mac.
 
-_\* Minimal system requirements for application for Mac:_
+&#x20;_\* Minimal system requirements for application for Mac:_
 
 _macOS version 10.11._
+

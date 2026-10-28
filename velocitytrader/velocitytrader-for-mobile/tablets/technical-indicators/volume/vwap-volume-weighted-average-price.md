@@ -11,10 +11,10 @@ Volume weighted average price (VWAP) is exactly what it sounds like: the average
    * Within the cycle, VWAP values are calculated cumulatively. When the cycle ends, a new cycle starts.
 2. **Price and volume per bar:**
    * For each bar iii in the cycle: ​\
-     ![](<../../../../.gitbook/assets/image (93).png>)
+     ![](<../../../../.gitbook/assets/image (97).png>)
    * If the VWAP for a bar equals 0, this bar is excluded from the cycle calculation.
-3. **VWAP calculation per cycle:**\
-   ![](<../../../../.gitbook/assets/image (94).png>)​
+3. **VWAP calculation per cycle:** \
+   ![](<../../../../.gitbook/assets/image (98).png>)​
 
 #### Main parameters <a href="#main-parameters" id="main-parameters"></a>
 
@@ -23,4 +23,4 @@ Volume weighted average price (VWAP) is exactly what it sounds like: the average
 
 The indicator looks as follows on the chart:
 
-<figure><img src="../../../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>

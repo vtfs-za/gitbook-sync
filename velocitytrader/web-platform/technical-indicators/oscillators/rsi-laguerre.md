@@ -10,7 +10,7 @@ The relevant distinguishing characteristic of the RSI Laguerre technical indicat
 
 The RSI Laguerre indicator plots the weighted RSI indicator value filtered with a Laguerre filter. The sensibility of the Laguerre filter is also self-adjusted with the “fractals energy” in the case of this particular indicator.
 
-## Main parameters
+### Main parameters
 
 * Alpha factor, 1 by default;
 * Source price, available values: Close, Open, High, Low, Typical, Medium, Weighted;
@@ -18,4 +18,4 @@ The RSI Laguerre indicator plots the weighted RSI indicator value filtered with 
 
 The indicator itself looks as follows on the chart:
 
-![](../../../.gitbook/assets/rsi-laguerre.jpg)
+<figure><img src="../../../.gitbook/assets/image (296).png" alt=""><figcaption></figcaption></figure>

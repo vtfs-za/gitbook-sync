@@ -1,6 +1,6 @@
 # Option chain
 
-The Option chain screen shows detailed information about a specific option contract and allows a user to trade from this panel.
+The Option chain screen shows detailed information about a specific option contract and allows a user to trade from this panel.&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (1698).png" alt=""><figcaption></figcaption></figure>
 
@@ -8,7 +8,7 @@ Swipe left the instrument at the Watchlist screen and select the corresponding i
 
 <figure><img src="../../../.gitbook/assets/image (1589).png" alt=""><figcaption></figcaption></figure>
 
-Tap the Symbol info to open information by the instrument in a new window. Tap the “Back” button in Symbol info to get to the chart.
+Tap the Symbol info to open information by the instrument in a new window. Tap the “Back” button in Symbol info to get to the chart.&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (1590).png" alt=""><figcaption></figcaption></figure>
 
@@ -33,7 +33,7 @@ The Option chain table contains 3 columns:
 ![](<../../../.gitbook/assets/image (17).png>) - Indicates that multiple option contracts with the same strike price exist within the series. When hovered, displays additional information about the strike version, including the Underlier and Version (if specified).
 {% endhint %}
 
-To call the Context menu, press and hold (Long tap) on the needed item:
+To call the Context menu, press and hold (Long tap) on the needed item: &#x20;
 
 <figure><img src="../../../.gitbook/assets/image (1164).png" alt=""><figcaption></figcaption></figure>
 
@@ -54,11 +54,11 @@ The undermentioned screenshot shows the filter by the number of displayed strike
 
 <figure><img src="../../../.gitbook/assets/image (1699).png" alt=""><figcaption></figcaption></figure>
 
-Tap Ask or Bid button to select the strike (Leg). It is possible to select several strikes. Tap one more time to delete the Leg from selected ones. Orders can be added to the strategy from different option series for a given underlier.
+Tap Ask or Bid button to select the strike (Leg). It is possible to select several strikes. Tap one more time to delete the Leg from selected ones. Orders can be added to the strategy from different option series for a given underlier.&#x20;
 
 ### Analyzer
 
-<figure><img src="../../../.gitbook/assets/image (1700).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1701).png" alt=""><figcaption></figcaption></figure>
 
 “Legs” section displays the list of orders. Tap <img src="../../../.gitbook/assets/image (1594).png" alt="" data-size="line"> button to show/hide this section. Tap the “Add underlier” button to add a Leg by underlier. The following parameters are available for viewing:
 
@@ -75,7 +75,7 @@ Greeks are the coefficients used for the characteristics of option cost sensitiv
 * Vega – is the first derivative of the option price by volatility; shows how option price will be changed in points, if the volatility changes by 1%.
 * Theta – is the first derivative of the option price by time; shows how the option price will be reduced after one day.
 
-Also at the bottom of the screen there is a panel <img src="../../../.gitbook/assets/image (1595).png" alt="" data-size="line"> that gives the opportunity to select different option strategies. Learn more about each available strategy in the following [Option strategies](./) article.
+Also at the bottom of the screen there is a panel <img src="../../../.gitbook/assets/image (1595).png" alt="" data-size="line"> that gives the opportunity to select different option strategies. Learn more about each available strategy in the following [Option strategies](README.md) article.
 
 ### Order entry
 

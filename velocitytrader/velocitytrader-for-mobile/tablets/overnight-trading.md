@@ -8,7 +8,7 @@ Overnight trading allows user to place and execute orders outside of regular mar
 
 You can manage your overnight trading preference in **Settings →** [**Defaults**](settings.md). Turn on **“Overnight execution by default”** if you want all new orders to be eligible for overnight execution automatically:
 
-<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1580).png" alt=""><figcaption></figcaption></figure>
 
 If this option is disabled, orders will be placed only during regular market hours unless you enable it manually in the Order Entry panel.
 
@@ -18,7 +18,7 @@ This setting is visible only if at least one of your accounts supports overnight
 
 **2) Order Entry panel**
 
-In the[ **Order Entry**](order-entry/) window, you will see the **Overnight execution** switch (if available for the selected account and instrument):
+In the[ **Order Entry**](order-entry/README.md) window, you will see the **Overnight execution** switch (if available for the selected account and instrument):
 
 <figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 

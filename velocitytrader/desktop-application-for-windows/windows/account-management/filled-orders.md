@@ -1,12 +1,12 @@
 # Filled orders
 
-Filled orders panel displays trading history. To open the Filled orders panel select Terminal -> Filled orders.
+Filled orders panel displays trading history. To open the Filled orders panel select Terminal -> Filled orders.
 
-![](<../../../.gitbook/assets/2 (36).png>)
+<figure><img src="../../../.gitbook/assets/image (317).png" alt=""><figcaption></figcaption></figure>
 
-User can select time period for which he wants to see trades.
+&#x20;User can select time period for which he wants to see trades.&#x20;
 
-Click on![](<../../../.gitbook/assets/3 (23).png>)and choose the time filters.
+Click on<img src="../../../.gitbook/assets/3 (61).png" alt="" data-size="original">and choose the time filters.
 
 The following columns are available in the panel:
 
@@ -27,13 +27,14 @@ The following columns are available in the panel:
 * Date – date when the operation was executed.
 * Login – login of the user.
 * Bought
-* In case of Forex:
+
+\- In case of Forex:
 
 if 'Side = Buy', then this column shows the value of 'Price \* Lot size \* Qty.' in base currency;
 
 if 'Side = Sell', then this column shows the value of 'Price \* Lot size \* Qty.' in quoting currency.
 
-* In case of Futures, Futures CFD, Options
+\- In case of Futures, Futures CFD, Options
 
 with 'Quoting type=Tick cost/Tick size':
 
@@ -47,20 +48,21 @@ if 'Side = Buy', then this column shows the value of 'Qty';
 
 if 'Side = Sell', then this column shows the value of 'Qty \* Lot size \* Price'.
 
-* In other cases:
+\- In other cases:
 
 if 'Side = Buy', then this column shows the value of 'Qty. \* Lot size' – amount of bought assets (contracts, equities);
 
 if 'Side = Sell', then this column shows the value of 'Price \* Lot size \* Qty.' in quoting currency.
 
 * Sold
-* In case of Forex:
+
+\- In case of Forex:
 
 if 'Side = Sell', then this column shows the value of 'Price \* Lot size \* Qty.' in base currency;
 
 if 'Side = Buy', then this column shows the value of 'Price \* Lot size \* Qty.' in quoting currency.
 
-* In case of Futures, Futures CFD, Options
+\- In case of Futures, Futures CFD, Options
 
 with 'Quoting type=Tick cost/Tick size':
 
@@ -74,7 +76,7 @@ if 'Side = Buy', then this column shows the value of 'Qty \* Lot size \* Price';
 
 if 'Side = Sell', then this column shows the value of 'Qty' .
 
-* In other cases:
+\- In other cases:
 
 if 'Side = Buy', then this column shows the value of 'Price \* Lot size \* Qty.' in quoting currency;
 
@@ -86,3 +88,25 @@ if 'Side = Sell', then this column shows the value of 'Qty. \* Lot size' – amo
 * Trading exchange – displays a trading exchange where the order was placed;
 * Product type – displays the product type;
 * Description – contains a short description of the instrument by which the event was executed.
+* Leverage - contains leverage value, if applicable.
+
+**Displaying totals considering account currency**
+
+The totals are calculated taking into account the account currency according to the filtering results:
+
+* If the filtered entries belong to accounts with the same currency, then the totals are displayed in the account currency.
+* If the filtered entries belong to accounts with different currencies, then the totals are displayed in the server currency.
+
+### Context menu
+
+The following actions can be performed via the Context menu:
+
+* Symbol info - shows full symbol information for the selected instrument;
+* Search — displays a text field in the top-right corner of the panel for searching;
+* Export - exports this table in the CSV or Excel format;
+* Group by – allows to group orders by Account, Symbol, Symbol type, Order ID, Side, Order type, Date/Time, Leverage;
+* Settings - this tab allows panel configuring. User can adjust Color schemes, resize columns and select how the information will be displayed. &#x20;
+
+{% hint style="warning" %}
+Note that in Settings → Columns → Price you can enable the _Display aggregated price_ option. Then if Grouping by Order ID, this setting shows the average filled price (or the trade price if the order has only one trade).&#x20;
+{% endhint %}

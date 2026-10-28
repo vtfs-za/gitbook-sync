@@ -20,13 +20,13 @@ This is where the Relative strength index exceeds the previous high (peak) or fa
 
 **Support and Resistance levels**
 
-The Relative strength index shows, sometimes more clearly than the price itself, levels of support and resistance.
+The Relative strength index shows, sometimes more clearly than the price itself, levels of support and resistance.&#x20;
 
 **Divergences**
 
 As discussed above, divergences occur when price makes a new high (or low) that is not confirmed by a new high (or low) in the Relative strength index. Prices are usually correcting and moving in the direction of the RSI.
 
-## Calculation
+### Calculation
 
 The basic formula for calculating the Relative strength index is as follows:
 
@@ -38,7 +38,7 @@ U — average number of positive price changes;
 
 D — average number of negative price changes.
 
-## Main parameters
+### Main parameters
 
 * RSI period – number of periods involved in the indicator calculation, default is 20;
 * RSI method – method of calculating the RS parameter, simple or exponential;
@@ -47,4 +47,4 @@ D — average number of negative price changes.
 
 The indicator itself looks as follows on the chart:
 
-![](<../../../../.gitbook/assets/screenshot_1 (28).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_1 (15).jpg>)

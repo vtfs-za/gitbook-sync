@@ -1,6 +1,6 @@
 # Preferences
 
-To open the 'Preferences' menu, click on the button<img src="../../../.gitbook/assets/1 (101).png" alt="" data-size="original">located at the Top menu of the platform.
+To open the 'Preferences' menu, click on the button<img src="../../../.gitbook/assets/1 (101).png" alt="" data-size="original">located&#x20;at the Top menu of the platform.
 
 This menu contains such sections as:
 
@@ -26,27 +26,33 @@ This menu contains such sections as:
 
 The full information about Hotkeys preferences is represented in the article below: [Hotkeys](hotkeys.md)
 
-### **Trading defaults:**
+### &#xD;**Trading defaults:**
 
 ![](<../../../.gitbook/assets/Screenshot_4 (4).jpg>)
 
 * Account – allows to select a default account for trading;
 * Symbol – allows to select a default instrument for trading;
-* Order type – allows to select a default type of order for trading:
-  * Market – an order to buy or sell a security at the best available price immediately;
-  * Limit – an order to buy or sell a security at specified price or better;
-  * Stop – an order to buy or sell a security when its price surpasses a particular point, thus ensuring a greater probability of achieving a predetermined entry or exit price, limiting the investor's loss or locking profit;
-  * Stop limit – an order to be executed at a specified price (or better) after a given stop price is reached. Once the stop price is reached, the stop-limit order becomes a limit order to buy (or sell) at the limit price or better;
-  * Trailing stop:
-    * Sell trailing stop order sets the stop price at a fixed amount below the market price on the trailing offset. As the market price rises, the stop price rises by the trail amount, but if the stock price falls, the stop loss price doesn't change, and a market order is submitted when the stop price is hit;
-    * Buy trailing stop orders are the mirror image of sell trailing stop orders.
-  * OCO (One cancels other) – an order containing two parts, if one part is executed, then the other part is automatically canceled;
-* Market Validity – allows to set up a default validity of a Market order. The following types of Validity are available:
-  * Day – an order will be valid for a current trading day;
-  * GTC (Good till canceled) – an order will remain active until it is canceled or a contract expires;
-  * IOC (Immediate or cancel) – an order or its part will be immediately executed;
-  * GTD (Good till date) – an order will be cancelled on a specified date, if not executed, or will remain active until a contract expiration;
-  * FOK (Fill or kill) – an order will be immediately fully executed or not executed at all.
+*   Order type – allows to select a default type of order for trading:
+
+    * Market – an order to buy or sell a security at the best available price immediately;
+    * Limit – an order to buy or sell a security at specified price or better;
+    * Stop – an order to buy or sell a security when its price surpasses a particular point, thus ensuring a greater probability of achieving a predetermined entry or exit price, limiting the investor's loss or locking profit;
+    * Stop limit – an order to be executed at a specified price (or better) after a given stop price is reached. Once the stop price is reached, the stop-limit order becomes a limit order to buy (or sell) at the limit price or better;
+    * Trailing stop:
+      * Sell trailing stop order sets the stop price at a fixed amount below the market price on the trailing offset. As the market price rises, the stop price rises by the trail amount, but if the stock price falls, the stop loss price doesn't change, and a market order is submitted when the stop price is hit;
+      * Buy trailing stop orders are the mirror image of sell trailing stop orders.
+    * OCO (One cancels other) – an order containing two parts, if one part is executed, then the other part is automatically canceled;
+
+
+*   Market Validity – allows to set up a default validity of a Market order. The following types of Validity are available:
+
+    * Day – an order will be valid for a current trading day;
+    * GTC (Good till canceled) – an order will remain active until it is canceled or a contract expires;
+    * IOC (Immediate or cancel) – an order or its part will be immediately executed;
+    * GTD (Good till date) – an order will be cancelled on a specified date, if not executed, or will remain active until a contract expiration;
+    * FOK (Fill or kill) – an order will be immediately fully executed or not executed at all.
+
+
 * Limit/Stop Limit Validity – allows to set up a default validity of Limit and Stop Limit orders;
 * Stop Validity – allows to set up a default validity of a Stop order;
 * Default product type – allows indicating the default product type;
@@ -68,9 +74,9 @@ The full information about Hotkeys preferences is represented in the article bel
 * Confirm position reversing - check if you want to confirm each position reversing;
 * Confirm alert removing – check if you want to confirm each alert removing.
 
-### **Warnings:**
+### &#xD;**Warnings:**
 
-![](<../../../.gitbook/assets/Screenshot_6 (1).jpg>)
+![](<../../../.gitbook/assets/Screenshot_6 (7).jpg>)
 
 * Warn if identical subsequent order is placed (sec) – if checked, you will get a warning message in case of placing an identical subsequent order during the specified time period.
 

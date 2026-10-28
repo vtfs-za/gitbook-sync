@@ -13,7 +13,7 @@ Bollinger Bands indicator key points are:
 
 The latter observation is useful for predicting price benchmarks. The indicator looks as follows on the chart:
 
-![](../../../../.gitbook/assets/screenshot_8.jpg)
+![](<../../../../.gitbook/assets/Screenshot_8 (4).jpg>)
 
 Bollinger Bands consist of:
 
@@ -23,7 +23,7 @@ Bollinger Bands consist of:
 
 Typical values for N and K are 20 and 2, respectively. The default choice for the average is a simple moving average, but other types of averages can be employed as needed. Exponential moving averages are a common second choice. Typically, the same period is used for both the middle line and the calculation of standard deviation.
 
-## Calculation
+### Calculation
 
 Bollinger bands are formed by three lines. The middle line (ML) is a usual Moving Average.
 
